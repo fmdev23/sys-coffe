@@ -1,0 +1,25 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam ArrowColor black
+skinparam defaultTextAlignment center
+skinparam rectangleBackgroundColor white
+skinparam rectangleBorderColor black
+skinparam roundCorner 18
+
+left to right direction
+rectangle "Ứng dụng Python" {
+ rectangle "Giao diện\nmain.py, ui/" as GUI
+ rectangle "Nghiệp vụ\nmodels/service.py\nsecurity.py" as BUSINESS
+ rectangle "Kết nối và giao dịch\ndb_connection.py" as CONNECTION
+ GUI <--> BUSINESS : Gọi hàm\nKết quả / lỗi
+ BUSINESS <--> CONNECTION : SQL có tham số\nBản ghi
+}
+database "SQL Server" as DB
+file "Báo cáo CSV" as CSV
+CONNECTION <--> DB : Dữ liệu
+GUI --> CSV : Ghi CSV
+@enduml

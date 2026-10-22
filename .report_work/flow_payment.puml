@@ -1,0 +1,34 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam activityBackgroundColor white
+skinparam activityDiamondBackgroundColor white
+skinparam ArrowColor black
+start
+repeat
+ :Nhập tiền khách đưa trên giao diện;
+ :Kiểm tra số tiền và tính tiền thừa;
+repeat while (Số tiền sai hoặc chưa đủ?) is (Có) not (Không)
+:Nhân viên xác nhận đã nhận tiền;
+:Mở giao dịch, lấy khoá CoffeeOrders;
+if (Đúng quyền, đơn đang xử lý\nvà đúng phiên bản?) then (Có)
+ :Tính điểm = tổng tiền // 10.000 nếu có khách\nKhông có khách thì điểm = 0;
+ :Ghi trạng thái, thời gian thanh toán\nvà DiemDaCong;
+ if (Điểm > 0?) then (Có)
+  :Cộng điểm cho khách hàng;
+ endif
+ :Đồng bộ trạng thái bàn;
+else (Không)
+ :Rollback, báo lỗi;
+ stop
+endif
+if (Ghi SQL và commit thành công?) then (Có)
+ :Làm mới giao diện, thông báo thành công;
+else (Không)
+ :Rollback, báo lỗi;
+endif
+stop
+@enduml

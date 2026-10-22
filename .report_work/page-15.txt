@@ -1,0 +1,44 @@
+9 
+Bảng 2.2 tổng hợp các bảng và trường dữ liệu. 
+Bảng 2.2 Các bảng và trường dữ liệu 
+Bảng Trường và ý nghĩa 
+NhanVien MaNV: khoá chính. HoTen, SDT, ChucVu: thông tin nhân 
+sự. 
+TaiKhoan MaTK, TenDangNhap duy nhất, MatKhauHash, VaiTro, 
+MaNV duy nhất, HoatDong. 
+KhachHang MaKH, HoTen, SDT, DiemTichLuy không âm. 
+Ban MaBan, TenBan duy nhất, KhuVuc, TrangThai. 
+SanPham MaSP, TenSP, DanhMuc, Gia DECIMAL(18,2), MoTa, 
+TrangThai bán. 
+DonHang MaDH, MaBan, MaKH, MaNV, thời gian tạo/thanh toán, 
+TongTien, DiemDaCong, TrangThai, PhienBan. 
+ChiTietDonHang MaCTDH, MaDH, MaSP, TenSPLucBan, SoLuong, 
+DonGia và ThanhTien tính từ số lượng nhân đơn giá. 
+Gia, DonGia và TongTien dùng DECIMAL(18,2), s ố lượng dùng s ố nguyên. 
+ThanhTien là cột tính toán từ SoLuong và DonGia. PhienBan dùng ROWVERSION 
+để phát hiện dữ liệu đã thay đ ổi kể từ lần đọc trước, không phải thời gian tạo hoặc 
+sửa (Microsoft, không ghi năm). Các khóa ngo ại giữ liên kết lịch sử. Chỉ mục duy 
+nhất có điều kiện ngăn một bàn có hai đơn đang xử lý. 
+2.4 DANH SÁCH, TỪ ĐIỂN VÀ TẬP TIN 
+Danh sách (list) lưu nhi ều phần tử theo thứ tự. Từ điển (dict) lưu c ặp khóa và 
+giá trị. Bộ giá trị (tuple) lưu một nhóm phần tử, được dùng cho các mốc thời gian và 
+doanh thu trả về từ truy vấn. 
+Bảng 2.3 tổng hợp cấu trúc dữ liệu trong bộ nhớ. 
+Bảng 2.3 Cấu trúc dữ liệu trong bộ nhớ 
+Cấu trúc Ví dụ và cách dùng 
+Danh sách từ điển Danh sách sản phẩm và kết quả truy vấn. Mỗi dict có tên 
+cột làm khoá. 
+Giỏ hàng dạng từ 
+điển 
+Khoá là MaSP. Giá trị chứa MaSP, TenSP, SoLuong và 
+DonGia. 
+Ánh xạ lựa chọn Nhãn bàn hoặc khách hàng ánh xạ tới mã tương ứng để 
+tránh nhập mã bằng tay. 
+Gộp số lượng 
+quantities 
+Gộp số lượng các dòng cùng mã sản phẩm trước khi lưu. 
+Danh sách bộ giá trị Dãy thời gian và doanh thu cung cấp cho biểu đồ. 
+Kết quả truy vấn được chuyển thành danh sách t ừ điển để truy cập bằng tên 
+cột. Gi ỏ hàng dùng mã s ản ph ẩm làm khóa nên thêm cùng món s ẽ cập nh ật s ố 
+lượng. Trước khi ghi, quantities g ộp các dòng cùng mã s ản phẩm và ki ểm tra gi ới 
+hạn số lượng. Cấu trúc này được dùng trực tiếp trong vòng lặp của save_order(). 

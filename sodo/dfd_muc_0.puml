@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 16
+skinparam ArrowColor #2385B0
+skinparam rectangleBackgroundColor #E5EAFB
+skinparam rectangleBorderColor #2385B0
+rectangle "NHÂN VIÊN" as NhanVien
+rectangle "1\nQUẢN LÝ QUÁN COFFE" as HeThong #E0FFFF
+rectangle "QUẢN LÝ" as QuanLy
+NhanVien --> HeThong : yêu cầu sửa/hủy đơn
+NhanVien --> HeThong : thông tin bàn, món, số lượng, tiền khách đưa
+NhanVien --> HeThong : thông tin đăng nhập
+HeThong --> NhanVien : kết quả xác thực
+HeThong --> NhanVien : chi tiết đơn, tổng tiền, tiền thừa
+HeThong --> NhanVien : thực đơn, trạng thái bàn
+QuanLy --> HeThong : thông tin đăng nhập
+QuanLy --> HeThong : dữ liệu sản phẩm, bàn, khách hàng, nhân viên, tài khoản
+QuanLy --> HeThong : yêu cầu thu tiền, khoảng thời gian thống kê
+HeThong --> QuanLy : doanh thu, số hóa đơn, món bán chạy, báo cáo CSV
+HeThong --> QuanLy : danh sách sản phẩm, bàn, khách hàng, nhân viên, tài khoản
+HeThong --> QuanLy : kết quả xác thực
+@enduml

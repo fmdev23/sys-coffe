@@ -1,0 +1,11 @@
+6 
+1.4 YÊU CẦU GIAO DIỆN VÀ CHẤT LƯỢNG 
+Các thao tác chính dùng màu xanh đ ậm, nền sáng và kho ảng cách thống nhất. 
+Màu trạng thái luôn đi cùng nhãn ch ữ. Bàn được biểu diễn bằng thẻ để người phục 
+vụ nhận ra tình tr ạng nhanh. Màn hình g ọi món đ ặt thực đơn bên trái và gi ỏ hàng 
+bên phải. Nút lưu và thu tiền nằm gần tổng đơn để giảm chuyển hướng khi thao tác. 
+Nút, ô nh ập và danh sách ch ọn vẫn là thành ph ần ttk. ui/theme.py thay hình 
+nền và trạng thái hiển thị để có góc bo, ph ản hồi khi rê chu ột, nhận tiêu điểm hoặc 
+bị vô hiệu hóa. Các ảnh nền được Tkinter đọc trực tiếp, không cần bổ sung thư viện 
+giao diện. Dữ liệu liên kết và giao dịch được kiểm tra để hạn chế lưu dở dang hoặc 
+làm mất lịch sử. 

@@ -1,0 +1,24 @@
+test_account_crud_password_and_disabled_session (test_coffee.CoffeeTests.test_account_crud_password_and_disabled_session) ... ok
+test_cancel_and_delete (test_coffee.CoffeeTests.test_cancel_and_delete) ... ok
+test_concurrent_payment_only_once (test_coffee.CoffeeTests.test_concurrent_payment_only_once) ... ok
+test_concurrent_table_reservation (test_coffee.CoffeeTests.test_concurrent_table_reservation) ... ok
+test_crud_all_entities (test_coffee.CoffeeTests.test_crud_all_entities) ... ok
+test_order_create_edit_move_and_delete (test_coffee.CoffeeTests.test_order_create_edit_move_and_delete) ... ok
+test_order_failure_rolls_back (test_coffee.CoffeeTests.test_order_failure_rolls_back) ... ok
+test_password_hash_and_login (test_coffee.CoffeeTests.test_password_hash_and_login) ... ok
+test_payment_database_failure_rolls_back_all_changes (test_coffee.CoffeeTests.test_payment_database_failure_rolls_back_all_changes) ... ok
+test_payment_points_and_preserve_history (test_coffee.CoffeeTests.test_payment_points_and_preserve_history) ... ok
+test_protect_current_manager (test_coffee.CoffeeTests.test_protect_current_manager) ... ok
+test_rounded_controls_mouse_keyboard_and_disabled_state (test_coffee.CoffeeTests.test_rounded_controls_mouse_keyboard_and_disabled_state) ... ok
+test_setup_idempotent (test_coffee.CoffeeTests.test_setup_idempotent) ... ok
+test_snapshot_price_and_discontinued_product (test_coffee.CoffeeTests.test_snapshot_price_and_discontinued_product) ... ok
+test_staff_permissions_enforced_in_service (test_coffee.CoffeeTests.test_staff_permissions_enforced_in_service) ... ok
+test_stale_order_cannot_overwrite_or_pay (test_coffee.CoffeeTests.test_stale_order_cannot_overwrite_or_pay) ... ok
+test_statistics_dates_month_and_excluded_statuses (test_coffee.CoffeeTests.test_statistics_dates_month_and_excluded_statuses) ... ok
+test_tkinter_login_pages_forms_and_order_flow (test_coffee.CoffeeTests.test_tkinter_login_pages_forms_and_order_flow) ... ok
+test_validation (test_coffee.CoffeeTests.test_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 19.801s
+
+OK

@@ -1,0 +1,34 @@
+3 
+Hình 1 trình bày sơ đồ DFD cấp 0 của ứng dụng. 
+ 
+Hình 1 Sơ đồ DFD cấp 0 của ứng dụng 
+Ảnh DFD g ốc có kích thư ớc 927 nhân 180 đi ểm ảnh nên ch ữ trong hình nh ỏ 
+khi đặt trên trang A4. B ảng 2 chép l ại đúng các nhãn và chi ều truyền để thuận tiện 
+đọc và đối chiếu, không chỉnh sửa ảnh gốc. 
+Bảng 2 tổng hợp các luồng dữ liệu trên bản DFD gốc. 
+Bảng 2 Các luồng dữ liệu trên bản DFD gốc 
+Nguồn Đích Dữ liệu trao đổi 
+Nhân viên Hệ thống yêu cầu sửa/hủy đơn 
+Nhân viên Hệ thống thông tin bàn, món, số lượng, tiền khách đưa 
+Nhân viên Hệ thống thông tin đăng nhập 
+Hệ thống Nhân viên kết quả xác thực 
+Hệ thống Nhân viên chi tiết đơn, tổng tiền, tiền thừa 
+Hệ thống Nhân viên thực đơn, trạng thái bàn 
+Quản lý Hệ thống thông tin đăng nhập 
+Quản lý Hệ thống dữ liệu sản phẩm, bàn, khách hàng, nhân viên, tài 
+khoản 
+Quản lý Hệ thống yêu cầu thu tiền, khoảng thời gian thống kê 
+Hệ thống Quản lý doanh thu, số hóa đơn, món bán chạy, báo cáo CSV 
+Hệ thống Quản lý danh sách sản phẩm, bàn, khách hàng, nhân viên, 
+tài khoản 
+Hệ thống Quản lý kết quả xác thực 
+Khi qu ản lý ch ọn xu ất báo cáo, thao tác t ừ giao di ện đư ợc x ử lý b ởi 
+StatisticsTab.export() trong Python, đ ọc s ố liệu qua CoffeeService.statistics() r ồi 
+ghi tập tin CSV ở vị trí người dùng chọn. SQL Server là nơi lưu d ữ liệu chính. Tập 
+tin CSV là đầu ra tổng hợp, không thay thế cơ sở dữ liệu và không được nhập ngược 
+tự động. 
+Bản vẽ phù hợp mức mô t ả tổng quát. Lu ồng “yêu c ầu thu ti ền, khoảng thời 
+gian thống kê” của Quản lý đang gộp hai nhóm dữ liệu, có thể tách khi cần diễn giải 
+chi tiết. Kết quả lưu, sửa, hủy và thông báo lỗi chưa được ghi thành nhãn riêng. Các 
+nhận xét này không làm thay đ ổi bản gốc. Mã PlantUML tương đương và k ết quả 
+đối chiếu được lưu trong README.md để sinh viên kiểm chứng. 

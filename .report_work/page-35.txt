@@ -1,0 +1,43 @@
+29 
+PHỤ LỤC 
+HƯỚNG DẪN CÀI ĐẶT, SỬ DỤNG CHƯƠNG TRÌNH/GIẢI PHÁP 
+Chuẩn bị môi trường 
+Cài Python cho Windows t ừ trang chính th ức python.org n ếu máy chưa có. 
+Trong trình cài đ ặt, giữ thành phần Tcl/Tk và pip, đ ồng thời chọn thêm Python vào 
+PATH để gọi bằng lệnh python. Sau khi cài, m ở PowerShell và kiểm tra phiên bản. 
+Lần chạy của báo cáo sử dụng Python 3.14.3. 
+python --version 
+python -m tkinter 
+Chuẩn bị SQL Server ho ặc SQL Server Express đang ho ạt động và trình đi ều 
+khiển ODBC phù h ợp. Tài khoản Windows chạy chương trình c ần quyền tạo cơ sở 
+dữ liệu khi thi ết lập lần đầu và quy ền đọc, ghi d ữ liệu khi s ử dụng. Cấu hình m ặc 
+định của dự án là THINKPADX1 \SQLSEVER và QuanLyQuanCoffee. N ếu dùng 
+máy khác, s ửa bi ến môi trư ờng COFFEE_SQL_SERVER, 
+COFFEE_SQL_DATABASE hoặc cấu hình trong db_connection.py theo máy th ực 
+tế. 
+Cài phụ thuộc và khởi tạo dữ liệu 
+Tại thư m ục dự án, thực hiện lần lượt các l ệnh sau. requirements.txt ch ỉ yêu 
+cầu pyodbc. database_setup.py t ạo bảy bảng, năm s ản phẩm, tám bàn và tài kho ản 
+quản lý khởi đầu. Chạy lại không xóa dữ liệu hoặc đặt lại mật khẩu đã đổi. 
+python -m pip install -r requirements.txt 
+python database_setup.py 
+python main.py 
+Đăng nh ập l ần đ ầu b ằng admin v ới m ật kh ẩu Admin@123, sau đó đ ổi m ật 
+khẩu cá nhân. Quản lý tạo hồ sơ nhân viên trư ớc khi cấp tài khoản. Không dùng tài 
+khoản khởi đầu làm thông tin công khai khi đưa hệ thống vào sử dụng. 
+Quy trình sử dụng 
+1. Quản lý kiểm tra thực đơn, giá, bàn, khách và tài khoản trước ca phục vụ. 
+2. Nhân viên mở Sơ đồ bàn, chọn bàn trống để gọi món hoặc tiếp tục đơn đang 
+phục vụ. 
+3. Chọn món, thay đổi số lượng và chọn khách nếu cần tích điểm. Lưu đơn để 
+tiếp tục phục vụ. Khi đổi bàn phải chọn bàn chưa có đơn đang xử lý. 
+4. Chọn Lưu & thu tiền hoặc Thu tiền, nhập số tiền đã nhận, kiểm tra tiền thừa 
+rồi xác nhận hoàn tất. Quay lại màn hình gọi món không hủy đơn đã lưu. 
+5. Quản lý mở Báo cáo doanh thu, chọn kỳ, xem số liệu rồi dùng Xuất CSV và 
+chọn nơi lưu. Mở tập tin để đối chiếu tổng doanh thu và số đơn. 
+6. Dùng F5 để làm mới trang hiện tại. Đăng xuất khi kết thúc phiên làm việc. 
+Chạy kiểm thử và chuẩn bị trình bày 
+python -B -m unittest discover -s tests -v 
+Bộ kiểm thử cần SQL Server và kh ả năng mở cửa sổ Tkinter. Chương trình 
+thử tự tạo cơ s ở dữ liệu riêng r ồi xóa sau khi hoàn t ất. Khi trình bày, l ần lượt giới 
+thiệu đăng nhập quản lý, danh mục, quyền nhân viên, gọi món, thu tiền và xuất báo 

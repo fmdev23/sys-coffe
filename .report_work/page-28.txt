@@ -1,0 +1,38 @@
+22 
+Bảng 4.2 tổng hợp kết quả kiểm thử giao dịch, báo cáo và giao diện. 
+Bảng 4.2 Kết quả kiểm thử giao dịch, báo cáo và giao diện 
+Thứ 
+tự 
+Trường hợp và kết quả mong đợi Kết quả thực tế 
+11 Sửa giá menu không đổi giá đã lưu. Món ngừng 
+bán bị hạn chế đúng. 
+Đạt 
+12 Bản đơn cũ không ghi đè hoặc thanh toán sau khi 
+đơn đã đổi. 
+Đạt 
+13 Hai thao tác giữ cùng bàn chỉ cho một đơn đang xử 
+lý thành công. 
+Đạt 
+14 Hai thao tác thanh toán chỉ hoàn tất đơn và cộng 
+điểm một lần. 
+Đạt 
+15 Lỗi SQL khi cộng điểm hoàn tác cả thanh toán và 
+trạng thái bàn. 
+Đạt 
+16 Báo cáo đúng ngày, tháng, năm nhuận, không tính 
+đơn huỷ/chưa thanh toán. 
+Đạt 
+17 Thêm, đọc, sửa, xóa tài khoản, đổi mật khẩu và 
+kiểm tra phiên bị khoá. 
+Đạt 
+18 Đăng nhập, mở các trang, biểu mẫu và luồng gọi 
+món bằng Tkinter. 
+Đạt 
+19 Nút, combobox, spinbox bo góc hoạt động bằng 
+chuột, bàn phím và đúng trạng thái vô hiệu hóa. 
+Đạt 
+4.3 KỊCH BẢN CHẠY THẬT VÀ XUẤT TẬP TIN 
+Lần chạy bổ sung tạo dữ liệu thử riêng gồm năm món kh ởi đầu, tám bàn, m ột 
+khách và m ột nhân viên có tài kho ản. Các đơn có th ời điểm thanh toán trong b ảy 
+ngày được chuẩn bị để kiểm tra báo cáo. S ố liệu ở đây là dữ liệu phục vụ kiểm thử, 
+không phải doanh thu của một quán đang kinh doanh. 

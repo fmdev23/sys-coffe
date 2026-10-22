@@ -1,0 +1,42 @@
+14 
+Ví dụ, hàm phone() trong models/service.py x ử lý chuỗi số điện tho ại. Hàm 
+loại kho ảng tr ắng, cho phép đ ể trống và t ừ chối chu ỗi sai đ ịnh d ạng. Đo ạn trích 
+dưới đây là mã hiện đang chạy. 
+def phone(value): 
+    value = str(value or "").strip().replace(" ", "") 
+    if value and not re.fullmatch(r"(?:0[0-9]{9}|\+84[0-9]{9})", value): 
+        raise AppError("Số điện thoại gồm 10 chữ số bắt đầu bằng 0 hoặc +84 và 9 
+chữ số.") 
+    return value 
+Bảng 3.3 tổng hợp đối chiếu nội dung học phần từ 5 đến 8. 
+Bảng 3.3 Đối chiếu nội dung học phần từ 5 đến 8 
+Nội dung Lý thuyết 
+/ thực 
+hành 
+Minh chứng trong mã 
+Bài 5. Xử lý chuỗi 3 / 3 strip loại khoảng trắng. Chuẩn hoá 
+tìm kiếm không dấu. Kiểm tra số 
+điện thoại và định dạng số tiền. 
+Bài 6. Xử lý danh sách 3 / 3 Danh sách bản ghi, list 
+comprehension, lọc và sắp xếp dữ 
+liệu bảng. Giỏ và ánh xạ dùng 
+thêm dict. 
+Bài 7. Xử lý tập tin 3 / 3 open mở tập tin với 
+encoding="utf-8-sig", csv.writer 
+ghi báo cáo. Nhật ký lỗi chỉ được 
+tạo khi có lỗi và có giới hạn kích 
+thước. 
+Bài 8. Thiết kế giao diện với 
+tkinter 
+3 / 3 Tk, Toplevel, ttk.Frame, Entry, 
+Button, Combobox, Treeview, 
+StringVar, pack và grid. 
+Giỏ hàng và quantities minh h ọa vi ệc dùng t ừ điển k ết h ợp vòng l ặp. Danh 
+sách bản ghi được lọc, sắp xếp rồi đưa vào Treeview. Kết quả này thể hiện xử lý dữ 
+liệu bằng các cấu trúc cơ bản thay vì phụ thuộc vào thư viện phân tích dữ liệu. 
+3.3 XỬ LÝ GIAO DỊCH VÀ BẢO VỆ DỮ LIỆU 
+Mỗi thao tác ghi m ở một kết nối và th ực hiện các bư ớc trong kh ối try. N ếu 
+thành công thì commit(), n ếu có ngo ại l ệ thì rollback(), cu ối cùng close() đ ể giải 
+phóng kết nối. Trong pyodbc, vi ệc xác nhận hoặc hoàn tác giao d ịch cần thực hiện 
+trên k ết n ối tương ứng (mkleehammer và c ộng s ự, không ghi năm a). Hàm 
+finish_order() dưới đây thể hiện trực tiếp cách xử lý này. 

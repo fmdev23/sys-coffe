@@ -1,0 +1,39 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam activityBackgroundColor white
+skinparam activityDiamondBackgroundColor white
+skinparam ArrowColor black
+start
+:Kiểm tra giỏ, mã và số lượng\nGộp quantities, kiểm tra tổng mỗi món ≤ 999;
+if (Dữ liệu đầu vào hợp lệ?) then (Có)
+else (Không)
+ :Báo lỗi, chưa mở giao dịch;
+ stop
+endif
+:Mở giao dịch, lấy khoá CoffeeOrders;
+if (Quyền, bàn, khách và đơn hợp lệ?\nĐơn sửa có đúng phiên bản?) then (Có)
+ :Chuẩn bị lines và tổng tiền = 0;
+else (Không)
+ :Rollback, báo lỗi;
+ stop
+endif
+while (Còn mã sản phẩm trong quantities?) is (Có)
+ if (Món tồn tại và được phép bán\nhoặc giữ số lượng lịch sử?) then (Có)
+  :Lấy tên và giá lịch sử nếu đã có\nThêm dòng và cộng số lượng × đơn giá;
+ else (Không)
+  :Rollback, báo lỗi;
+  stop
+ endif
+endwhile (Không)
+:Thêm đơn hoặc cập nhật đơn cũ\nGhi chi tiết và đồng bộ bàn;
+if (Ghi SQL và commit thành công?) then (Có)
+ :Trả mã đơn, làm mới giao diện;
+else (Không)
+ :Rollback, báo lỗi;
+endif
+stop
+@enduml

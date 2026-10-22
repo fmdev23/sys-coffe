@@ -1,0 +1,12 @@
+18 
+3.4.3 Gọi món và thanh toán 
+Màn hình gọi món hiển thị bàn và khách ở trên, thực đơn cùng giỏ ở giữa. Các 
+nút tăng, giảm, áp dụng số lượng và bỏ món nằm cạnh giỏ. Với dữ liệu thử gồm hai 
+cà phê đen và một cà phê sữa, tổng là 80.000 đồng. Dòng “3 món” trên giao di ện là 
+tổng số lượng ba ly, giỏ gồm hai loại sản phẩm. 
+Hình 3.4 trình bày giao diện gọi món với tổng đơn 80.000 đồng. 
+ 
+Hình 3.4 Giao diện gọi món với tổng đơn 80.000 đồng 
+Màn hình thu ti ền đặt tổng phải thu, ô ti ền khách đưa và ti ền thừa theo thứ tự 
+kiểm tra tại quầy. Khi số tiền chưa hợp lệ hoặc chưa đủ, nút hoàn tất bị vô hiệu hóa. 
+Ảnh ghi nhận trường hợp nhận 100.000 đồng và trả lại 20.000 đồng. 

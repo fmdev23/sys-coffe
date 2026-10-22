@@ -1,0 +1,72 @@
+23 
+Bảng 4.3 tổng hợp kết quả chạy thật trên giao diện và SQL Server. 
+Bảng 4.3 Kết quả chạy thật trên giao diện và SQL Server 
+Chức năng và dữ liệu đầu 
+vào 
+Kết quả mong đợi Kết quả thực tế 
+Đăng nhập sai mật khẩu. Từ chối và giữ biểu 
+mẫu. 
+Báo lỗi trên biểu mẫu 
+đăng nhập. 
+Giá sản phẩm nhập chữ. Không lưu sản phẩm. Biểu mẫu giữ lại và hiển 
+thị lỗi. 
+Thêm món hợp lệ giá 27.000 
+đồng, sau đó xóa. 
+Ghi và xóa đúng dữ 
+liệu. 
+Đối chiếu SQL xác nhận 
+cả hai thao tác. 
+Nhập chữ vào số lượng. Từ chối dữ liệu sai. Giỏ không nhận số 
+lượng sai. 
+Hai cà phê đen giá 25.000 
+đồng, một cà phê sữa giá 
+30.000 đồng. 
+Tổng 80.000 đồng. Giỏ và đơn SQL cùng có 
+tổng 80.000 đồng. 
+Tiền nhận 50.000 đồng, sau 
+đó 100.000 đồng. 
+Chặn khi thiếu, thừa 
+20.000 đồng khi đủ. 
+Nút bị khóa khi thiếu. 
+Khi hoàn tất, khách tăng 
+8 điểm. 
+Hủy rồi xóa một đơn chưa 
+thanh toán. 
+Bàn trống, không có 
+doanh thu. 
+Trạng thái và kết quả 
+tổng hợp đúng. 
+Kỳ 14/10/2026 đến 
+20/10/2026, xuất CSV. 
+Tập tin khớp số liệu 
+hiển thị. 
+8 đơn, 1.200.000 đồng, 
+đúng mã hóa tiếng Việt. 
+Đăng nhập bằng tài khoản 
+nhân viên. 
+Chỉ có ba trang phục 
+vụ. 
+Có Đơn hàng, Sơ đồ bàn 
+và Thực đơn. 
+Đóng cửa sổ, đăng nhập và 
+mở lại bằng kết nối mới. 
+Đơn và điểm đã ghi 
+vẫn còn. 
+Đơn đã thanh toán 
+80.000 đồng, khách có 8 
+điểm. 
+Tập tin do h ộp thoại lưu t ạo ra là doanh_thu_2026 -10-14.csv, nằm trong thư 
+mục D:\NCTU\Python\ThucHanh\SoLieuCSVProject do người dùng chọn. Khi đọc 
+lại, tập tin có dấu nhận biết UTF-8, đúng tiêu đề và hai dòng sản phẩm. Cà phê đen 
+có 30 ly, doanh thu 750.000 đ ồng. Cà phê s ữa có 15 ly, doanh thu 450.000 đ ồng. 
+Tổng hai dòng bằng tổng doanh thu 1.200.000 đồng và số đơn ở đầu tập tin bằng 8. 
+4.4 ĐÁNH GIÁ VÀ GIỚI HẠN KIỂM TRA 
+Các chức năng đã th ử đáp ứng quy trình ph ục vụ, quản trị và báo cáo trong 
+phạm vi đề tài. Dữ liệu hợp lệ được ghi, dữ liệu sai bị từ chối, các thao tác liên quan 
+được hoàn tác khi có l ỗi. Giao diện phân biệt vai trò, làm rõ t ổng tiền và trạng thái 
+bàn. Mã sau khi dọn vẫn vượt qua bộ kiểm thử tích hợp đã có. 
+Việc lưu tr ữ đã được kiểm tra sau khi đóng c ửa sổ và tạo kết nối mới. Chưa 
+thực hiện tắt máy rồi khởi động lại hoặc mô phỏng mất điện. Vì vậy, báo cáo chưa 
+kết lu ận đ ạt tình hu ống t ắt máy theo nghĩa đ ầy đ ủ. Chưa có th ử nghiệm t ải l ớn, 
+nhiều máy v ận hành dài ngày ho ặc đánh giá b ảo mật độc lập. Những giới hạn này 
+cần được phân biệt với các kết quả đã quan sát. 

@@ -1,0 +1,9 @@
+v 
+DANH MỤC TỪ VIẾT TẮT 
+CSV: Comma-Separated Values, tệp có các giá trị phân cách bằng dấu phẩy 
+DFD: Data Flow Diagram, sơ đồ luồng dữ liệu 
+ODBC: Open Database Connectivity, giao tiếp kết nối cơ sở dữ liệu 
+PBKDF2: Password-Based Key Derivation Function 2 , hàm d ẫn xuất khóa t ừ mật 
+khẩu 
+SQL: Structured Query Language, ngôn ngữ truy vấn có cấu trúc 
+UTF-8: Unicode Transformation Format 8-bit, mã hóa Unicode 

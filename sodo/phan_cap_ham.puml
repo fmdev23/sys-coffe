@@ -1,0 +1,25 @@
+@startwbs
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 17
+* Quản lý quán cà phê
+** Phiên làm việc
+*** Đăng nhập\nlogin()
+*** Đổi mật khẩu\nchange_password()
+*** Đăng xuất\nshow_login()
+** Danh mục
+*** Tra cứu\nlist_entities()
+*** Thêm, sửa\nsave_entity()
+*** Xóa\ndelete_entity()
+*** Tài khoản\nsave_account(), delete_account()
+** Đơn hàng
+*** Tạo, sửa, chuyển bàn\nsave_order()
+*** Thanh toán, hủy\nfinish_order()
+*** Xóa đơn hợp lệ\ndelete_order()
+** Báo cáo
+*** Tổng quan\nDashboard.refresh()
+*** Thống kê\nstatistics()
+*** Xuất CSV\nStatisticsTab.export()
+@endwbs

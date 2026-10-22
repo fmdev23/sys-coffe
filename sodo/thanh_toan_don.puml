@@ -1,0 +1,32 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 17
+start
+:PaymentDialog nhận tiền khách đưa;
+if (Số tiền hợp lệ và đủ tổng đơn?) then (Đúng)
+ :Hiển thị tiền thừa;
+ :Người dùng xác nhận đã thu tiền;
+ :Gọi finish_order() với phiên bản đơn;
+ :Mở giao dịch, khóa xử lý,\nkiểm tra phiên và quyền;
+ :Kiểm tra đơn đang xử lý\nvà phiên bản nếu được truyền;
+ if (Đơn có khách hàng?) then (Có)
+  :Điểm = phần nguyên của\ntổng tiền chia 10.000 đồng;
+ else (Không)
+  :Điểm bằng 0;
+ endif
+ :Ghi trạng thái Đã thanh toán,\nthời gian thanh toán và DiemDaCong;
+ :Cộng điểm cho khách nếu có;
+ :Đồng bộ trạng thái bàn;
+ :commit() và đóng kết nối;
+else (Sai)
+ :Báo lỗi, vô hiệu hóa nút hoàn tất;
+endif
+stop
+legend bottom
+ Mọi ngoại lệ trong giao dịch: rollback(), đóng kết nối và báo lỗi.
+ Tiền nhận và tiền thừa chỉ được tính tại giao diện, không lưu vào bảng.
+endlegend
+@enduml

@@ -1,0 +1,141 @@
+{
+  "figures": [
+    {
+      "number": "1",
+      "title": "Sơ đồ DFD cấp 0 của ứng dụng",
+      "chapter": ""
+    },
+    {
+      "number": "2.1",
+      "title": "Sơ đồ phân cấp hàm",
+      "chapter": "2"
+    },
+    {
+      "number": "2.2",
+      "title": "Quan hệ giữa bảy bảng dữ liệu",
+      "chapter": "2"
+    },
+    {
+      "number": "2.3",
+      "title": "Lưu đồ thuật toán lưu đơn hàng",
+      "chapter": "2"
+    },
+    {
+      "number": "2.4",
+      "title": "Lưu đồ thuật toán thanh toán đơn",
+      "chapter": "2"
+    },
+    {
+      "number": "3.1",
+      "title": "Giao diện đăng nhập",
+      "chapter": "3"
+    },
+    {
+      "number": "3.2",
+      "title": "Giao diện tổng quan của quản lý",
+      "chapter": "3"
+    },
+    {
+      "number": "3.3",
+      "title": "Giao diện quản lý thực đơn",
+      "chapter": "3"
+    },
+    {
+      "number": "3.4",
+      "title": "Giao diện gọi món với tổng đơn 80.000 đồng",
+      "chapter": "3"
+    },
+    {
+      "number": "3.5",
+      "title": "Giao diện xác nhận thu tiền",
+      "chapter": "3"
+    },
+    {
+      "number": "3.6",
+      "title": "Giao diện báo cáo doanh thu theo kỳ",
+      "chapter": "3"
+    },
+    {
+      "number": "3.7",
+      "title": "Giao diện sơ đồ bàn của nhân viên",
+      "chapter": "3"
+    }
+  ],
+  "tables": [
+    {
+      "number": "1",
+      "title": "Ứng dụng và thư viện được khảo sát",
+      "chapter": ""
+    },
+    {
+      "number": "2",
+      "title": "Các luồng dữ liệu trên bản DFD gốc",
+      "chapter": ""
+    },
+    {
+      "number": "1.1",
+      "title": "Các chức năng của chương trình",
+      "chapter": "1"
+    },
+    {
+      "number": "1.2",
+      "title": "Quy tắc kiểm tra dữ liệu",
+      "chapter": "1"
+    },
+    {
+      "number": "1.3",
+      "title": "Quyền thao tác theo vai trò",
+      "chapter": "1"
+    },
+    {
+      "number": "2.1",
+      "title": "Vai trò các thành phần mã nguồn",
+      "chapter": "2"
+    },
+    {
+      "number": "2.2",
+      "title": "Các bảng và trường dữ liệu",
+      "chapter": "2"
+    },
+    {
+      "number": "2.3",
+      "title": "Cấu trúc dữ liệu trong bộ nhớ",
+      "chapter": "2"
+    },
+    {
+      "number": "2.4",
+      "title": "Cấu trúc tập tin CSV được xuất",
+      "chapter": "2"
+    },
+    {
+      "number": "3.1",
+      "title": "Môi trường chạy được kiểm tra ngày 20/10/2026",
+      "chapter": "3"
+    },
+    {
+      "number": "3.2",
+      "title": "Đối chiếu nội dung học phần từ 1 đến 4",
+      "chapter": "3"
+    },
+    {
+      "number": "3.3",
+      "title": "Đối chiếu nội dung học phần từ 5 đến 8",
+      "chapter": "3"
+    },
+    {
+      "number": "4.1",
+      "title": "Kết quả kiểm thử dữ liệu và nghiệp vụ",
+      "chapter": "4"
+    },
+    {
+      "number": "4.2",
+      "title": "Kết quả kiểm thử giao dịch, báo cáo và giao diện",
+      "chapter": "4"
+    },
+    {
+      "number": "4.3",
+      "title": "Kết quả chạy thật trên giao diện và SQL Server",
+      "chapter": "4"
+    }
+  ]
+}

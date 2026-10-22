@@ -1,0 +1,25 @@
+@startwbs
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam nodeBackgroundColor white
+* CoffeeApp\nỨng dụng quản lý quán cà phê
+** Phiên làm việc
+*** Đăng nhập\nlogin()
+*** Đổi mật khẩu\nchange_password()
+*** Đăng xuất\nshow_login()
+** Danh mục
+*** Tra cứu\nlist_entities()
+*** Thêm / sửa\nsave_entity()
+*** Xoá\ndelete_entity()
+** Đơn hàng
+*** Tạo / sửa / chuyển bàn\nsave_order()
+*** Thanh toán / huỷ\nfinish_order()
+*** Xoá đơn hợp lệ\ndelete_order()
+** Báo cáo
+*** Tổng quan\nrefresh()
+*** Thống kê\nstatistics()
+*** Xuất CSV\nexport()
+@endwbs

@@ -1,0 +1,44 @@
+15 
+def finish_order(self, order_id, pay=True, expected_version=None): 
+    connection = connect() 
+    try: 
+        connection.execute("SET XACT_ABORT ON") 
+        cursor = connection.cursor() 
+        _lock(cursor, "CoffeeOrders") 
+        self._authorize(cursor) 
+        order = self._pending_order(cursor, order_id) 
+        if expected_version is not None and bytes(order["PhienBan"]) != 
+bytes(expected_version): 
+            raise AppError("Đơn vừa được thay đổi. Vui lòng làm mới và kiểm tra lại số 
+tiền.") 
+        points = int(order["TongTien"] // 10000) if pay and order["MaKH"] else 0 
+        cursor.execute("""UPDATE dbo.DonHang SET TrangThai = ?, DiemDaCong 
+= ?, 
+            ThoiGianThanhToan = CASE WHEN ? = 1 THEN SYSDATETIME() 
+ELSE NULL END WHERE MaDH = ?""", 
+            PAID if pay else CANCELLED, points, int(pay), order_id) 
+        if points: 
+            cursor.execute("UPDATE dbo.KhachHang SET DiemTichLuy = 
+DiemTichLuy + ? WHERE MaKH = ?", 
+                           points, order["MaKH"]) 
+        self._sync_table(cursor, order["MaBan"]) 
+        connection.commit() 
+    except Exception: 
+        connection.rollback() 
+        raise 
+    finally: 
+        connection.close() 
+Tham số truy vấn được truyền bằng dấu hỏi để dữ liệu nhập không tr ở thành 
+câu lệnh SQL. Tên b ảng và c ột chỉ được lấy từ danh sách ENTITIES c ố định. Các 
+thao tác sửa đơn sử dụng PhienBan để ngăn ghi đè dữ liệu cũ. Khóa giao dịch và chỉ 
+mục duy nhất ngăn chiếm cùng bàn hoặc thanh toán một đơn hai lần. 
+Mật kh ẩu đư ợc d ẫn xu ất b ằng PBKDF2 ( Password-Based Key Derivation 
+Function 2), sử dụng SHA-256, dữ liệu ngẫu nhiên riêng và 260.000 vòng l ặp trong 
+security.py. Khi ki ểm tra, chương trình dùng hmac.compare_digest. Báo cáo mô t ả 
+đúng cơ chế đang dùng, không xem đây là kh ẳng định hệ thống đã được kiểm định 
+an toàn toàn diện (Python Software Foundation, không ghi năm c). 
+3.4 GIAO DIỆN VÀ QUY TRÌNH THAO TÁC 
+3.4.1 Đăng nhập 
+Màn hình tách ph ần nhận diện và bi ểu mẫu. Tên đăng nh ập, mật khẩu và nút 
+xác nhận được sắp xếp theo chi ều dọc. Lỗi được hiển thị ngay trên bi ểu mẫu, mật 
+khẩu được xóa sau khi xác thực thành công. 

@@ -1,0 +1,3 @@
+30 
+cáo. Giải thích cách dùng t ừ điển giỏ hàng, giá lúc bán và giao d ịch bằng các hàm 
+trong models/service.py. 

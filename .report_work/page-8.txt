@@ -1,0 +1,31 @@
+2 
+chứng cho ch ức năng c ủa đề tài này. Các ch ức năng phân quy ền, bàn, đi ểm khách 
+và báo cáo trong đề tài được đối chiếu trực tiếp với mã nguồn hiện có. 
+Đề tài áp dụng cách t ổ chức thao tác ng ắn, hiển thị tổng tiền gần giỏ hàng và 
+giữ trạng thái bàn rõ ràng. D ữ liệu được lưu ở SQL Server v ới đơn và chi ti ết đơn 
+tách riêng. Vi ệc phân tích ứng dụng tham kh ảo giúp xác đ ịnh cách trình bày quy 
+trình, còn các quyết định xử lý được kiểm tra bằng mã và kết quả chạy của dự án. 
+3 Mục tiêu 
+Mục tiêu là xây d ựng ứng dụng quản lý quán cà phê quy mô nh ỏ và vừa, có 
+giao diện dễ thao tác, lưu đư ợc dữ liệu và hỗ trợ theo dõi doanh thu. Chương trình 
+cần phân bi ệt quyền quản lý và nhân viên, ki ểm tra d ữ liệu nhập, giữ đúng lịch sử 
+giá bán và xử lý trọn vẹn việc thanh toán. 
+Về học phần, dự án thể hiện đủ tám nội dung đã học thông qua biến, điều kiện, 
+vòng lặp, hàm, chu ỗi, danh sách, t ập tin và giao di ện Tkinter. Mã đư ợc chia theo 
+nhiệm vụ, sử dụng các câu l ệnh quen thu ộc đ ể có thể trình bày và ki ểm tra t ừng 
+bước. 
+4 Đối tượng và phạm vi nghiên cứu 
+Đối tượng sử dụng là quản lý và nhân viên phục vụ tại quầy. Quản lý chuẩn bị 
+danh mục, nhân s ự, tài kho ản và xem báo cáo. Nhân viên xem th ực đơn, theo dõi 
+bàn, lập hoặc sửa đơn và xác nhận thanh toán. Khách hàng được lưu như dữ liệu của 
+đơn, chưa có giao diện đăng nhập riêng. 
+Phạm vi tri ển khai là ứng dụng trên Windows, k ết nối SQL Server b ằng xác 
+thực Windows. Chương trình chưa có quản lý kho nguyên liệu, thuế, khuyến mãi, in 
+hóa đơn, thanh toán ngân hàng ho ặc vận hành qua Internet. Ch ức năng tập tin hiện 
+có là xuất báo cáo CSV (Comma-Separated Values), không có nhập dữ liệu từ CSV. 
+5 Sơ đồ DFD cấp 0 
+Sơ đồ luồng dữ liệu (Data Flow Diagram, DFD) cấp 0 biểu diễn toàn bộ ứng 
+dụng bằng một tiến trình trung tâm. Hình 1 sử dụng nguyên bản bản vẽ do sinh viên 
+cung cấp, có hai tác nhân Nhân viên và Qu ản lý. Tiến trình được đánh số 1 theo bản 
+gốc. Luồng vào gồm thông tin đăng nh ập, dữ liệu đơn, danh m ục và yêu c ầu thống 
+kê. Luồng ra gồm kết quả xác thực, thông tin phục vụ và báo cáo. 

@@ -1,0 +1,10 @@
+20 
+Hình 3.6 trình bày giao diện báo cáo doanh thu theo kỳ. 
+ 
+Hình 3.6 Giao diện báo cáo doanh thu theo kỳ 
+Nhân viên chỉ có ba trang ph ục vụ. Sơ đồ bàn hiển thị trạng thái bằng màu và 
+chữ. Nút Gọi món mở đơn mới trên bàn trống, còn bàn đang ph ục vụ cho phép tiếp 
+tục đơn hiện có. Ảnh chụp sau khi thanh toán cho thấy cả tám bàn đều trống. 
+Hình 3.7 trình bày giao diện sơ đồ bàn của nhân viên. 
+ 
+Hình 3.7 Giao diện sơ đồ bàn của nhân viên 

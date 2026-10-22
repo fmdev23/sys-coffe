@@ -1,0 +1,9 @@
+16 
+Hình 3.1 trình bày giao diện đăng nhập. 
+ 
+Hình 3.1 Giao diện đăng nhập 
+3.4.2 Tổng quan và thực đơn 
+Tổng quan hiển thị doanh thu hôm nay, số hóa đơn đã thanh toán, số đơn đang 
+phục vụ và số bàn trống. Biểu đồ lấy dữ liệu thật từ các đơn thử trong cơ sở dữ liệu. 
+Ảnh chụp được thực hiện trước khi thanh toán đơn 80.000 đ ồng, vì v ậy doanh thu 
+hôm nay ở ảnh là 85.000 đồng và có một đơn đang phục vụ. 

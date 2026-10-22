@@ -1,0 +1,29 @@
+7 
+CHƯƠNG 2  
+THIẾT KẾ GIẢI PHÁP 
+2.1 SƠ ĐỒ PHÂN CẤP HÀM 
+Các nhóm chức năng được liên hệ với tên hàm thật trong mã nguồn. login() là 
+hàm ở models/service.py. show_login() thu ộc CoffeeApp, các hàm x ử lý d ữ liệu 
+thuộc CoffeeService. Nhóm báo cáo s ử dụng Dashboard.refresh() và 
+StatisticsTab.export(). Đư ờng n ối trong sơ đ ồ thể hiện phân rã ch ức năng, không 
+biểu diễn thứ tự thực thi. 
+Hình 2.1 trình bày sơ đồ phân cấp hàm. 
+ 
+Hình 2.1 Sơ đồ phân cấp hàm 
+2.2 TỔ CHỨC MÃ NGUỒN 
+Bảng 2.1 tổng hợp vai trò các thành phần mã nguồn. 
+Bảng 2.1 Vai trò các thành phần mã nguồn 
+Thành phần Trách nhiệm 
+main.py, ui/ Khởi động, đăng nhập, điều hướng và thu thập thao 
+tác. 
+models/service.py Kiểm tra dữ liệu, quyền, xử lý đơn và thống kê. 
+db_connection.py Mở kết nối SQL Server và chuyển kết quả truy vấn 
+thành danh sách từ điển. 
+database_setup.py Tạo cấu trúc dữ liệu và dữ liệu khởi đầu. 
+security.py Băm và kiểm tra mật khẩu. 
+ui/theme.py, assets/ Màu sắc, kiểu chữ, trạng thái và hình ảnh control. 
+tests/test_coffee.py Kiểm thử tích hợp bằng SQL Server và Tkinter. 
+Giao diện nhận dữ liệu và gọi hàm xử lý. CoffeeService kiểm tra quyền, trạng 
+thái và th ực hi ện truy v ấn. Nh ững thao tác ghi dùng kh ối try/except/finally v ới 
+commit(), rollback() và close() rõ ràng. Cách t ổ chức này gi ữ được ranh gi ới giữa 
+hiển thị và xử lý mà không bổ sung framework hay lớp trung gian không cần thiết. 

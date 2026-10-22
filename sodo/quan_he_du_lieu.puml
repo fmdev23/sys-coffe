@@ -1,0 +1,73 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 17
+skinparam linetype ortho
+skinparam classBackgroundColor white
+skinparam classAttributeIconSize 0
+hide circle
+entity NhanVien {
+ MaNV : khóa chính
+ HoTen
+ SDT
+ ChucVu
+}
+entity TaiKhoan {
+ MaTK : khóa chính
+ MaNV : khóa ngoại, duy nhất
+ TenDangNhap : duy nhất
+ MatKhauHash
+ VaiTro
+ HoatDong
+}
+entity KhachHang {
+ MaKH : khóa chính
+ HoTen
+ SDT
+ DiemTichLuy
+}
+entity Ban {
+ MaBan : khóa chính
+ TenBan : duy nhất
+ KhuVuc
+ TrangThai
+}
+entity DonHang {
+ MaDH : khóa chính
+ MaNV : khóa ngoại
+ MaBan : khóa ngoại
+ MaKH : khóa ngoại, có thể trống
+ TongTien
+ DiemDaCong
+ TrangThai
+ PhienBan : ROWVERSION
+ ThoiGianTao
+ ThoiGianThanhToan : có thể trống
+}
+entity ChiTietDonHang {
+ MaCTDH : khóa chính
+ MaDH : khóa ngoại
+ MaSP : khóa ngoại
+ TenSPLucBan
+ SoLuong
+ DonGia
+ ThanhTien : cột tính toán
+ (MaDH, MaSP) : duy nhất
+}
+entity SanPham {
+ MaSP : khóa chính
+ TenSP
+ DanhMuc
+ Gia
+ MoTa
+ TrangThai
+}
+NhanVien ||--o| TaiKhoan
+NhanVien ||--o{ DonHang
+KhachHang |o--o{ DonHang
+Ban ||--o{ DonHang
+DonHang ||--o{ ChiTietDonHang
+SanPham ||--o{ ChiTietDonHang
+@enduml

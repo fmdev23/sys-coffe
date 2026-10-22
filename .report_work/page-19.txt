@@ -1,0 +1,46 @@
+13 
+CHƯƠNG 3  
+CÀI ĐẶT GIẢI PHÁP 
+3.1 MÔI TRƯỜNG VÀ KHỞI ĐỘNG 
+Bảng 3.1 tổng hợp môi trường chạy được kiểm tra ngày 20/10/2026. 
+Bảng 3.1 Môi trường chạy được kiểm tra ngày 20/10/2026 
+Thành phần Phiên bản / cấu hình 
+Hệ điều hành Windows 11, bản dựng 26300. 
+Python 3.14.3 
+Tk 8.6.15, dùng qua tkinter/ttk. 
+pyodbc 5.3.0 
+SQL Server Express 64-bit, phiên bản 16.0.1210.3. 
+Kết nối mặc định THINKPADX1\SQLSEVER, Windows Authentication. 
+Database mặc định QuanLyQuanCoffee. 
+Thư viện cài thêm requirements.txt chỉ khai báo pyodbc>=5.2,<6. 
+Môi trường được kiểm tra bằng phiên bản Python, Tcl/Tk, pyodbc và thông tin 
+máy chủ SQL trong l ần chạy thực tế. Các l ệnh khởi động và ki ểm thử được thực 
+hiện bằng PowerShell trên Windows. 
+main.py t ạo CoffeeApp, thi ết l ập giao di ện r ồi m ở LoginWindow. Khi xác 
+thực thành công, CoffeeService đư ợc truyền cho MainWindow. Màn hình chính t ạo 
+các trang theo vai trò. database_setup.py dùng đ ể tạo cấu trúc và d ữ liệu ban đ ầu, 
+chạy lại không xóa dữ liệu đang có hoặc đặt lại mật khẩu. 
+3.2 VẬN DỤNG TÁM NỘI DUNG HỌC PHẦN 
+Bảng 3.2 tổng hợp đối chiếu nội dung học phần từ 1 đến 4. 
+Bảng 3.2 Đối chiếu nội dung học phần từ 1 đến 4 
+Nội dung Lý thuyết 
+/ thực 
+hành 
+Minh chứng trong mã 
+Bài 1. Giới thiệu về lập trình 
+Python và các công cụ lập trình 
+3 / 3 main.py là điểm chạy. 
+requirements.txt khai báo phụ 
+thuộc. Chạy chương trình và kiểm 
+thử bằng Python. 
+Bài 2. Các khái niệm cơ bản 3 / 3 Biến, kiểu dữ liệu, phép toán, 
+import, lớp và đối tượng. Dùng 
+int, str, bool và Decimal. 
+Bài 3. Các biểu thức điều kiện 
+và vòng lặp 
+6 / 6 if kiểm tra giá, quyền và trạng 
+thái. for gộp món, tính tổng và ghi 
+từng dòng CSV. 
+Bài 4. Hàm trong Python 6 / 6 price, phone, report_period và các 
+phương thức CoffeeService chia 
+nhiệm vụ xử lý rõ ràng. 

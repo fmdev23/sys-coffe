@@ -1,0 +1,27 @@
+32 
+A.2 HƯỚNG DẪN THAO TÁC VÀ KỊCH BẢN TRÌNH BÀY 
+A.2.1 Thao tác của quản lý và nhân viên 
+Quản lý đăng nhập, kiểm tra tổng quan, chuẩn bị thực đơn và bàn, tạo nhân 
+viên rồi cấp tài khoản theo vai trò. Khi thêm dữ liệu, điền các trường bắt buộc và 
+lưu. Tìm kiếm dùng tên hoặc nội dung hiển thị. Khi bản ghi đã được tham chiếu, 
+dùng ngừng bán hoặc cập nhật phù hợp thay vì cố xoá lịch sử. 
+Nhân viên chọn bàn trống, gọi món, chọn khách nếu tích điểm và lưu đơn. Để 
+thêm món, mở Tiếp tục đơn. Khi thu tiền, kiểm tra tổng, nhập tiền đã nhận rồi xác 
+nhận hoàn tất. Nếu khách chưa thanh toán, chọn quay lại và giữ đơn đang xử lý. 
+Quản lý mở Báo cáo doanh thu, chọn ngày hoặc tháng, xem dữ liệu rồi Xuất 
+CSV. Tệp được lưu ở vị trí người dùng chọn. Nút F5 làm mới trang. Nếu ứng dụng 
+báo dữ liệu đã đổi ở cửa sổ khác, đóng và mở lại đơn để lấy phiên bản mới. 
+A.2.2 Kịch bản trình bày gắn với minh chứng 
+Bảng A.1 Thứ tự trình bày chức năng 
+Bước Nội dung cần thể hiện 
+1 Đăng nhập quản lý, giới thiệu tổng quan và cách bố trí giao diện. 
+2 Thêm hoặc sửa một món, tìm kiếm và kiểm tra thông tin trong SQL 
+Server. 
+3 Đăng nhập nhân viên, chỉ ra ba mục chức năng và giới hạn quyền. 
+4 Tạo đơn 2 cà phê đen và 1 cà phê sữa, giải thích tổng 80.000 đồng. 
+5 Nhập 100.000 đồng, đối chiếu thừa 20.000, thanh toán và kiểm tra bàn. 
+6 Mở báo cáo, xuất CSV và đối chiếu tổng với dữ liệu hiển thị. 
+7 Giải thích transaction, dict giỏ hàng và chỉ ra kết quả kiểm thử. 
+Khi giải thích mã, bắt đầu từ main.py, chuyển sang hàm nghiệp vụ rồi tới 
+transaction. Khi giải thích lỗi, chọn một ví dụ cụ thể như số lượng bằng 0 hoặc đơn 
+đã thay đổi. Không cần đọc hết mã nguồn theo thứ tự để mô tả một thao tác. 

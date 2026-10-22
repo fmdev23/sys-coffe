@@ -1,0 +1,8 @@
+19 
+Hình 3.5 trình bày giao diện xác nhận thu tiền. 
+ 
+Hình 3.5 Giao diện xác nhận thu tiền 
+3.4.4 Báo cáo và giao diện nhân viên 
+Quản lý chọn ngày hoặc tháng rồi xem doanh thu, s ố hóa đơn, trung bình m ỗi 
+đơn và món bán ch ạy. Kỳ 14/10/2026 đến 20/10/2026 trong l ần chạy thử có 8 đơn 
+đã thanh toán, doanh thu 1.200.000 đồng và trung bình 150.000 đồng mỗi đơn. 

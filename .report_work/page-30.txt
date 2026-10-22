@@ -1,0 +1,17 @@
+24 
+PHẦN KẾT LUẬN 
+Kết quả đạt được 
+Đề tài đã xây d ựng ứng dụng quản lý quán cà phê b ằng Python v ới giao di ện 
+Tkinter/ttk, kết nối SQL Server và xuất báo cáo CSV. Chương trình có quản lý danh 
+mục, tài kho ản, bàn, khách hàng, đơn hàng, thanh toán và th ống kê theo k ỳ. Các 
+thao tác quan trọng kiểm tra dữ liệu, quyền và trạng thái trước khi cập nhật. 
+Kết quả chạy thử xác nhận tính tổng 80.000 đồng, tiền thừa 20.000 đồng, cộng 
+8 điểm và tập tin báo cáo có 8 đơn v ới doanh thu 1.200.000 đ ồng. Bộ kiểm thử tích 
+hợp 19 trường hợp đạt sau khi d ọn mã. Tám n ội dung học phần được đối chiếu với 
+các tệp và hàm hi ện có, giúp gi ải thích quá trình v ận dụng kiến thức vào m ột ứng 
+dụng hoàn chỉnh trong phạm vi môn học. 
+Hướng phát triển 
+Trong phạm vi tiếp theo, có th ể bổ sung in hóa đơn, qu ản lý nguyên li ệu, sao 
+lưu và phục hồi dữ liệu. Trước khi mở rộng cần hoàn thành thử nghiệm sau khi khởi 
+động lại máy, thử tải và đánh giá quy ền truy cập cơ sở dữ liệu. Các chức năng này 
+là định hướng, chưa được xem là kết quả đã cài đặt. 

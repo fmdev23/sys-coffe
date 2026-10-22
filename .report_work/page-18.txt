@@ -1,0 +1,14 @@
+12 
+2.6 THUẬT TOÁN THANH TOÁN 
+PaymentDialog kiểm tra tiền khách đưa và hi ển thị tiền thừa. Khi người dùng 
+xác nhận đã thu đ ủ, giao diện gọi finish_order() cùng phiên b ản đơn. Hàm ki ểm tra 
+trạng thái, tính đi ểm, cập nhật đơn, khách và bàn trong cùng m ột giao d ịch. Tiền 
+nhận và tiền thừa chỉ hỗ trợ thao tác tại quầy, không có cột lưu hai giá tr ị này trong 
+cơ sở dữ liệu. 
+Hình 2.4 trình bày lưu đồ thuật toán thanh toán đơn. 
+ 
+Hình 2.4 Lưu đồ thuật toán thanh toán đơn 
+finish_order() còn có nhánh pay=False đ ể hủy đơn đang x ử lý. Nhánh đó ghi 
+trạng thái “Đã hu ỷ” theo h ằng CANCELLED trong mã, không ghi doanh thu và 
+không cộng điểm. Lưu đ ồ trên trình bày nhánh thanh toán là ch ức năng xử lý quan 
+trọng. 

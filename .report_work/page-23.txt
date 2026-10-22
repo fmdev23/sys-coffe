@@ -1,0 +1,10 @@
+17 
+Hình 3.2 trình bày giao diện tổng quan của quản lý. 
+ 
+Hình 3.2 Giao diện tổng quan của quản lý 
+Trang Thực đơn cho phép tìm ki ếm, thêm, s ửa, xóa và ng ừng bán s ản phẩm 
+theo quy ền. Nút s ửa và xóa b ị vô hi ệu hóa khi chưa ch ọn m ột dòng. Nh ững s ản 
+phẩm đã được chi tiết đơn tham chiếu không được xóa để giữ lịch sử. 
+Hình 3.3 trình bày giao diện quản lý thực đơn. 
+ 
+Hình 3.3 Giao diện quản lý thực đơn 

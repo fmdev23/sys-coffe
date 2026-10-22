@@ -1,0 +1,15 @@
+TRƯỜNG ĐẠI HỌC NAM CẦN THƠ 
+TRƯỜNG CÔNG NGHỆ SỐ VÀ TRÍ TUỆ NHÂN TẠO 
+ 
+BÁO CÁO HỌC PHẦN 
+LẬP TRÌNH PYTHON - THỰC HÀNH 
+Đề tài 
+XÂY DỰNG ỨNG DỤNG 
+QUẢN LÝ QUÁN CÀ PHÊ BẰNG PYTHON 
+Coffee Shop Management Application 
+Sinh viên thực hiện 
+Lê Minh Phú - MSSV: 236717 
+Lớp: DH23TIN02 
+Giảng viên hướng dẫn 
+Bùi Thị Diễm Trinh 
+Cần Thơ, tháng 10 năm 2026 

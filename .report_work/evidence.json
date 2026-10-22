@@ -1,0 +1,52 @@
+{
+  "python": "3.14.3",
+  "pyodbc": "5.3.0",
+  "windows": "Windows-11-10.0.26300-SP0",
+  "tk": "8.6.15",
+  "capture_date": "2026-10-04",
+  "csv_total": "1200000.00",
+  "csv_count": 8,
+  "csv_rows": [
+    [
+      "Từ ngày",
+      "2026-09-28",
+      "Đến ngày",
+      "2026-10-04"
+    ],
+    [
+      "Tổng doanh thu (đồng)",
+      "1200000.00",
+      "Đơn đã thanh toán",
+      "8"
+    ],
+    [],
+    [
+      "Mã sản phẩm",
+      "Sản phẩm",
+      "Số lượng",
+      "Doanh thu (đồng)"
+    ],
+    [
+      "1",
+      "Cà phê đen",
+      "30",
+      "750000.00"
+    ],
+    [
+      "2",
+      "Cà phê sữa",
+      "15",
+      "450000.00"
+    ]
+  ],
+  "extra_checks": [
+    "Tiền thừa 20.000 đồng",
+    "Xuất CSV UTF-8 BOM đúng tổng và số đơn",
+    "Nhân viên chỉ có 3 trang",
+    "Dữ liệu còn nguyên khi mở lại ứng dụng"
+  ],
+  "sql": [
+    "16.0.1200.5",
+    "Express Edition (64-bit)"
+  ]
+}

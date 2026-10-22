@@ -1,0 +1,26 @@
+4 
+CHƯƠNG 1  
+ĐẶC TẢ YÊU CẦU 
+1.1 YÊU CẦU CHỨC NĂNG 
+Bảng 1.1 tổng hợp các chức năng của chương trình. 
+Bảng 1.1 Các chức năng của chương trình 
+Chức năng Kết quả yêu cầu 
+Đăng nhập và phiên 
+làm việc 
+Xác thực mật khẩu, xác định vai trò, đổi mật khẩu, đăng 
+xuất. 
+Quản lý danh mục Quản lý thêm, tìm, sửa, xoá món, bàn, khách hàng và 
+nhân viên. 
+Quản lý tài khoản Cấp tài khoản, chọn vai trò, khoá/mở và đặt lại mật khẩu. 
+Phục vụ bàn Hiển thị bàn trống hoặc đang phục vụ, mở đúng đơn hiện 
+có. 
+Xử lý đơn Chọn món, đổi số lượng, bỏ món, lưu đơn và chuyển bàn 
+hợp lệ. 
+Thanh toán và huỷ Tính tiền thừa, ghi thu tiền, cộng điểm, trả bàn, giữ lịch 
+sử. 
+Thống kê Tổng doanh thu, số hoá đơn, trung bình và món bán chạy. 
+Xuất báo cáo Xuất CSV cho kỳ đã chọn, giữ tiếng Việt và số liệu đúng. 
+Luồng phục vụ bắt đầu từ việc chọn bàn hoặc mở đơn đang xử lý. Người dùng 
+thêm món, đi ều chỉnh số lượng, chọn khách n ếu có và lưu đơn. Sau khi nh ận tiền, 
+người dùng xác nh ận thanh toán. Chương trình ghi tr ạng thái đơn, th ời điểm thanh 
+toán, điểm tích lũy và trạng thái bàn trong cùng một giao dịch. 

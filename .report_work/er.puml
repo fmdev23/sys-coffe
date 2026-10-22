@@ -1,0 +1,86 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam ArrowColor black
+skinparam defaultTextAlignment center
+skinparam rectangleBackgroundColor white
+skinparam rectangleBorderColor black
+skinparam roundCorner 18
+
+hide circle
+skinparam linetype ortho
+skinparam classBackgroundColor white
+skinparam classAttributeIconSize 0
+entity NhanVien {
+ * MaNV : PK
+ --
+ HoTen
+ SDT
+ ChucVu
+}
+entity TaiKhoan {
+ * MaTK : PK
+ --
+ * MaNV : FK, UNIQUE
+ * TenDangNhap : UNIQUE
+ MatKhauHash
+ VaiTro
+ HoatDong
+}
+entity KhachHang {
+ * MaKH : PK
+ --
+ HoTen
+ SDT
+ DiemTichLuy
+}
+entity Ban {
+ * MaBan : PK
+ --
+ TenBan : UNIQUE
+ KhuVuc
+ TrangThai
+}
+entity DonHang {
+ * MaDH : PK
+ --
+ * MaNV : FK
+ * MaBan : FK
+ MaKH : FK, NULL
+ TongTien
+ DiemDaCong
+ TrangThai
+ PhienBan : ROWVERSION
+ ThoiGianTao
+ ThoiGianThanhToan : NULL
+}
+entity ChiTietDonHang {
+ * MaCTDH : PK
+ --
+ * MaDH : FK
+ * MaSP : FK
+ TenSPLucBan
+ SoLuong
+ DonGia
+ ThanhTien : computed
+ UNIQUE(MaDH, MaSP)
+}
+entity SanPham {
+ * MaSP : PK
+ --
+ TenSP
+ DanhMuc
+ Gia
+ MoTa
+ TrangThai
+}
+NhanVien ||--o| TaiKhoan
+NhanVien ||--o{ DonHang
+KhachHang |o--o{ DonHang
+Ban ||--o{ DonHang
+DonHang ||--o{ ChiTietDonHang
+SanPham ||--o{ ChiTietDonHang
+@enduml

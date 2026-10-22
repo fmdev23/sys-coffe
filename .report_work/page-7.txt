@@ -1,0 +1,49 @@
+1 
+GIỚI THIỆU 
+1 Đặt vấn đề 
+Quán cà phê cần theo dõi bàn đang ph ục vụ, món đã gọi và tiền phải thu trong 
+từng đơn. Khi ghi nh ận rời rạc, người phục vụ khó kiểm tra món đã lưu và qu ản lý 
+mất thời gian tổng hợp doanh thu. Đ ề tài xây d ựng một ứng dụng Python trên máy 
+tính để thực hiện các thao tác này trong cùng một quy trình. 
+Ứng dụng sử dụng Tkinter/ttk đ ể tạo giao di ện tiếng Việt và Microsoft SQL 
+Server đ ể lưu d ữ liệu. SQL là ngôn ng ữ truy v ấn có c ấu trúc ( Structured Query 
+Language). Chương trình k ết n ối qua giao ti ếp ODBC ( Open Database 
+Connectivity) bằng thư viện pyodbc. Nội dung báo cáo mô t ả đúng chức năng đang 
+có và kết quả chạy thử của dự án. 
+2 Những nghiên cứu liên quan 
+Bảng 1 tổng hợp ứng dụng và thư viện được khảo sát. 
+Bảng 1 Ứng dụng và thư viện được khảo sát 
+Nguồn Nội dung tham khảo Áp dụng trong đề tài 
+Restaurant 
+Management 
+System 
+Ứng dụng Python quản lý 
+thực đơn và đơn hàng. 
+Đối chiếu quy trình chọn món 
+và xem hoá đơn. 
+Tkinter/ttk Widget, biến giao diện và 
+vòng lặp sự kiện. 
+Cửa sổ, bảng, hộp thoại, nút và 
+bộ lọc. 
+pyodbc Cầu nối Python và ODBC. Kết nối SQL Server, truyền 
+tham số truy vấn. 
+csv Ghi dữ liệu dạng hàng và 
+cột. 
+Xuất báo cáo CSV tiếng Việt. 
+decimal Số thập phân với độ chính 
+xác kiểm soát được. 
+Tính tiền và tổng doanh thu. 
+unittest Tổ chức và chạy kiểm thử. Kiểm tra nghiệp vụ, dữ liệu và 
+giao diện. 
+Nguồn: tổng hợp từ abdelbend (không ghi năm a, b), mkleehammer và cộng sự (không ghi năm b), 
+Python Software Foundation (không ghi năm a, b, d, e). 
+Restaurant Management System là ứng dụng tham kh ảo chính, có mã ngu ồn 
+công khai bằng Python (abdelbend, không ghi năm a, b). Các thư vi ện còn lại có tài 
+liệu chính th ức: Tkinter cho giao di ện, csv cho t ập tin, decimal cho s ố tiền và 
+unittest cho ki ểm th ử (Python Software Foundation, không ghi năm a, b, d, e). 
+pyodbc cung c ấp kết nối cơ s ở dữ liệu (mkleehammer và c ộng sự, không ghi năm 
+b). 
+Ứng dụng tham khảo tổ chức việc chọn món, ghi nhận yêu cầu và hiển thị hóa 
+đơn. Mã db.py s ử dụng SQLite v ới dữ liệu thực đơn và khách hàng. Cách đ ặt thao 
+tác chọn món c ạnh thông tin đơn phù h ợp một chương trình ph ục vụ tại quầy. Tuy 
+nhiên, c ấu trúc lưu tr ữ và giao di ện c ủa ứng d ụng đó không đư ợc xem là b ằng 

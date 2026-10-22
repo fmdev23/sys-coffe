@@ -1,0 +1,15 @@
+10 
+Bảng 2.4 tổng hợp cấu trúc tập tin CSV được xuất. 
+Bảng 2.4 Cấu trúc tập tin CSV được xuất 
+Dòng Nội dung 
+1 Từ ngày, giá trị ngày đầu, Đến ngày, giá trị ngày cuối. 
+2 Tổng doanh thu (đồng), giá trị tổng, Đơn đã thanh toán, số đơn. 
+3 Dòng trống phân cách thông tin kỳ và dữ liệu món. 
+4 Mã sản phẩm, Sản phẩm, Số lượng, Doanh thu (đồng). 
+5 trở đi Một dòng cho mỗi sản phẩm thuộc kết quả thống kê bán chạy. 
+StatisticsTab.export() ghi t ập tin b ằng csv.writer v ới encoding="utf -8-sig". 
+Đây là mã hóa UTF-8 (Unicode Transformation Format 8-bit) có dấu nhận biết đầu 
+tệp ( Byte Order Mark ). T ập tin dùng d ấu ph ẩy phân cách các trư ờng, ngày theo 
+năm-tháng-ngày và số tiền dạng chuỗi thập phân của Decimal. Số liệu hiển thị trong 
+báo cáo này dùng d ấu chấm hàng nghìn theo quy đ ịnh trình bày. Đó là cách trình 
+bày khác với dữ liệu gốc trong tập tin. 

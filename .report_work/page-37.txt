@@ -1,0 +1,25 @@
+31 
+PHỤ LỤC A 
+CÀI ĐẶT VÀ SỬ DỤNG 
+A.1 CHUẨN BỊ VÀ CHẠY CHƯƠNG TRÌNH 
+Cài Python có Tkinter, SQL Server và ODBC Driver 17 for SQL Server hoặc 
+driver SQL Server tương thích đã được chương trình hỗ trợ. Kiểm tra dịch vụ SQL 
+Server đang chạy. Tài khoản Windows dùng chạy Python phải có quyền truy cập cơ 
+sở dữ liệu. Bước thiết lập lần đầu cần quyền tạo database. 
+Mở cửa sổ dòng lệnh tại thư mục dự án và thực hiện theo thứ tự: 
+python -m pip install -r requirements.txt 
+python database_setup.py 
+python main.py 
+Nếu máy khác có tên server khác, đặt biến môi trường trước khi chạy. Ví dụ 
+trong PowerShell, thay tên server phù hợp và giữ cùng cấu hình cho cả bước thiết 
+lập và khởi động: 
+$env:COFFEE_SQL_SERVER = "TENMAY\TENCUMSQL" 
+$env:COFFEE_SQL_DATABASE = "QuanLyQuanCoffee" 
+Lần thiết lập đầu tạo tài khoản admin với mật khẩu Admin@123. Sau đăng 
+nhập, dùng Đổi mật khẩu. Chạy thiết lập lại giữ nguyên dữ liệu đã có. Không xoá 
+hoặc đổi tên database khi ứng dụng đang sử dụng. 
+A.1.1 Chạy bộ kiểm thử 
+python -B -m unittest discover -s tests -v 
+Bộ kiểm thử cần quyền tạo và xoá database thử. Không dùng tên database vận 
+hành làm tên thử. Tuỳ chọn -B tránh tạo tệp bytecode. Tài nguyên logo và control 
+trong assets phải được giữ khi sao chép dự án. 

@@ -1,0 +1,14 @@
+8 
+2.3 THIẾT KẾ DỮ LIỆU 
+Dự án có bảy bảng SQL. Sơ đồ quan hệ được bổ sung để làm rõ dữ liệu lưu trữ 
+thực tế, phục vụ giải thích kết nối cơ sở dữ liệu. Tên bảng, trường và quan hệ lấy từ 
+database_setup.py. Hai vạch biểu thị đúng một, vòng tròn kèm v ạch biểu thị không 
+hoặc một, vòng tròn kèm chân quạ biểu thị không hoặc nhiều. 
+Hình 2.2 trình bày quan hệ giữa bảy bảng dữ liệu. 
+ 
+Hình 2.2 Quan hệ giữa bảy bảng dữ liệu 
+Mỗi tài khoản bắt buộc liên kết một nhân viên, mỗi nhân viên có tối đa một tài 
+khoản. Đơn bắt buộc có bàn và nhân viên l ập, khách hàng có th ể để trống. Một đơn 
+đã lưu qua hàm nghi ệp vụ phải có ít nh ất một món. Riêng ràng bu ộc khóa ngo ại 
+không bắt buộc đơn luôn có chi ti ết, vì v ậy phía chi ti ết trên sơ đ ồ thể hiện không 
+hoặc nhiều. 

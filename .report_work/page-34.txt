@@ -1,0 +1,28 @@
+28 
+TÀI LIỆU THAM KHẢO 
+Tài liệu tiếng Anh 
+abdelbend (không ghi năm a). db.py trong Restaurant Management System. Truy 
+cập ngày 04/10/2026. https://github.com/abdelbend/Restaurant-Management-
+System/blob/main/db.py 
+abdelbend (không ghi năm b). Restaurant Management System. Truy cập ngày 
+04/10/2026. https://github.com/abdelbend/Restaurant-Management-System 
+Microsoft (không ghi năm). rowversion (Transact-SQL). Truy cập ngày 04/10/2026. 
+https://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql 
+mkleehammer và cộng sự (không ghi năm a). Database Transaction Management. 
+Truy cập ngày 04/10/2026. 
+https://github.com/mkleehammer/pyodbc/wiki/Database-Transaction-
+Management 
+mkleehammer và cộng sự (không ghi năm b). pyodbc Python ODBC bridge. Truy 
+cập ngày 04/10/2026. https://github.com/mkleehammer/pyodbc 
+Python Software Foundation (không ghi năm a). csv CSV File Reading and Writing. 
+Truy cập ngày 04/10/2026. https://docs.python.org/3/library/csv.html 
+Python Software Foundation (không ghi năm b). decimal Decimal fixed-point and 
+floating-point arithmetic. Truy cập ngày 04/10/2026. 
+https://docs.python.org/3/library/decimal.html 
+Python Software Foundation (không ghi năm c). hashlib Secure hashes and 
+message digests. Truy cập ngày 04/10/2026. 
+https://docs.python.org/3/library/hashlib.html 
+Python Software Foundation (không ghi năm d). tkinter Python interface to Tcl/Tk. 
+Truy cập ngày 04/10/2026. https://docs.python.org/3/library/tkinter.html 
+Python Software Foundation (không ghi năm e). unittest Unit testing framework. 
+Truy cập ngày 04/10/2026. https://docs.python.org/3/library/unittest.html 

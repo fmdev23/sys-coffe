@@ -1,0 +1,21 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam ArrowColor black
+skinparam defaultTextAlignment center
+skinparam rectangleBackgroundColor white
+skinparam rectangleBorderColor black
+skinparam roundCorner 18
+
+top to bottom direction
+rectangle "NHÂN VIÊN" as NV #EAF0FF
+card "0\n----\nHỆ THỐNG QUẢN LÝ\nQUÁN CÀ PHÊ" as HT #E7FAFA
+rectangle "QUẢN LÝ" as QL #EAF0FF
+NV --> HT : Thông tin đăng nhập\nThông tin đơn, xác nhận thu tiền / huỷ
+HT --> NV : Kết quả xác thực và xử lý\nThực đơn, bàn, đơn, tiền thừa
+QL --> HT : Thông tin đăng nhập và quản trị\nDữ liệu đơn, kỳ báo cáo, vị trí lưu
+HT --> QL : Kết quả xử lý, danh mục, đơn\nThống kê, biểu đồ, báo cáo CSV
+@enduml

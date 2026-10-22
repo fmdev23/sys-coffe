@@ -1,0 +1,48 @@
+21 
+CHƯƠNG 4  
+ĐÁNH GIÁ KIỂM THỬ 
+4.1 MỤC TIÊU VÀ PHƯƠNG PHÁP 
+Kiểm thử nhằm đối chiếu các yêu c ầu nhập liệu, tính toán, phân quy ền và lưu 
+trữ với hành vi thực tế. Bộ tests/test_coffee.py sử dụng unittest, SQL Server th ật và 
+các cửa sổ Tkinter. Cơ sở dữ liệu thử được tạo riêng và xóa khi kết thúc, dữ liệu của 
+quán không được dùng làm nơi ghi kết quả thử. 
+Bộ kiểm thử tích hợp gồm 19 phương th ức, có trư ờng hợp dùng nhi ều bộ dữ 
+liệu. Một số phép thử giao diện thay h ộp thông báo b ằng unittest.mock đ ể không 
+chờ thao tác ngư ời dùng. Ph ần truy v ấn, ràng bu ộc và giao d ịch ch ạy trên SQL 
+Server thật. Riêng lần trình diễn bổ sung dùng các cửa sổ thật và hộp thoại lưu CSV 
+thật, không thay thế hộp thoại xuất tập tin. 
+4.2 KẾT QUẢ BỘ KIỂM THỬ TÍCH HỢP 
+Ngày 20/10/2026, bộ kiểm thử trước khi dọn mã đạt 19 kiểm thử trong 18,003 
+giây. Sau khi thay cách quản lý giao dịch và xử lý ngoại lệ bằng khối lệnh trực tiếp, 
+lần chạy lại đạt 19 kiểm thử trong 16,156 giây. Hai th ời gian chỉ ghi nhận lần chạy 
+tương ứng, không dùng để kết luận chương trình tăng tốc. 
+python -B -m unittest discover -s tests -v 
+Ran 19 tests in 16.156s 
+OK 
+Bảng 4.1 tổng hợp kết quả kiểm thử dữ liệu và nghiệp vụ. 
+Bảng 4.1 Kết quả kiểm thử dữ liệu và nghiệp vụ 
+Thứ 
+tự 
+Trường hợp và kết quả mong đợi Kết quả thực tế 
+1 Băm mật khẩu khác dữ liệu ngẫu nhiên, đăng nhập 
+đúng, từ chối sai mật khẩu và chuỗi chèn SQL. 
+Đạt 
+2 Chạy thiết lập lại không nhân đôi dữ liệu mẫu. Đạt 
+3 Từ chối giá sai, số điện thoại sai, tên rỗng và điểm 
+không nguyên. 
+Đạt 
+4 Thêm, đọc, sửa, xoá các danh mục theo quyền. Đạt 
+5 Tạo, sửa, chuyển bàn và xoá đơn chưa thanh toán 
+theo quy tắc. 
+Đạt 
+6 Lỗi trong lưu đơn hoàn tác thay đổi. Đạt 
+7 Thanh toán cộng điểm và giữ lịch sử, không 
+sửa/xoá đơn đã thanh toán. 
+Đạt 
+8 Huỷ hoặc xoá đơn cập nhật đúng trạng thái bàn. Đạt 
+9 Nhân viên bị từ chối thao tác quản trị ở tầng 
+nghiệp vụ. 
+Đạt 
+10 Không tự xoá, tự khoá hoặc hạ quyền quản lý đang 
+dùng. 
+Đạt 

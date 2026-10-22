@@ -1,0 +1,26 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 18
+skinparam ArrowColor black
+skinparam defaultTextAlignment center
+skinparam rectangleBackgroundColor white
+skinparam rectangleBorderColor black
+skinparam roundCorner 18
+
+top to bottom direction
+rectangle "Nhân viên / Quản lý" as USER
+rectangle "Ứng dụng Python\nGiao diện và xử lý nghiệp vụ" as APP
+database "SQL Server\nLưu danh mục, tài khoản, đơn hàng" as SQL
+rectangle "Quản lý\nChọn kỳ báo cáo và vị trí lưu" as MANAGER
+file "Tệp CSV\nTổng doanh thu, số đơn\nCác món bán chạy" as CSV
+USER --> APP : Dữ liệu nhập và thao tác
+APP --> USER : Kết quả xử lý
+APP --> SQL : Truy vấn có tham số\nCập nhật trong giao dịch
+SQL --> APP : Bản ghi và kết quả truy vấn
+MANAGER --> APP : Kỳ thống kê và đường dẫn
+APP --> CSV : csv.writer\nUTF-8 có BOM
+CSV --> MANAGER : Báo cáo để đối chiếu
+@enduml

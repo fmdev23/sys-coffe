@@ -1,0 +1,100 @@
+{
+  "python": "3.14.3",
+  "pyodbc": "5.3.0",
+  "windows": "Windows-11-10.0.26300-SP0",
+  "tk": "8.6.15",
+  "capture_date": "2026-10-20",
+  "sql": [
+    "16.0.1210.3",
+    "Express Edition (64-bit)"
+  ],
+  "csv_total": "1200000.00",
+  "csv_count": 8,
+  "csv_rows": [
+    [
+      "Từ ngày",
+      "2026-10-14",
+      "Đến ngày",
+      "2026-10-20"
+    ],
+    [
+      "Tổng doanh thu (đồng)",
+      "1200000.00",
+      "Đơn đã thanh toán",
+      "8"
+    ],
+    [],
+    [
+      "Mã sản phẩm",
+      "Sản phẩm",
+      "Số lượng",
+      "Doanh thu (đồng)"
+    ],
+    [
+      "1",
+      "Cà phê đen",
+      "30",
+      "750000.00"
+    ],
+    [
+      "2",
+      "Cà phê sữa",
+      "15",
+      "450000.00"
+    ]
+  ],
+  "events": [
+    {
+      "thao_tac": "Đăng nhập sai",
+      "ket_qua": "Hiển thị lỗi và giữ màn hình đăng nhập",
+      "thoi_gian": "2026-10-20T01:24:08"
+    },
+    {
+      "thao_tac": "Đăng nhập quản lý",
+      "ket_qua": "Đúng tám trang",
+      "thoi_gian": "2026-10-20T01:24:08"
+    },
+    {
+      "thao_tac": "Nhập chữ vào giá sản phẩm",
+      "ket_qua": "Biểu mẫu giữ lại và báo lỗi",
+      "thoi_gian": "2026-10-20T01:24:09"
+    },
+    {
+      "thao_tac": "Thêm và xoá món kiểm tra",
+      "ket_qua": "Dữ liệu SQL được thêm rồi xoá đúng",
+      "thoi_gian": "2026-10-20T01:24:09"
+    },
+    {
+      "thao_tac": "Giỏ hàng và số lượng sai",
+      "ket_qua": "Từ chối chữ, giỏ hợp lệ có tổng 80.000 đồng",
+      "thoi_gian": "2026-10-20T01:24:11"
+    },
+    {
+      "thao_tac": "Thanh toán thật",
+      "ket_qua": "Tổng 80.000, nhận 100.000, thừa 20.000, cộng 8 điểm",
+      "thoi_gian": "2026-10-20T01:24:12"
+    },
+    {
+      "thao_tac": "Huỷ và xoá đơn chưa thanh toán",
+      "ket_qua": "Đúng trạng thái, bàn trống, không tạo doanh thu",
+      "thoi_gian": "2026-10-20T01:24:12"
+    },
+    {
+      "thao_tac": "Xuất CSV bằng hộp thoại lưu thật",
+      "ket_qua": "1200000.00 đồng, 8 đơn, UTF-8 có BOM",
+      "thoi_gian": "2026-10-20T01:26:20"
+    },
+    {
+      "thao_tac": "Đăng nhập nhân viên",
+      "ket_qua": "Đúng ba trang đơn hàng, bàn, thực đơn",
+      "thoi_gian": "2026-10-20T01:26:22"
+    },
+    {
+      "thao_tac": "Đóng cửa sổ và mở lại bằng kết nối mới",
+      "ket_qua": "Đơn đã thanh toán, 80.000 đồng, khách có 8 điểm",
+      "thoi_gian": "2026-10-20T01:26:25"
+    }
+  ],
+  "database_test": "CoffeeTest_86e8881a639a40fe86f3c05e931446f2",
+  "server": "THINKPADX1\\SQLSEVER"
+}

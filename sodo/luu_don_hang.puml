@@ -1,0 +1,31 @@
+@startuml
+skinparam backgroundColor white
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName "Times New Roman"
+skinparam defaultFontSize 17
+start
+:save_order() nhận bàn, khách, giỏ hàng\nvà phiên bản đơn nếu đang sửa;
+if (Giỏ có món, số lượng nguyên\nvà tổng mỗi món từ 1 đến 999?) then (Đúng)
+ :Mở kết nối và giao dịch;
+ :Khóa xử lý đơn, kiểm tra phiên đăng nhập;
+ :Nếu sửa, kiểm tra đơn đang xử lý,\nphiên bản và đọc chi tiết cũ;
+ :Kiểm tra bàn, đơn chiếm bàn và khách hàng;
+ :Khởi tạo danh sách chi tiết và tổng tiền;
+ while (Còn sản phẩm trong giỏ?) is (Có)
+  :Đọc sản phẩm và kiểm tra điều kiện bán;
+  :Món cũ giữ tên, giá lúc bán\nMón mới lấy tên, giá hiện tại;
+  :Lập chi tiết và cộng số lượng nhân đơn giá;
+ endwhile (Không)
+ :Thêm đơn hoặc cập nhật đơn\nvà xóa các chi tiết cũ;
+ :Ghi chi tiết, đồng bộ bàn mới\nvà bàn cũ nếu chuyển bàn;
+ :commit(), trả mã đơn, đóng kết nối;
+else (Sai)
+ :Báo lỗi dữ liệu, chưa ghi cơ sở dữ liệu;
+endif
+stop
+legend bottom
+ Mọi ngoại lệ trong giao dịch: rollback(), đóng kết nối và báo lỗi.
+ Sản phẩm ngừng bán chỉ giữ được số lượng không vượt chi tiết cũ.
+endlegend
+@enduml

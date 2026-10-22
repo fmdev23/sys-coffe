@@ -1,0 +1,14 @@
+11 
+2.5 THUẬT TOÁN LƯU ĐƠN HÀNG 
+save_order() kiểm tra gi ỏ trước khi mở giao dịch. Trong giao d ịch, hàm kiểm 
+tra phiên, đơn đang s ửa, bàn và khách. Vòng l ặp đọc sản phẩm, chọn đơn giá phù 
+hợp và cộng tổng. Món đã lưu gi ữ tên và đơn giá cũ. Món ng ừng bán chỉ được giữ 
+số lượng không vư ợt chi ti ết cũ. Sau khi ghi đơn và chi ti ết, hàm đ ồng bộ bàn rồi 
+xác nhận giao dịch. 
+Hình 2.3 trình bày lưu đồ thuật toán lưu đơn hàng. 
+ 
+Hình 2.3 Lưu đồ thuật toán lưu đơn hàng 
+Nếu lỗi xảy ra trong giao d ịch, khối except g ọi rollback() r ồi chuyển lỗi lên 
+giao diện. Khối finally luôn đóng k ết nối. Khi sửa đơn, expected_version phải khớp 
+PhienBan hiện tại. Khi chuy ển bàn, tr ạng thái c ả bàn cũ và bàn m ới đều được tính 
+lại. 
