@@ -1,0 +1,16 @@
+TRANG 1
+  
+ 
+  TRƯỜNG ĐẠI HỌC NAM CẦN THƠ TRƯỜNG CÔNG NGHỆ SỐ VÀ TRÍ TUỆ NHÂN TẠO    
+      BÁO CÁO HỌC PHẦN LẬP TRÌNH PYTHON – THỰC HÀNH     Đề tài  TÊN ĐỀ TÀI (TIẾNG VIỆT)  (TIẾNG ANH)      Sinh viên thực hiện Họ và tên-mssv - LỚP                                                                                                                                                                               Cần Thơ, 01-/2026 
+
+
+TRANG 2
+  
+1  
+ 1. Trình bày  Báo cáo được in trên khổ giấy A4 (210 x 297 mm). Định lề : Lề trên 2cm, lề dưới 2cm, lề trái 3,5cm, lề phải 2cm. Bảng mã : Unicode Font và chữ : Font Time Roman Size : 13 Chế độ dãn dòng : chế độ 1,2 lines Độ dầy báo cáo: tối đa 60 trang (không tính phụ lục) 2. Bố cục nội dung gồm: - Mục lục - Danh mục đồ thị, biểu bảng và hình ảnh. - Phần Giới thiệu + Đặt vấn đề: Mô tả bài toán thực tế mà script Python cần giải quyết (Ví dụ: Tại sao cần quản lý thư viện bằng code?) + Những nghiên cứu liên quan: Liệt kê ít nhất 5 ứng dụng hoặc thư viện Python tương tự hiện có trên GitHub hoặc Internet mà sinh viên đã tham khảo. Phân tích kỹ 1 ứng dụng chính để học tập logic? + Mục tiêu: Giải quyết các bài toán về lưu trữ, tính toán hoặc tự động hóa thông tin + Đối tượng và phạm vi nghiên cứu: Người dùng cuối (End-user) sử dụng qua Console hoặc Giao diện Tkinter? + Sơ đồ DFD cấp 0: Mô tả luồng dữ liệu đi từ người dùng vào script Python và lưu xuống file CSV/TXT. - Phần nội dung * Chương 1 - Đặc tả yêu cầu Mô tả chi tiết các chức năng cốt lõi của chương trình Python (Ví dụ: Chức năng thêm mới dữ liệu, tìm kiếm theo từ khóa, xuất báo cáo ra file). Nếu là công cụ (Tool): Mô tả các vấn đề về dữ liệu mà công cụ sẽ xử lý hoặc chuẩn hóa. * Chương 2 - Thiết kế giải pháp Thiết kế kiến trúc: Sơ đồ phân cấp các hàm (Function decomposition diagram). Giải thuật: Vẽ Lưu đồ thuật toán (Flowchart) cho các chức năng quan trọng nhất (như logic tính toán hoặc vòng lặp xử lý dữ liệu phức tạp). Thiết kế cấu trúc dữ liệu: Mô tả cấu trúc của Dictionary/List được sử dụng và định dạng các cột trong file CSV lưu trữ. 
+
+TRANG 3
+  
+2  
+* Chương 3 - Cài đặt giải pháp Môi trường: Phiên bản Python sử dụng, các IDE (VS Code, PyCharm). Hiện thực: Trình bày các đoạn code (Source code) quan trọng, giải thích cách vận dụng các kiến thức từ Bài 1 đến Bài 8 vào dự án. * Chương 4 - Đánh giá kiểm thử Mô tả mục tiêu kiểm thử, kịch bản kiểm thử và kết quả kiểm thử: sử dụng mô hình kiểm thử nào? có chạy được hay không, chạy đúng không, đạt các mục tiêu đề ra hay không ? Kịch bản kiểm thử (Test Case): Kiểm thử nhập liệu đúng/sai (Ví dụ: Nhập chữ vào ô số lượng). Kiểm thử tính đúng đắn của logic (Ví dụ: Tính tổng tiển có chính xác không?) Kiểm thử lưu trữ (Dữ liệu có thực sự được ghi xuống file sau khi tắt máy không?) - Phần kết luận + Kết quả đạt được: Những kiến thức Python đã làm chủ được (Hàm, List, File, Tkinter...) + Hướng phát triển: Các tính năng định nâng cấp nếu có thêm thời gian (Ví dụ: Kết nối SQL, dùng Machine Learning) - Tài liệu tham khảo:  Các nguồn học liệu nào? link GitHub, Documentation của Python? - Phụ lục: Hướng dẫn cài đặt, sử dụng chương trình/giải pháp Hướng dẫn các bước cài đặt Python và cách chạy file .py của đồ án.   

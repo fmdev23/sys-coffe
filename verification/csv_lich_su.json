@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-22T22:51:46.328714+07:00",
+  "files": [
+    {
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\docs\\doanh_thu_kiem_tra.csv",
+      "sha256": "4432f46daacf6dc6c155923082a908274cc8fc3b54f995580806e5f83bae5c2e",
+      "rows": [
+        [
+          "Từ ngày",
+          "2026-10-14",
+          "Đến ngày",
+          "2026-10-20"
+        ],
+        [
+          "Tổng doanh thu (đồng)",
+          "1200000.00",
+          "Đơn đã thanh toán",
+          "8"
+        ],
+        [],
+        [
+          "Mã sản phẩm",
+          "Sản phẩm",
+          "Số lượng",
+          "Doanh thu (đồng)"
+        ],
+        [
+          "1",
+          "Cà phê đen",
+          "30",
+          "750000.00"
+        ],
+        [
+          "2",
+          "Cà phê sữa",
+          "15",
+          "450000.00"
+        ]
+      ],
+      "bom": true
+    },
+    {
+      "path": "D:\\NCTU\\Python\\ThucHanh\\SoLieuCSVProject\\doanh_thu_2026-10-14.csv",
+      "sha256": "4432f46daacf6dc6c155923082a908274cc8fc3b54f995580806e5f83bae5c2e",
+      "rows": [
+        [
+          "Từ ngày",
+          "2026-10-14",
+          "Đến ngày",
+          "2026-10-20"
+        ],
+        [
+          "Tổng doanh thu (đồng)",
+          "1200000.00",
+          "Đơn đã thanh toán",
+          "8"
+        ],
+        [],
+        [
+          "Mã sản phẩm",
+          "Sản phẩm",
+          "Số lượng",
+          "Doanh thu (đồng)"
+        ],
+        [
+          "1",
+          "Cà phê đen",
+          "30",
+          "750000.00"
+        ],
+        [
+          "2",
+          "Cà phê sữa",
+          "15",
+          "450000.00"
+        ]
+      ],
+      "bom": true
+    }
+  ],
+  "scope": "Đọc lại chứng cứ lịch sử, không tái xác nhận database trình diễn ngày 20/10/2026."
+}

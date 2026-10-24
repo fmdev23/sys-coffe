@@ -1,0 +1,30 @@
+{
+  "database": "CoffeeTest_38741d4b42d444588b7ffdc8048e0a1a",
+  "events": [
+    {
+      "time": "2026-10-22T22:50:48+07:00",
+      "action": "Đọc CSV lịch sử",
+      "result": "Đúng kỳ 14–20/10/2026, 8 đơn, 1.200.000 đồng, 30 ly đen và 15 ly sữa"
+    },
+    {
+      "time": "2026-10-22T22:50:48+07:00",
+      "action": "Cách ly dữ liệu",
+      "result": "Đã tạo CoffeeTest_38741d4b42d444588b7ffdc8048e0a1a, không dùng QuanLyQuanCoffee"
+    },
+    {
+      "time": "2026-10-22T22:50:49+07:00",
+      "action": "Lưu đơn mới",
+      "result": "2 × 25.000 + 1 × 30.000 = 80.000 đồng"
+    },
+    {
+      "time": "2026-10-22T22:50:51+07:00",
+      "action": "PaymentDialog",
+      "result": "Từ chối dữ liệu sai/thiếu, tiền nhận 100.000 thì thừa 20.000 đồng"
+    },
+    {
+      "time": "2026-10-22T22:51:05+07:00",
+      "action": "Cleanup kiểm tra bổ sung",
+      "result": "Đã xóa đúng database của lần kiểm tra CoffeeTest_38741d4b42d444588b7ffdc8048e0a1a"
+    }
+  ]
+}

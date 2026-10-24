@@ -1,0 +1,946 @@
+[
+  {
+    "path": "database_setup.py",
+    "sha256": "2964120854957aa05fab4047712d0266688a2f9978e5ce0269736362bc8f4246",
+    "functions": [
+      {
+        "name": "setup",
+        "line": 78,
+        "end_line": 126
+      }
+    ]
+  },
+  {
+    "path": "db_connection.py",
+    "sha256": "b6a96d402bf10cced9c0788037c2bd719827f6a4c97ebe06282d43ead761e292",
+    "functions": [
+      {
+        "name": "database_name",
+        "line": 11,
+        "end_line": 15
+      },
+      {
+        "name": "connect",
+        "line": 18,
+        "end_line": 35
+      },
+      {
+        "name": "rows",
+        "line": 38,
+        "end_line": 48
+      }
+    ]
+  },
+  {
+    "path": "main.py",
+    "sha256": "41d01b01e6eaad1a2b9c541486ad9b346ddc989192774d27bf4444db2a54fe1c",
+    "functions": [
+      {
+        "name": "main",
+        "line": 57,
+        "end_line": 64
+      },
+      {
+        "name": "__init__",
+        "line": 18,
+        "end_line": 29
+      },
+      {
+        "name": "clear",
+        "line": 31,
+        "end_line": 36
+      },
+      {
+        "name": "show_login",
+        "line": 38,
+        "end_line": 40
+      },
+      {
+        "name": "show_main",
+        "line": 42,
+        "end_line": 50
+      },
+      {
+        "name": "report_callback_exception",
+        "line": 52,
+        "end_line": 54
+      }
+    ]
+  },
+  {
+    "path": "security.py",
+    "sha256": "1d8e5909734ba1e5a999dafeb0ab30cdecf9551f3c4958b34fe5941015c346dc",
+    "functions": [
+      {
+        "name": "hash_password",
+        "line": 9,
+        "end_line": 15
+      },
+      {
+        "name": "verify_password",
+        "line": 18,
+        "end_line": 27
+      }
+    ]
+  },
+  {
+    "path": "models/__init__.py",
+    "sha256": "6824496e9acd698190b5ba0ea9155b2afdece52a2c7455f28831c417ebb0748b",
+    "functions": []
+  },
+  {
+    "path": "models/service.py",
+    "sha256": "2a176048c97e36110c132a15ca5d191af424d3b60f8e8bef26c336dd860d00b6",
+    "functions": [
+      {
+        "name": "required",
+        "line": 21,
+        "end_line": 27
+      },
+      {
+        "name": "integer",
+        "line": 30,
+        "end_line": 36
+      },
+      {
+        "name": "price",
+        "line": 39,
+        "end_line": 50
+      },
+      {
+        "name": "phone",
+        "line": 53,
+        "end_line": 57
+      },
+      {
+        "name": "report_period",
+        "line": 60,
+        "end_line": 74
+      },
+      {
+        "name": "_lock",
+        "line": 86,
+        "end_line": 90
+      },
+      {
+        "name": "login",
+        "line": 93,
+        "end_line": 109
+      },
+      {
+        "name": "__init__",
+        "line": 113,
+        "end_line": 114
+      },
+      {
+        "name": "_authorize",
+        "line": 116,
+        "end_line": 125
+      },
+      {
+        "name": "profile",
+        "line": 127,
+        "end_line": 139
+      },
+      {
+        "name": "list_entities",
+        "line": 141,
+        "end_line": 160
+      },
+      {
+        "name": "save_entity",
+        "line": 162,
+        "end_line": 207
+      },
+      {
+        "name": "delete_entity",
+        "line": 209,
+        "end_line": 224
+      },
+      {
+        "name": "list_accounts",
+        "line": 226,
+        "end_line": 241
+      },
+      {
+        "name": "save_account",
+        "line": 243,
+        "end_line": 284
+      },
+      {
+        "name": "_ensure_other_manager",
+        "line": 286,
+        "end_line": 290
+      },
+      {
+        "name": "delete_account",
+        "line": 292,
+        "end_line": 310
+      },
+      {
+        "name": "change_password",
+        "line": 312,
+        "end_line": 331
+      },
+      {
+        "name": "order_options",
+        "line": 333,
+        "end_line": 351
+      },
+      {
+        "name": "list_orders",
+        "line": 353,
+        "end_line": 374
+      },
+      {
+        "name": "get_order",
+        "line": 376,
+        "end_line": 394
+      },
+      {
+        "name": "save_order",
+        "line": 396,
+        "end_line": 465
+      },
+      {
+        "name": "_pending_order",
+        "line": 467,
+        "end_line": 474
+      },
+      {
+        "name": "_sync_table",
+        "line": 476,
+        "end_line": 479
+      },
+      {
+        "name": "finish_order",
+        "line": 481,
+        "end_line": 504
+      },
+      {
+        "name": "delete_order",
+        "line": 506,
+        "end_line": 529
+      },
+      {
+        "name": "statistics",
+        "line": 531,
+        "end_line": 557
+      },
+      {
+        "name": "revenue_series",
+        "line": 559,
+        "end_line": 587
+      }
+    ]
+  },
+  {
+    "path": "ui/__init__.py",
+    "sha256": "a68bb0196a2835eb258301bcc3fff906e56f9fa1683ae2a4e19e0a3d29d081ba",
+    "functions": []
+  },
+  {
+    "path": "ui/account_tab.py",
+    "sha256": "846bc64ebe77b1ec76cf2d2acb3166bf031bd4757f657bf5b9d4e179301be758",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 8,
+        "end_line": 30
+      },
+      {
+        "name": "update_actions",
+        "line": 32,
+        "end_line": 34
+      },
+      {
+        "name": "refresh",
+        "line": 36,
+        "end_line": 42
+      },
+      {
+        "name": "format_status",
+        "line": 44,
+        "end_line": 47
+      },
+      {
+        "name": "form",
+        "line": 49,
+        "end_line": 68
+      },
+      {
+        "name": "add",
+        "line": 70,
+        "end_line": 74
+      },
+      {
+        "name": "edit",
+        "line": 76,
+        "end_line": 81
+      },
+      {
+        "name": "delete",
+        "line": 83,
+        "end_line": 91
+      },
+      {
+        "name": "save",
+        "line": 61,
+        "end_line": 65
+      }
+    ]
+  },
+  {
+    "path": "ui/chart.py",
+    "sha256": "0815d6e3fb3e491a361a98d36e22aaac131a15fe99676d2e4f2bdadb873706b9",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 9,
+        "end_line": 13
+      },
+      {
+        "name": "set_data",
+        "line": 15,
+        "end_line": 17
+      },
+      {
+        "name": "draw",
+        "line": 19,
+        "end_line": 55
+      },
+      {
+        "name": "show_value",
+        "line": 57,
+        "end_line": 68
+      }
+    ]
+  },
+  {
+    "path": "ui/common.py",
+    "sha256": "82394733812b929ca32ecd95004abc424cf68c8e648fb6365d113a77dbab8d8f",
+    "functions": [
+      {
+        "name": "money",
+        "line": 13,
+        "end_line": 14
+      },
+      {
+        "name": "display",
+        "line": 17,
+        "end_line": 22
+      },
+      {
+        "name": "report_error",
+        "line": 25,
+        "end_line": 46
+      },
+      {
+        "name": "center_window",
+        "line": 49,
+        "end_line": 55
+      },
+      {
+        "name": "notify",
+        "line": 58,
+        "end_line": 62
+      },
+      {
+        "name": "search_text",
+        "line": 65,
+        "end_line": 73
+      },
+      {
+        "name": "greeting",
+        "line": 76,
+        "end_line": 83
+      },
+      {
+        "name": "__init__",
+        "line": 87,
+        "end_line": 94
+      },
+      {
+        "name": "set",
+        "line": 96,
+        "end_line": 100
+      },
+      {
+        "name": "__init__",
+        "line": 105,
+        "end_line": 118
+      },
+      {
+        "name": "scroll",
+        "line": 120,
+        "end_line": 124
+      },
+      {
+        "name": "cleanup",
+        "line": 126,
+        "end_line": 128
+      },
+      {
+        "name": "__init__",
+        "line": 132,
+        "end_line": 155
+      },
+      {
+        "name": "fill",
+        "line": 157,
+        "end_line": 159
+      },
+      {
+        "name": "sort",
+        "line": 161,
+        "end_line": 164
+      },
+      {
+        "name": "render",
+        "line": 166,
+        "end_line": 186
+      },
+      {
+        "name": "selected_id",
+        "line": 188,
+        "end_line": 192
+      },
+      {
+        "name": "__init__",
+        "line": 197,
+        "end_line": 241
+      },
+      {
+        "name": "save",
+        "line": 243,
+        "end_line": 254
+      }
+    ]
+  },
+  {
+    "path": "ui/dashboard.py",
+    "sha256": "a839249f75d0708f15695f9307d87090493536972a299650ac3ed31f201eafec",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 10,
+        "end_line": 71
+      },
+      {
+        "name": "refresh",
+        "line": 73,
+        "end_line": 104
+      }
+    ]
+  },
+  {
+    "path": "ui/entity_tab.py",
+    "sha256": "3fc7288dd992e7c212fd9c9061017bab2800b12868592955680f8732b7686ab7",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 42,
+        "end_line": 72
+      },
+      {
+        "name": "refresh",
+        "line": 74,
+        "end_line": 79
+      },
+      {
+        "name": "render",
+        "line": 81,
+        "end_line": 92
+      },
+      {
+        "name": "update_actions",
+        "line": 94,
+        "end_line": 97
+      },
+      {
+        "name": "format_value",
+        "line": 99,
+        "end_line": 104
+      },
+      {
+        "name": "save",
+        "line": 106,
+        "end_line": 109
+      },
+      {
+        "name": "add",
+        "line": 111,
+        "end_line": 116
+      },
+      {
+        "name": "edit",
+        "line": 118,
+        "end_line": 125
+      },
+      {
+        "name": "delete",
+        "line": 127,
+        "end_line": 135
+      }
+    ]
+  },
+  {
+    "path": "ui/login_window.py",
+    "sha256": "3c8b0e1335d8642b22f263f689acc8a7154d74d3c07714467fd7d23229963982",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 10,
+        "end_line": 63
+      },
+      {
+        "name": "login",
+        "line": 65,
+        "end_line": 83
+      }
+    ]
+  },
+  {
+    "path": "ui/main_window.py",
+    "sha256": "a1930359582bd641efd63b475d3d164f2b59743d1ba1cb1016ba291a088b67e7",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 17,
+        "end_line": 92
+      },
+      {
+        "name": "cleanup",
+        "line": 94,
+        "end_line": 96
+      },
+      {
+        "name": "show_page",
+        "line": 98,
+        "end_line": 105
+      },
+      {
+        "name": "refresh_all",
+        "line": 107,
+        "end_line": 110
+      },
+      {
+        "name": "set_status",
+        "line": 112,
+        "end_line": 113
+      },
+      {
+        "name": "open_table",
+        "line": 115,
+        "end_line": 121
+      },
+      {
+        "name": "logout",
+        "line": 123,
+        "end_line": 125
+      },
+      {
+        "name": "change_password",
+        "line": 127,
+        "end_line": 139
+      },
+      {
+        "name": "save",
+        "line": 129,
+        "end_line": 133
+      }
+    ]
+  },
+  {
+    "path": "ui/order_editor.py",
+    "sha256": "fac1c7fc204dafa393226df982b65ca8acdaf9fadd7f6d5c144e8f08ee97f7ed",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 11,
+        "end_line": 132
+      },
+      {
+        "name": "render_menu",
+        "line": 134,
+        "end_line": 151
+      },
+      {
+        "name": "render_cart",
+        "line": 153,
+        "end_line": 167
+      },
+      {
+        "name": "item_selected",
+        "line": 169,
+        "end_line": 176
+      },
+      {
+        "name": "add_item",
+        "line": 178,
+        "end_line": 190
+      },
+      {
+        "name": "update_item",
+        "line": 192,
+        "end_line": 204
+      },
+      {
+        "name": "adjust_quantity",
+        "line": 206,
+        "end_line": 215
+      },
+      {
+        "name": "remove_item",
+        "line": 217,
+        "end_line": 223
+      },
+      {
+        "name": "persist",
+        "line": 225,
+        "end_line": 235
+      },
+      {
+        "name": "save",
+        "line": 237,
+        "end_line": 247
+      },
+      {
+        "name": "checkout",
+        "line": 249,
+        "end_line": 261
+      },
+      {
+        "name": "close",
+        "line": 263,
+        "end_line": 270
+      }
+    ]
+  },
+  {
+    "path": "ui/order_tab.py",
+    "sha256": "67b95a1ac2cb87e154a65778aa426b1ee76be8b9e52faa8af2c28f4d77f43f81",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 11,
+        "end_line": 58
+      },
+      {
+        "name": "refresh",
+        "line": 60,
+        "end_line": 65
+      },
+      {
+        "name": "filter_status",
+        "line": 67,
+        "end_line": 69
+      },
+      {
+        "name": "render",
+        "line": 71,
+        "end_line": 80
+      },
+      {
+        "name": "update_actions",
+        "line": 82,
+        "end_line": 89
+      },
+      {
+        "name": "add",
+        "line": 91,
+        "end_line": 95
+      },
+      {
+        "name": "edit",
+        "line": 97,
+        "end_line": 101
+      },
+      {
+        "name": "selected",
+        "line": 103,
+        "end_line": 105
+      },
+      {
+        "name": "pay",
+        "line": 107,
+        "end_line": 111
+      },
+      {
+        "name": "cancel",
+        "line": 113,
+        "end_line": 123
+      },
+      {
+        "name": "delete",
+        "line": 125,
+        "end_line": 133
+      }
+    ]
+  },
+  {
+    "path": "ui/payment_dialog.py",
+    "sha256": "1d58f2ddf7f6377abaf32e679752f6e676a5dbaec1c8e01ec18d8ca7c167f3df",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 11,
+        "end_line": 54
+      },
+      {
+        "name": "change_amount",
+        "line": 56,
+        "end_line": 60
+      },
+      {
+        "name": "update_change",
+        "line": 62,
+        "end_line": 70
+      },
+      {
+        "name": "confirm",
+        "line": 72,
+        "end_line": 81
+      }
+    ]
+  },
+  {
+    "path": "ui/statistics_tab.py",
+    "sha256": "1380cebf7e60089cb6409418f1ccbf17f9281f1b8e10761ba66a0f122473b525",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 12,
+        "end_line": 76
+      },
+      {
+        "name": "mode_changed",
+        "line": 78,
+        "end_line": 84
+      },
+      {
+        "name": "quick_period",
+        "line": 86,
+        "end_line": 94
+      },
+      {
+        "name": "refresh",
+        "line": 96,
+        "end_line": 110
+      },
+      {
+        "name": "export",
+        "line": 112,
+        "end_line": 133
+      }
+    ]
+  },
+  {
+    "path": "ui/table_tab.py",
+    "sha256": "d666ab62951a3dbe2585127d439c43c876858bab8e96382c802c512fba30816a",
+    "functions": [
+      {
+        "name": "__init__",
+        "line": 11,
+        "end_line": 40
+      },
+      {
+        "name": "refresh",
+        "line": 42,
+        "end_line": 54
+      },
+      {
+        "name": "render",
+        "line": 56,
+        "end_line": 110
+      },
+      {
+        "name": "select",
+        "line": 112,
+        "end_line": 114
+      },
+      {
+        "name": "save",
+        "line": 116,
+        "end_line": 119
+      },
+      {
+        "name": "add",
+        "line": 121,
+        "end_line": 125
+      },
+      {
+        "name": "edit",
+        "line": 127,
+        "end_line": 135
+      },
+      {
+        "name": "delete",
+        "line": 137,
+        "end_line": 148
+      }
+    ]
+  },
+  {
+    "path": "ui/theme.py",
+    "sha256": "3ebe4c481c58d380a41aa603efe6702e5f6c3d0ed38e127e7ab0ec391e2f320f",
+    "functions": [
+      {
+        "name": "rounded_controls",
+        "line": 14,
+        "end_line": 66
+      },
+      {
+        "name": "configure_style",
+        "line": 69,
+        "end_line": 114
+      }
+    ]
+  },
+  {
+    "path": "tests/test_coffee.py",
+    "sha256": "3e0be0e2e77cc73af5ce09e51210c1e9504b3a4be1a4ff5f651b5ace1b2c014f",
+    "functions": [
+      {
+        "name": "setUpModule",
+        "line": 19,
+        "end_line": 25
+      },
+      {
+        "name": "cleanup_database",
+        "line": 28,
+        "end_line": 42
+      },
+      {
+        "name": "setUp",
+        "line": 49,
+        "end_line": 50
+      },
+      {
+        "name": "fixture",
+        "line": 52,
+        "end_line": 58
+      },
+      {
+        "name": "employee_account",
+        "line": 60,
+        "end_line": 65
+      },
+      {
+        "name": "table_state",
+        "line": 67,
+        "end_line": 79
+      },
+      {
+        "name": "test_password_hash_and_login",
+        "line": 81,
+        "end_line": 93
+      },
+      {
+        "name": "test_setup_idempotent",
+        "line": 95,
+        "end_line": 122
+      },
+      {
+        "name": "test_validation",
+        "line": 124,
+        "end_line": 135
+      },
+      {
+        "name": "test_crud_all_entities",
+        "line": 137,
+        "end_line": 154
+      },
+      {
+        "name": "test_account_crud_password_and_disabled_session",
+        "line": 156,
+        "end_line": 168
+      },
+      {
+        "name": "test_protect_current_manager",
+        "line": 170,
+        "end_line": 177
+      },
+      {
+        "name": "test_staff_permissions_enforced_in_service",
+        "line": 179,
+        "end_line": 197
+      },
+      {
+        "name": "test_order_create_edit_move_and_delete",
+        "line": 199,
+        "end_line": 225
+      },
+      {
+        "name": "test_order_failure_rolls_back",
+        "line": 227,
+        "end_line": 239
+      },
+      {
+        "name": "test_snapshot_price_and_discontinued_product",
+        "line": 241,
+        "end_line": 264
+      },
+      {
+        "name": "test_payment_points_and_preserve_history",
+        "line": 266,
+        "end_line": 290
+      },
+      {
+        "name": "test_cancel_and_delete",
+        "line": 292,
+        "end_line": 310
+      },
+      {
+        "name": "test_payment_database_failure_rolls_back_all_changes",
+        "line": 312,
+        "end_line": 345
+      },
+      {
+        "name": "test_stale_order_cannot_overwrite_or_pay",
+        "line": 347,
+        "end_line": 357
+      },
+      {
+        "name": "test_concurrent_table_reservation",
+        "line": 359,
+        "end_line": 371
+      },
+      {
+        "name": "test_concurrent_payment_only_once",
+        "line": 373,
+        "end_line": 397
+      },
+      {
+        "name": "test_statistics_dates_month_and_excluded_statuses",
+        "line": 399,
+        "end_line": 438
+      },
+      {
+        "name": "test_rounded_controls_mouse_keyboard_and_disabled_state",
+        "line": 440,
+        "end_line": 500
+      },
+      {
+        "name": "test_tkinter_login_pages_forms_and_order_flow",
+        "line": 502,
+        "end_line": 609
+      },
+      {
+        "name": "create",
+        "line": 362,
+        "end_line": 366
+      },
+      {
+        "name": "pay",
+        "line": 377,
+        "end_line": 382
+      },
+      {
+        "name": "click",
+        "line": 458,
+        "end_line": 469
+      }
+    ]
+  }
+]

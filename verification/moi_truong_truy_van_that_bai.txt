@@ -1,0 +1,14 @@
+Ngày quan sát: 22/10/2026, múi giờ Asia/Saigon.
+Lệnh: Python đã cài -B verification/chay_kiem_thu.py environment
+Mã thoát: 1
+Phân loại: Lỗi truy vấn đọc của công cụ kiểm định, không phải lỗi ứng dụng hoặc unittest.
+Đầu ra quan sát được:
+python_version exit 0 seconds 0.05263
+pyodbc_pip exit 0 seconds 3.817184
+vscode_version exit 0 seconds 0.272995
+Traceback (most recent call last):
+  File "D:\NCTU\Python\ThucHanh\Project\verification\chay_kiem_thu.py", line 75, in <module>
+    row=c.execute("SELECT CAST(SERVERPROPERTY('ProductVersion') AS NVARCHAR(100)), CAST(SERVERPROPERTY('Edition') AS NVARCHAR(100)), SYSDATETIMEOFFSET()").fetchone()
+pyodbc.ProgrammingError: ('ODBC SQL type -155 is not yet supported.  column-index=2  type=-155', 'HY106')
+
+Cách sửa: chuyển SYSDATETIMEOFFSET sang NVARCHAR ngay trong truy vấn đọc. Không sửa mã ứng dụng, không thay dữ liệu SQL.

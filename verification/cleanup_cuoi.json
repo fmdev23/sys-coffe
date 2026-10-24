@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-22T23:08:19+07:00",
+  "read_only_query": true,
+  "owned_test_databases": [
+    "CoffeeTest_00ad630653c647a78736a4e7375059ec",
+    "CoffeeTest_b41d4bee86994be9904371373a8bddcd",
+    "CoffeeTest_38741d4b42d444588b7ffdc8048e0a1a",
+    "CoffeeTest_4954c17738134b27b74198d04122abd3"
+  ],
+  "all_test_databases_still_present": [],
+  "owned_test_databases_still_present": [],
+  "all_owned_test_databases_absent": true,
+  "original_database_still_present": true,
+  "database_deleted_by_this_script": false
+}

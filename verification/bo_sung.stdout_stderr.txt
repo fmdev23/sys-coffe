@@ -1,0 +1,11 @@
+Đọc CSV lịch sử: Đúng kỳ 14–20/10/2026, 8 đơn, 1.200.000 đồng, 30 ly đen và 15 ly sữa
+Cách ly dữ liệu: Đã tạo CoffeeTest_4954c17738134b27b74198d04122abd3, không dùng QuanLyQuanCoffee
+Lưu đơn mới: 2 × 25.000 + 1 × 30.000 = 80.000 đồng
+PaymentDialog: Từ chối dữ liệu sai/thiếu, tiền nhận 100.000 thì thừa 20.000 đồng
+Thanh toán: Đơn đã thanh toán 80.000 đồng, 8 điểm và bàn Trống
+Hủy và xóa: Đơn hủy bị loại khỏi doanh thu và xóa được theo quyền quản lý
+Giới hạn TOP 10: {'so_mon_da_ban': 13, 'so_mon_tra_ve': 10, 'so_don': 12, 'tong_toan_ky': '245000.00', 'tong_10_mon': '212000.00'}
+Cách chọn đường dẫn CSV: Tự động cung cấp đường dẫn cho filedialog, không kiểm tra thao tác chọn tệp bằng chuột. Truy vấn SQL và ghi CSV chạy thật, không thay thế.
+Xuất CSV mới: {'so_don': 12, 'tong_toan_ky': '245000.00', 'so_dong_mon': 10, 'tong_dong_mon': '212000.00', 'file': 'doanh_thu_kiem_dinh_moi.csv'}
+Kết quả bổ sung: Hoàn tất các kiểm tra bổ sung. Không có ảnh giao diện mới được xác nhận.
+Cleanup kiểm tra bổ sung: Đã xóa đúng database của lần kiểm tra CoffeeTest_4954c17738134b27b74198d04122abd3

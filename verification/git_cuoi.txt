@@ -1,0 +1,4 @@
+## main...origin/main
+?? docs/BaoCao_QuanLyQuanCaPhe_DoiChieu_GitHub.docx
+?? docs/BaoCao_QuanLyQuanCaPhe_FINAL.docx
+?? verification/

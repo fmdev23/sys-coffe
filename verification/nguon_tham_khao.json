@@ -1,0 +1,66 @@
+{
+  "access_date": "2026-10-22",
+  "method": "Mở nguồn chính bằng web.run trong phiên kiểm định, không gửi mã nguồn dự án. Không tự gán năm xuất bản.",
+  "sources": [
+    {
+      "author": "abdelbend",
+      "title": "db.py",
+      "url": "https://github.com/abdelbend/Restaurant-Management-System/blob/main/db.py",
+      "accessible": true
+    },
+    {
+      "author": "abdelbend",
+      "title": "Restaurant Management System",
+      "url": "https://github.com/abdelbend/Restaurant-Management-System",
+      "accessible": true
+    },
+    {
+      "author": "Microsoft",
+      "title": "rowversion (Transact-SQL)",
+      "url": "https://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver16",
+      "accessible": true
+    },
+    {
+      "author": "mkleehammer và cộng sự",
+      "title": "Database Transaction Management",
+      "url": "https://github.com/mkleehammer/pyodbc/wiki/Database-Transaction-Management",
+      "accessible": true
+    },
+    {
+      "author": "mkleehammer và cộng sự",
+      "title": "pyodbc",
+      "url": "https://github.com/mkleehammer/pyodbc",
+      "accessible": true
+    },
+    {
+      "author": "Python Software Foundation",
+      "title": "CSV File Reading and Writing",
+      "url": "https://docs.python.org/3.14/library/csv.html",
+      "accessible": true
+    },
+    {
+      "author": "Python Software Foundation",
+      "title": "Decimal fixed-point and floating-point arithmetic",
+      "url": "https://docs.python.org/3.14/library/decimal.html",
+      "accessible": true
+    },
+    {
+      "author": "Python Software Foundation",
+      "title": "Secure hashes and message digests",
+      "url": "https://docs.python.org/3.14/library/hashlib.html",
+      "accessible": true
+    },
+    {
+      "author": "Python Software Foundation",
+      "title": "Python interface to Tcl/Tk",
+      "url": "https://docs.python.org/3.14/library/tkinter.html",
+      "accessible": true
+    },
+    {
+      "author": "Python Software Foundation",
+      "title": "Unit testing framework",
+      "url": "https://docs.python.org/3.14/library/unittest.html",
+      "accessible": true
+    }
+  ]
+}

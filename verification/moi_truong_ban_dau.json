@@ -1,0 +1,9 @@
+{
+  "command": "python -B verification/chay_kiem_thu.py environment",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Program 'python.exe' failed to run: An error occurred trying to start process 'C:\\Users\\PC\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe' with working directory 'D:\\NCTU\\Python\\ThucHanh\\Project'. The system cannot find the path specified.",
+  "classification": "Lỗi môi trường trước khi bộ kiểm thử được khởi động",
+  "resolution": "Dùng Python đã cài ở pythoncore-3.14-64 và thêm thư mục này vào PATH chỉ của tiến trình kiểm định. Không đổi PATH hệ thống hoặc mã nguồn ứng dụng.",
+  "time_note": "Ghi lại lỗi vừa quan sát trong vòng kiểm định ngày 22/10/2026. Không có thời điểm bắt đầu chi tiết vì trình thông dịch chưa khởi động."
+}

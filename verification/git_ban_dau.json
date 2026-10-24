@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-22T22:34:10+07:00",
+  "status": {
+    "exit_code": 0,
+    "stdout": "## main...origin/main\n?? docs/BaoCao_QuanLyQuanCaPhe_DoiChieu_GitHub.docx\n?? verification/\n",
+    "stderr": ""
+  },
+  "branch": {
+    "exit_code": 0,
+    "stdout": "main\n",
+    "stderr": ""
+  },
+  "commit": {
+    "exit_code": 0,
+    "stdout": "7af74062bae32226ce0f14c11df0c60af213eab0\n",
+    "stderr": ""
+  },
+  "remote": {
+    "exit_code": 0,
+    "stdout": "origin\thttps://github.com/fmdev23/sys-coffe.git (fetch)\norigin\thttps://github.com/fmdev23/sys-coffe.git (push)\n",
+    "stderr": ""
+  }
+}

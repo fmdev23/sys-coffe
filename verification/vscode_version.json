@@ -1,0 +1,16 @@
+{
+  "command": [
+    "cmd.exe",
+    "/d",
+    "/c",
+    "C:\\Users\\PC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.CMD",
+    "--version"
+  ],
+  "started_at": "2026-10-22T22:41:23+07:00",
+  "finished_at": "2026-10-22T22:41:23+07:00",
+  "duration_wall_seconds": 0.344797,
+  "exit_code": 0,
+  "stdout": "vscode_version.stdout.txt",
+  "stderr": "vscode_version.stderr.txt",
+  "secret_redactions": 0
+}

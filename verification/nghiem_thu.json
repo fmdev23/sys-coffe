@@ -1,0 +1,31 @@
+{
+  "time": "2026-10-22T23:12:04+07:00",
+  "acceptance": {
+    "A": [
+      "ĐẠT",
+      "Các tuyên bố trọng yếu có mã, phương thức thử hoặc chứng cứ cụ thể trong ma trận. Các nội dung thiếu chứng cứ được nêu là giới hạn."
+    ],
+    "B": [
+      "ĐẠT",
+      "19 phương thức chạy mới đạt, failure=0, error=0, skipped=0, mã thoát 0. Không sửa ứng dụng hoặc dùng SQL giả."
+    ],
+    "C": [
+      "ĐẠT",
+      "CSV lịch sử 8 đơn/1.200.000 và CSV mới 12 đơn/245.000 được tách biệt. Hai lần UI chưa hoàn tất không tính đạt."
+    ],
+    "D": [
+      "ĐẠT",
+      "Word mở lại được, 15 bảng, 13 ảnh nguyên vẹn, 34 trang đã render và xem, 60 tham chiếu trang khớp bookmark."
+    ],
+    "E": [
+      "ĐẠT",
+      "Bản báo cáo đã bỏ khẳng định vượt chứng cứ. Các tài liệu MD cũ mâu thuẫn được đánh dấu, không dùng bác bỏ mã mới."
+    ]
+  },
+  "conclusion": "SẴN SÀNG NỘP",
+  "application_bugs_demonstrated": 0,
+  "review_findings": 15,
+  "resolved": 11,
+  "open_limitations": 4,
+  "blockers": []
+}

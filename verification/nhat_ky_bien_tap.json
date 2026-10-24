@@ -1,0 +1,232 @@
+{
+  "source": "D:\\NCTU\\Python\\ThucHanh\\Project\\docs\\BaoCao_QuanLyQuanCaPhe.docx",
+  "candidate": "D:\\NCTU\\Python\\ThucHanh\\Project\\docs\\BaoCao_QuanLyQuanCaPhe_DRAFT.docx",
+  "changes": [
+    {
+      "old": "Bảng 1 tổng hợp ứng dụng và thư viện được khảo sát.",
+      "new": "Sáu nguồn được lựa chọn ở Bảng 1 bao quát ứng dụng tham khảo, giao diện, kết nối dữ liệu và xử lý tập tin."
+    },
+    {
+      "old": "Ứng dụng tham khảo tổ chức việc chọn món, ghi nhận yêu cầu và hiển thị hóa đơn. Mã db.py sử dụng SQLite với dữ liệu thực đơn và khách hàng. Cách đặt thao tác chọn món cạnh thông tin đơn phù hợp một chương trình phục vụ tại quầy. Tuy nhiên, cấu trúc lưu trữ và giao diện của ứng dụng đó không được xem là bằng chứng cho chức năng của đề tài này. Các chức năng phân quyền, bàn, điểm khách và báo cáo trong đề tài được đối chiếu trực tiếp với mã nguồn hiện có.",
+      "new": "Ứng dụng Restaurant Management System của abdelbend được chọn để phân tích logic. Phần giới thiệu cung cấp chế độ dòng lệnh và giao diện Tkinter. Tệp db.py dùng SQLite, tổ chức dữ liệu thực đơn và món được khách gọi theo mã đơn. Cách tách thao tác dữ liệu khỏi giao diện giúp nhận diện các bước nhận món, lưu đơn và lập hóa đơn. Dự án hiện tại vận dụng cách tổ chức này, đồng thời dùng SQL Server và bổ sung nghiệp vụ bàn, tài khoản và tích điểm theo yêu cầu riêng (abdelbend, không ghi năm a, b)."
+    },
+    {
+      "old": "Bảng 2 tổng hợp các luồng dữ liệu trên bản DFD gốc.",
+      "new": "Các luồng vào và ra của Hình 1 được chép lại trong Bảng 2 để đọc rõ nhãn của bản gốc."
+    },
+    {
+      "old": "Bản vẽ phù hợp mức mô tả tổng quát. Luồng “yêu cầu thu tiền, khoảng thời gian thống kê” của Quản lý đang gộp hai nhóm dữ liệu, có thể tách khi cần diễn giải chi tiết. Kết quả lưu, sửa, hủy và thông báo lỗi chưa được ghi thành nhãn riêng. Các nhận xét này không làm thay đổi bản gốc. Mã PlantUML tương đương và kết quả đối chiếu được lưu trong README.md để sinh viên kiểm chứng.",
+      "new": "Đối chiếu mã nguồn cho thấy hai tác nhân Nhân viên và Quản lý phù hợp với hai vai trò đang sử dụng. Khách hàng không đăng nhập nên không được đặt thành tác nhân sử dụng phần mềm. Hình gốc chưa tách riêng luồng đổi mật khẩu và xuất CSV khỏi nhóm yêu cầu quản trị. CSV đã có trong luồng trả kết quả cho Quản lý, nhưng chưa thể hiện rõ bước ghi tập tin được mẫu học phần đề cập. Báo cáo giữ nguyên hình của sinh viên, giải thích phần này bằng nội dung và mã PlantUML trong README.md. Kho SQL Server được mô tả tại Chương 2, không đưa vào sơ đồ ngữ cảnh."
+    },
+    {
+      "old": "Bảng 1.1 tổng hợp các chức năng của chương trình.",
+      "new": "Các thao tác phục vụ, quản trị và thống kê được đối chiếu theo dữ liệu đầu vào và kết quả trong Bảng 1.1."
+    },
+    {
+      "old": "Bảng 1.2 tổng hợp quy tắc kiểm tra dữ liệu.",
+      "new": "Bảng 1.2 xác định những dữ liệu phải kiểm tra trước khi ghi đơn và danh mục."
+    },
+    {
+      "old": "Bảng 1.3 tổng hợp quyền thao tác theo vai trò.",
+      "new": "Hai vai trò có quyền thao tác như Bảng 1.3. Phần xử lý tiếp tục kiểm tra quyền sau khi giao diện được mở."
+    },
+    {
+      "old": "Hình 2.1 trình bày sơ đồ phân cấp hàm.",
+      "new": "Các hàm được nhóm theo phiên làm việc, danh mục, đơn hàng và báo cáo trong Hình 2.1."
+    },
+    {
+      "old": "Bảng 2.1 tổng hợp vai trò các thành phần mã nguồn.",
+      "new": "Bảng 2.1 xác định tệp chịu trách nhiệm cho từng phần xử lý để truy ngược từ giao diện đến dữ liệu."
+    },
+    {
+      "old": "Hình 2.2 trình bày quan hệ giữa bảy bảng dữ liệu.",
+      "new": "Hình 2.2 thể hiện khóa chính, khóa ngoại và quan hệ giữa bảy bảng nghiệp vụ."
+    },
+    {
+      "old": "Bảng 2.2 tổng hợp các bảng và trường dữ liệu.",
+      "new": "Tên trường và kiểu dữ liệu thực tế của các bảng được liệt kê trong Bảng 2.2."
+    },
+    {
+      "old": "Bảng 2.3 tổng hợp cấu trúc dữ liệu trong bộ nhớ.",
+      "new": "Bảng 2.3 liên hệ danh sách, từ điển và kiểu số với nơi sử dụng trong chương trình."
+    },
+    {
+      "old": "Bảng 2.4 tổng hợp cấu trúc tập tin CSV được xuất.",
+      "new": "Tập tin xuất có phần thông tin kỳ báo cáo và phần sản phẩm như Bảng 2.4."
+    },
+    {
+      "old": "StatisticsTab.export() ghi tập tin bằng csv.writer với encoding=\"utf-8-sig\". Đây là mã hóa UTF-8 (Unicode Transformation Format 8-bit) có dấu nhận biết đầu tệp (Byte Order Mark). Tập tin dùng dấu phẩy phân cách các trường, ngày theo năm-tháng-ngày và số tiền dạng chuỗi thập phân của Decimal. Số liệu hiển thị trong báo cáo này dùng dấu chấm hàng nghìn theo quy định trình bày. Đó là cách trình bày khác với dữ liệu gốc trong tập tin.",
+      "new": "CSV được ghi bằng utf-8-sig nên có dấu nhận biết UTF-8 ở đầu tập tin. Dòng tổng doanh thu và số đơn tính trên toàn bộ đơn đã thanh toán trong kỳ. Phần sản phẩm lấy tối đa 10 món từ statistics(), sắp theo số lượng giảm dần rồi doanh thu. Vì vậy, khi có hơn 10 món được bán, tổng các dòng chi tiết có thể nhỏ hơn tổng doanh thu. Đây là tập tin báo cáo món bán chạy, chưa phải bản xuất chi tiết mọi món. Tên món trong phần thống kê lấy từ danh mục hiện tại, còn chi tiết đơn giữ tên và giá lúc bán."
+    },
+    {
+      "old": "Hình 2.3 trình bày lưu đồ thuật toán lưu đơn hàng.",
+      "new": "Trình tự kiểm tra giỏ, giữ giá bán và ghi dữ liệu của save_order() được thể hiện trong Hình 2.3."
+    },
+    {
+      "old": "PaymentDialog kiểm tra tiền khách đưa và hiển thị tiền thừa. Khi người dùng xác nhận đã thu đủ, giao diện gọi finish_order() cùng phiên bản đơn. Hàm kiểm tra trạng thái, tính điểm, cập nhật đơn, khách và bàn trong cùng một giao dịch. Tiền nhận và tiền thừa chỉ hỗ trợ thao tác tại quầy, không có cột lưu hai giá trị này trong cơ sở dữ liệu.",
+      "new": "PaymentDialog.change_amount() kiểm tra tiền và tính tiền thừa. update_change() khóa nút khi dữ liệu sai hoặc còn thiếu. confirm() kiểm tra lại rồi gọi finish_order(). Dịch vụ không nhận hoặc lưu tiền khách đưa. Kiểm tra đủ tiền thuộc giao diện, chưa áp dụng cho lời gọi trực tiếp đến dịch vụ."
+    },
+    {
+      "old": "Hình 2.4 trình bày lưu đồ thuật toán thanh toán đơn.",
+      "new": "Hình 2.4 nối bước xác nhận thu tiền tại giao diện với giao dịch cập nhật đơn, điểm và bàn."
+    },
+    {
+      "old": "finish_order() còn có nhánh pay=False để hủy đơn đang xử lý. Nhánh đó ghi trạng thái “Đã huỷ” theo hằng CANCELLED trong mã, không ghi doanh thu và không cộng điểm. Lưu đồ trên trình bày nhánh thanh toán là chức năng xử lý quan trọng.",
+      "new": "Hủy đơn dùng finish_order(pay=False), ghi Đã huỷ, không cộng điểm hoặc ghi thời điểm thanh toán. Khi thu tiền, giao diện truyền expected_version để kiểm tra đơn đã thay đổi. Tham số này là tùy chọn tại dịch vụ."
+    },
+    {
+      "old": "Bảng 3.1 tổng hợp môi trường chạy được kiểm tra ngày 20/10/2026.",
+      "new": "Các phiên bản và cấu hình ở Bảng 3.1 được đọc lại trên máy kiểm định ngày 22/10/2026."
+    },
+    {
+      "old": "Môi trường được kiểm tra bằng phiên bản Python, Tcl/Tk, pyodbc và thông tin máy chủ SQL trong lần chạy thực tế. Các lệnh khởi động và kiểm thử được thực hiện bằng PowerShell trên Windows.",
+      "new": "IDE sử dụng là Visual Studio Code (VS Code), do sinh viên xác nhận. Lệnh code --version trả về 1.140.0, kiến trúc x64. Python, pyodbc và Tcl/Tk được kiểm tra trực tiếp, phiên bản SQL Server được đọc bằng truy vấn chỉ đọc. Lệnh chạy và nhật ký nằm trong thư mục verification. Commit được đối chiếu là 7af74062bae32226ce0f14c11df0c60af213eab0 trên nhánh main."
+    },
+    {
+      "old": "Bảng 3.2 tổng hợp đối chiếu nội dung học phần từ 1 đến 4.",
+      "new": "Bảng 3.2 đối chiếu bốn nội dung đầu của học phần với các phần mã đang sử dụng."
+    },
+    {
+      "old": "Bảng 3.3 tổng hợp đối chiếu nội dung học phần từ 5 đến 8.",
+      "new": "Các nội dung về chuỗi, danh sách, tập tin và Tkinter được đối chiếu tiếp trong Bảng 3.3."
+    },
+    {
+      "old": "Hình 3.1 trình bày giao diện đăng nhập.",
+      "new": "Hình 3.1 là ảnh giao diện đăng nhập đã lưu trong dự án, được giữ nguyên trong vòng kiểm định này."
+    },
+    {
+      "old": "Tổng quan hiển thị doanh thu hôm nay, số hóa đơn đã thanh toán, số đơn đang phục vụ và số bàn trống. Biểu đồ lấy dữ liệu thật từ các đơn thử trong cơ sở dữ liệu. Ảnh chụp được thực hiện trước khi thanh toán đơn 80.000 đồng, vì vậy doanh thu hôm nay ở ảnh là 85.000 đồng và có một đơn đang phục vụ.",
+      "new": "Ảnh Hình 3.2 thuộc bộ chứng cứ trình diễn đã lưu trước vòng kiểm định ngày 22/10/2026. Màn hình quản lý có tám trang. Các chỉ số phụ thuộc dữ liệu và khoảng ngày tại thời điểm chụp, không được dùng làm số liệu vận hành của quán."
+    },
+    {
+      "old": "Hình 3.2 trình bày giao diện tổng quan của quản lý.",
+      "new": "Hình 3.2 cho thấy cách bố trí chỉ số và các lối vào thao tác của quản lý."
+    },
+    {
+      "old": "Hình 3.3 trình bày giao diện quản lý thực đơn.",
+      "new": "Hình 3.3 cho thấy danh sách thực đơn, ô tìm kiếm và các thao tác quản lý món."
+    },
+    {
+      "old": "Màn hình gọi món hiển thị bàn và khách ở trên, thực đơn cùng giỏ ở giữa. Các nút tăng, giảm, áp dụng số lượng và bỏ món nằm cạnh giỏ. Với dữ liệu thử gồm hai cà phê đen và một cà phê sữa, tổng là 80.000 đồng. Dòng “3 món” trên giao diện là tổng số lượng ba ly, giỏ gồm hai loại sản phẩm.",
+      "new": "Trong kịch bản lịch sử ngày 20/10/2026, hai cà phê đen giá 25.000 đồng và một cà phê sữa giá 30.000 đồng tạo tổng 80.000 đồng. Ảnh gọi món Hình 3.4 được giữ nguyên từ bộ chứng cứ đã lưu. Phép tính này cũng được kiểm tra lại bằng dữ liệu cách ly ngày 22/10/2026, ghi riêng trong Chương 4."
+    },
+    {
+      "old": "Hình 3.4 trình bày giao diện gọi món với tổng đơn 80.000 đồng.",
+      "new": "Giỏ hàng trong Hình 3.4 hiển thị số lượng, đơn giá và tổng cần thu."
+    },
+    {
+      "old": "Hình 3.5 trình bày giao diện xác nhận thu tiền.",
+      "new": "Hình 3.5 lưu lại trạng thái giao diện thu tiền của kịch bản lịch sử, không phải ảnh chụp mới."
+    },
+    {
+      "old": "Quản lý chọn ngày hoặc tháng rồi xem doanh thu, số hóa đơn, trung bình mỗi đơn và món bán chạy. Kỳ 14/10/2026 đến 20/10/2026 trong lần chạy thử có 8 đơn đã thanh toán, doanh thu 1.200.000 đồng và trung bình 150.000 đồng mỗi đơn.",
+      "new": "Ảnh thống kê và CSV lịch sử dùng kỳ 14/10/2026 đến 20/10/2026, có 8 đơn đã thanh toán với doanh thu 1.200.000 đồng. Đây là dữ liệu chuẩn bị cho lần trình diễn ngày 20/10/2026. Lần kiểm định ngày 22/10/2026 đọc lại CSV và nhật ký đã lưu, không tái tạo hoặc thay thế ảnh Hình 3.6."
+    },
+    {
+      "old": "Hình 3.6 trình bày giao diện báo cáo doanh thu theo kỳ.",
+      "new": "Hình 3.6 thể hiện bộ lọc kỳ, doanh thu, số đơn và danh sách món bán chạy của dữ liệu lịch sử."
+    },
+    {
+      "old": "Hình 3.7 trình bày giao diện sơ đồ bàn của nhân viên.",
+      "new": "Hình 3.7 lưu giao diện ba trang phục vụ của nhân viên. Quyền tương ứng được kiểm tra lại trong bộ kiểm thử mới."
+    },
+    {
+      "old": "Kiểm thử nhằm đối chiếu các yêu cầu nhập liệu, tính toán, phân quyền và lưu trữ với hành vi thực tế. Bộ tests/test_coffee.py sử dụng unittest, SQL Server thật và các cửa sổ Tkinter. Cơ sở dữ liệu thử được tạo riêng và xóa khi kết thúc, dữ liệu của quán không được dùng làm nơi ghi kết quả thử.",
+      "new": "Kiểm thử đối chiếu các yêu cầu nhập liệu, tính toán, phân quyền và lưu trữ với hành vi thực tế. Bộ tests/test_coffee.py dùng unittest, SQL Server thật và Tkinter. Tự động hóa bởi AI Agent Codex được dùng để thực thi và lưu kết quả, không được xem là bằng chứng sinh viên trực tiếp thao tác từng trường hợp. Phương pháp gồm kiểm thử tích hợp trên dữ liệu hợp lệ, dữ liệu sai, ràng buộc, lỗi giao dịch và hai thao tác đồng thời."
+    },
+    {
+      "old": "Bộ kiểm thử tích hợp gồm 19 phương thức, có trường hợp dùng nhiều bộ dữ liệu. Một số phép thử giao diện thay hộp thông báo bằng unittest.mock để không chờ thao tác người dùng. Phần truy vấn, ràng buộc và giao dịch chạy trên SQL Server thật. Riêng lần trình diễn bổ sung dùng các cửa sổ thật và hộp thoại lưu CSV thật, không thay thế hộp thoại xuất tập tin.",
+      "new": "Bộ kiểm thử có 19 phương thức, trong đó một phương thức có thể kiểm tra nhiều bộ dữ liệu. Một số phép thử thay hộp thông báo bằng unittest.mock để không chờ xác nhận. Kết nối, truy vấn, giao dịch và ràng buộc đều chạy trên SQL Server thật, không dùng dữ liệu trả về giả. Mỗi lần chạy tạo CoffeeTest_<UUID> riêng. Bộ kiểm thử chỉ dọn cơ sở dữ liệu có tên đã tạo trong chính lần chạy đó."
+    },
+    {
+      "old": "Ngày 20/10/2026, bộ kiểm thử trước khi dọn mã đạt 19 kiểm thử trong 18,003 giây. Sau khi thay cách quản lý giao dịch và xử lý ngoại lệ bằng khối lệnh trực tiếp, lần chạy lại đạt 19 kiểm thử trong 16,156 giây. Hai thời gian chỉ ghi nhận lần chạy tương ứng, không dùng để kết luận chương trình tăng tốc.",
+      "new": "Lần chạy mới bắt đầu lúc 22 giờ 42 phút 46 giây ngày 22/10/2026, múi giờ UTC+7. Kết quả có 19 kiểm thử đạt, 0 thất bại, 0 lỗi, 0 bỏ qua, mã thoát 0. unittest ghi 19,656 giây, còn thời gian tiến trình là 20,185 giây. Database thử được quan sát khi tạo và không còn sau khi kết thúc. Nhật ký đầy đủ là verification/unittest_moi.stderr.txt, thông tin thời điểm và mã thoát là verification/unittest_moi.json. Kết quả này độc lập với các lần chạy đã lưu trước đó."
+    },
+    {
+      "old": "python -B -m unittest discover -s tests -vRan 19 tests in 16.156sOK",
+      "new": "python -B -m unittest discover -s tests -v\nRan 19 tests in 19.656s\nOK"
+    },
+    {
+      "old": "Bảng 4.1 tổng hợp kết quả kiểm thử dữ liệu và nghiệp vụ.",
+      "new": "Các kết quả mới về dữ liệu và nghiệp vụ được đối chiếu trong Bảng 4.1 với các phương thức của tests/test_coffee.py."
+    },
+    {
+      "old": "Bảng 4.2 tổng hợp kết quả kiểm thử giao dịch, báo cáo và giao diện.",
+      "new": "Bảng 4.2 ghi phần kiểm tra giao dịch, xử lý đồng thời, thống kê và điều khiển giao diện trong cùng lần chạy mới."
+    },
+    {
+      "old": "Lần chạy bổ sung tạo dữ liệu thử riêng gồm năm món khởi đầu, tám bàn, một khách và một nhân viên có tài khoản. Các đơn có thời điểm thanh toán trong bảy ngày được chuẩn bị để kiểm tra báo cáo. Số liệu ở đây là dữ liệu phục vụ kiểm thử, không phải doanh thu của một quán đang kinh doanh.",
+      "new": "Kịch bản lịch sử ngày 20/10/2026 được lưu tại .report_work/evidence_new.json. Dữ liệu được tạo riêng gồm năm món khởi đầu, tám bàn, một khách và một nhân viên có tài khoản. Các đơn có ngày thanh toán trong kỳ được chuẩn bị cho trình diễn, không phải doanh thu thực tế của quán. Bảng 4.3 chỉ ghi lại kết quả lịch sử, không gộp vào kết quả 19 kiểm thử mới."
+    },
+    {
+      "old": "Bảng 4.3 tổng hợp kết quả chạy thật trên giao diện và SQL Server.",
+      "new": "Các thao tác và kết quả lịch sử trong Bảng 4.3 được đối chiếu với nhật ký và CSV đã lưu."
+    },
+    {
+      "old": "Tập tin do hộp thoại lưu tạo ra là doanh_thu_2026-10-14.csv, nằm trong thư mục D:\\NCTU\\Python\\ThucHanh\\SoLieuCSVProject do người dùng chọn. Khi đọc lại, tập tin có dấu nhận biết UTF-8, đúng tiêu đề và hai dòng sản phẩm. Cà phê đen có 30 ly, doanh thu 750.000 đồng. Cà phê sữa có 15 ly, doanh thu 450.000 đồng. Tổng hai dòng bằng tổng doanh thu 1.200.000 đồng và số đơn ở đầu tập tin bằng 8.",
+      "new": "Ngày 22/10/2026, CSV trong docs/doanh_thu_kiem_tra.csv được đọc lại cùng bản tại D:\\NCTU\\Python\\ThucHanh\\SoLieuCSVProject. Tập tin có BOM UTF-8, đúng kỳ 14/10/2026 đến 20/10/2026, 8 đơn và doanh thu 1.200.000 đồng. Cà phê đen có 30 ly, 750.000 đồng. Cà phê sữa có 15 ly, 450.000 đồng. Tổng hai dòng khớp dòng tổng. Database trình diễn cũ không còn nên chưa thể tái xác nhận dữ liệu SQL lịch sử. Chi tiết kiểm tra tập tin được lưu tại verification/csv_lich_su.json."
+    },
+    {
+      "old": "Các chức năng đã thử đáp ứng quy trình phục vụ, quản trị và báo cáo trong phạm vi đề tài. Dữ liệu hợp lệ được ghi, dữ liệu sai bị từ chối, các thao tác liên quan được hoàn tác khi có lỗi. Giao diện phân biệt vai trò, làm rõ tổng tiền và trạng thái bàn. Mã sau khi dọn vẫn vượt qua bộ kiểm thử tích hợp đã có.",
+      "new": "Trong phạm vi các trường hợp đã chạy, chương trình xử lý đúng dữ liệu hợp lệ, từ chối dữ liệu sai và hoàn tác các cập nhật liên quan khi phát sinh lỗi đã kiểm tra. Hai vai trò được kiểm tra ở giao diện và dịch vụ. Các kết luận chỉ áp dụng cho commit, môi trường và tập dữ liệu được ghi nhận, không phải chứng nhận an toàn hoặc hiệu năng cho mọi tình huống sử dụng."
+    },
+    {
+      "old": "Việc lưu trữ đã được kiểm tra sau khi đóng cửa sổ và tạo kết nối mới. Chưa thực hiện tắt máy rồi khởi động lại hoặc mô phỏng mất điện. Vì vậy, báo cáo chưa kết luận đạt tình huống tắt máy theo nghĩa đầy đủ. Chưa có thử nghiệm tải lớn, nhiều máy vận hành dài ngày hoặc đánh giá bảo mật độc lập. Những giới hạn này cần được phân biệt với các kết quả đã quan sát.",
+      "new": "Việc đóng cửa sổ và đọc lại bằng kết nối mới có chứng cứ lịch sử, đồng thời các kiểm thử mới đọc lại dữ liệu đã commit. Chưa thử tắt máy rồi khởi động lại, mất điện, tải lớn, nhiều máy vận hành dài ngày hoặc bảo mật độc lập. Hai lần mở giao diện bổ sung kết thúc trước khi chụp được ảnh có thể xác nhận. Vì vậy, báo cáo giữ bộ ảnh cũ và không khẳng định có ảnh mới. Kiểm tra xuất CSV bổ sung tự động cung cấp đường dẫn cho hộp chọn tệp, chưa xác nhận thao tác chọn đường dẫn bằng chuột trong lần mới."
+    },
+    {
+      "old": "Kết quả chạy thử xác nhận tính tổng 80.000 đồng, tiền thừa 20.000 đồng, cộng 8 điểm và tập tin báo cáo có 8 đơn với doanh thu 1.200.000 đồng. Bộ kiểm thử tích hợp 19 trường hợp đạt sau khi dọn mã. Tám nội dung học phần được đối chiếu với các tệp và hàm hiện có, giúp giải thích quá trình vận dụng kiến thức vào một ứng dụng hoàn chỉnh trong phạm vi môn học.",
+      "new": "Lần kiểm định mới ngày 22/10/2026 có 19 kiểm thử đạt và mã thoát 0. Kịch bản bổ sung trên database riêng xác nhận tổng 80.000 đồng, nhận 100.000 đồng, thừa 20.000 đồng và cộng 8 điểm. CSV 8 đơn, 1.200.000 đồng là chứng cứ lịch sử ngày 20/10/2026, được đọc lại để kiểm tra tính nhất quán. Tám nội dung học phần được liên hệ với các tệp và hàm thực tế của dự án."
+    },
+    {
+      "old": "Bộ kiểm thử cần SQL Server và cửa sổ Tkinter. Cơ sở dữ liệu thử được tạo riêng rồi xóa sau khi hoàn tất. Kịch bản trình bày và cách giải thích giỏ hàng, giá lúc bán, giao dịch được lưu trong README.md.",
+      "new": "Bộ kiểm thử tạo và dọn database CoffeeTest_<UUID> riêng. Nhật ký và ma trận đối chiếu nằm trong verification."
+    },
+    {
+      "old": "Giao diện nhận dữ liệu và gọi hàm xử lý. CoffeeService kiểm tra quyền, trạng thái và thực hiện truy vấn. Những thao tác ghi dùng khối try/except/finally với commit(), rollback() và close() rõ ràng. Cách tổ chức này giữ được ranh giới giữa hiển thị và xử lý mà không bổ sung framework hay lớp trung gian không cần thiết.",
+      "new": "Giao diện gọi CoffeeService để kiểm tra quyền, trạng thái và xử lý dữ liệu. Các thao tác ghi dùng try/except/finally để commit(), rollback() và đóng kết nối. SQL không đặt trong các biểu mẫu."
+    },
+    {
+      "old": "Nếu lỗi xảy ra trong giao dịch, khối except gọi rollback() rồi chuyển lỗi lên giao diện. Khối finally luôn đóng kết nối. Khi sửa đơn, expected_version phải khớp PhienBan hiện tại. Khi chuyển bàn, trạng thái cả bàn cũ và bàn mới đều được tính lại.",
+      "new": "Lỗi được rollback() và đóng kết nối. Sửa đơn phải khớp PhienBan. Chuyển bàn cập nhật trạng thái cả hai bàn."
+    },
+    {
+      "old": "Cài Python cho Windows từ trang chính thức python.org nếu máy chưa có. Trong trình cài đặt, giữ thành phần Tcl/Tk và pip, đồng thời chọn thêm Python vào PATH để gọi bằng lệnh python. Sau khi cài, mở PowerShell và kiểm tra phiên bản. Lần chạy của báo cáo sử dụng Python 3.14.3.",
+      "new": "Cài Python cho Windows từ python.org, giữ Tcl/Tk và pip, chọn thêm Python vào PATH. Nếu lệnh python trỏ tới WindowsApps nhưng không chạy, chọn trình thông dịch đã cài trong VS Code. Lần kiểm định dùng Python 3.14.3. Kiểm tra bằng các lệnh sau."
+    },
+    {
+      "old": "",
+      "new": "BOM: Byte Order Mark, dấu nhận biết mã hóa ở đầu tập tin"
+    },
+    {
+      "old": "",
+      "new": "UUID: Universally Unique Identifier, mã định danh dùng tạo tên database thử riêng"
+    },
+    {
+      "old": "",
+      "new": "Kiểm tra bổ sung ngày 22/10/2026 dùng một database riêng khác với bộ unittest. PaymentDialog từ chối chuỗi rỗng, chữ, số âm, số có dấu phẩy, chữ số không thuộc ASCII và chuỗi quá 15 chữ số. Tiền nhận 50.000 đồng không cho hoàn tất đơn 80.000 đồng. Khi nhận 100.000 đồng, tiền thừa là 20.000 đồng. Sau xác nhận, SQL ghi đơn Đã thanh toán, khách có 8 điểm và bàn Trống. Đơn hủy được kiểm tra riêng và bị loại khỏi doanh thu."
+    },
+    {
+      "old": "",
+      "new": "Để xác nhận giới hạn TOP 10, dữ liệu bổ sung có 13 món đã bán qua 12 đơn. Truy vấn trả đúng 10 món, tổng doanh thu toàn kỳ 245.000 đồng, tổng 10 dòng chi tiết 212.000 đồng. StatisticsTab.export() được gọi với đường dẫn lưu do công cụ kiểm thử cung cấp. Phần truy vấn và ghi tập tin chạy thật, không thay SQL bằng dữ liệu giả. verification/doanh_thu_kiem_dinh_moi.csv có BOM UTF-8 và khớp các giá trị trên. Đây là dữ liệu thử mới, không dùng thay cho CSV lịch sử."
+    },
+    {
+      "old": "",
+      "new": "Kết quả từng bước và xác nhận dọn database được lưu tại verification/bo_sung_tien_do.json. Thời gian của kịch bản bổ sung không cộng vào 19,656 giây của unittest. Hai lần mở giao diện chưa hoàn tất được giữ riêng trong nhật ký, không tính thành trường hợp đạt."
+    },
+    {
+      "old": "Python",
+      "new": "IDE sử dụng"
+    },
+    {
+      "old": "3.14.3",
+      "new": "Visual Studio Code 1.140.0, x64."
+    },
+    {
+      "old": "Một dòng cho mỗi sản phẩm thuộc kết quả thống kê bán chạy.",
+      "new": "Tối đa 10 dòng sản phẩm thuộc kết quả thống kê bán chạy."
+    }
+  ],
+  "images_changed": 0,
+  "tables_deleted": 0
+}

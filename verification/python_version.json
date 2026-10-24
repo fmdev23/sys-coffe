@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "--version"
+  ],
+  "started_at": "2026-10-22T22:41:22+07:00",
+  "finished_at": "2026-10-22T22:41:22+07:00",
+  "duration_wall_seconds": 0.032854,
+  "exit_code": 0,
+  "stdout": "python_version.stdout.txt",
+  "stderr": "python_version.stderr.txt",
+  "secret_redactions": 0
+}

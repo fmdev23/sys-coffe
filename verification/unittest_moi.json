@@ -1,0 +1,147 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "started_at": "2026-10-22T22:42:46+07:00",
+  "finished_at": "2026-10-22T22:43:06+07:00",
+  "duration_wall_seconds": 20.184908,
+  "exit_code": 0,
+  "stdout": "unittest_moi.stdout.txt",
+  "stderr": "unittest_moi.stderr.txt",
+  "secret_redactions": 0,
+  "tests_run": 19,
+  "duration_unittest_seconds": 19.656,
+  "passed": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_statuses": [
+    {
+      "method": "test_account_crud_password_and_disabled_session",
+      "id": "test_coffee.CoffeeTests.test_account_crud_password_and_disabled_session",
+      "status": "ok"
+    },
+    {
+      "method": "test_cancel_and_delete",
+      "id": "test_coffee.CoffeeTests.test_cancel_and_delete",
+      "status": "ok"
+    },
+    {
+      "method": "test_concurrent_payment_only_once",
+      "id": "test_coffee.CoffeeTests.test_concurrent_payment_only_once",
+      "status": "ok"
+    },
+    {
+      "method": "test_concurrent_table_reservation",
+      "id": "test_coffee.CoffeeTests.test_concurrent_table_reservation",
+      "status": "ok"
+    },
+    {
+      "method": "test_crud_all_entities",
+      "id": "test_coffee.CoffeeTests.test_crud_all_entities",
+      "status": "ok"
+    },
+    {
+      "method": "test_order_create_edit_move_and_delete",
+      "id": "test_coffee.CoffeeTests.test_order_create_edit_move_and_delete",
+      "status": "ok"
+    },
+    {
+      "method": "test_order_failure_rolls_back",
+      "id": "test_coffee.CoffeeTests.test_order_failure_rolls_back",
+      "status": "ok"
+    },
+    {
+      "method": "test_password_hash_and_login",
+      "id": "test_coffee.CoffeeTests.test_password_hash_and_login",
+      "status": "ok"
+    },
+    {
+      "method": "test_payment_database_failure_rolls_back_all_changes",
+      "id": "test_coffee.CoffeeTests.test_payment_database_failure_rolls_back_all_changes",
+      "status": "ok"
+    },
+    {
+      "method": "test_payment_points_and_preserve_history",
+      "id": "test_coffee.CoffeeTests.test_payment_points_and_preserve_history",
+      "status": "ok"
+    },
+    {
+      "method": "test_protect_current_manager",
+      "id": "test_coffee.CoffeeTests.test_protect_current_manager",
+      "status": "ok"
+    },
+    {
+      "method": "test_rounded_controls_mouse_keyboard_and_disabled_state",
+      "id": "test_coffee.CoffeeTests.test_rounded_controls_mouse_keyboard_and_disabled_state",
+      "status": "ok"
+    },
+    {
+      "method": "test_setup_idempotent",
+      "id": "test_coffee.CoffeeTests.test_setup_idempotent",
+      "status": "ok"
+    },
+    {
+      "method": "test_snapshot_price_and_discontinued_product",
+      "id": "test_coffee.CoffeeTests.test_snapshot_price_and_discontinued_product",
+      "status": "ok"
+    },
+    {
+      "method": "test_staff_permissions_enforced_in_service",
+      "id": "test_coffee.CoffeeTests.test_staff_permissions_enforced_in_service",
+      "status": "ok"
+    },
+    {
+      "method": "test_stale_order_cannot_overwrite_or_pay",
+      "id": "test_coffee.CoffeeTests.test_stale_order_cannot_overwrite_or_pay",
+      "status": "ok"
+    },
+    {
+      "method": "test_statistics_dates_month_and_excluded_statuses",
+      "id": "test_coffee.CoffeeTests.test_statistics_dates_month_and_excluded_statuses",
+      "status": "ok"
+    },
+    {
+      "method": "test_tkinter_login_pages_forms_and_order_flow",
+      "id": "test_coffee.CoffeeTests.test_tkinter_login_pages_forms_and_order_flow",
+      "status": "ok"
+    },
+    {
+      "method": "test_validation",
+      "id": "test_coffee.CoffeeTests.test_validation",
+      "status": "ok"
+    }
+  ],
+  "success_marker": true,
+  "database_before": [],
+  "database_created_observed": [
+    "CoffeeTest_00ad630653c647a78736a4e7375059ec"
+  ],
+  "database_after": [],
+  "database_monitor_timeline": [
+    {
+      "time": "2026-10-22T22:42:46+07:00",
+      "databases": []
+    },
+    {
+      "time": "2026-10-22T22:42:47+07:00",
+      "databases": [
+        "CoffeeTest_00ad630653c647a78736a4e7375059ec"
+      ]
+    },
+    {
+      "time": "2026-10-22T22:43:06+07:00",
+      "databases": []
+    }
+  ],
+  "database_monitor_errors": [],
+  "own_test_database_cleanup_confirmed": true,
+  "confirmed_success": true
+}

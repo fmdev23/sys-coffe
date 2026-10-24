@@ -1,0 +1,2327 @@
+{
+  "time": "2026-10-22T22:34:10+07:00",
+  "source_sha256": "6c5453822588af6ba74335807ff3e15ed6e833935db48a8562ee75ec41870e16",
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "TRƯỜNG ĐẠI HỌC NAM CẦN THƠ"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "TRƯỜNG CÔNG NGHỆ SỐ VÀ TRÍ TUỆ NHÂN TẠO"
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "BÁO CÁO HỌC PHẦN"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "LẬP TRÌNH PYTHON - THỰC HÀNH"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Đề tài"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "XÂY DỰNG ỨNG DỤNG\nQUẢN LÝ QUÁN CÀ PHÊ BẰNG PYTHON"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "Coffee Shop Management Application"
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Sinh viên thực hiện"
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "Lê Minh Phú - MSSV: 236717\nLớp: DH23TIN02"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "Giảng viên hướng dẫn\nBùi Thị Diễm Trinh"
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "Cần Thơ, tháng 10 năm 2026"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "MỤC LỤC"
+    },
+    {
+      "index": 14,
+      "style": "toc 1",
+      "text": "GIỚI THIỆU\t1"
+    },
+    {
+      "index": 15,
+      "style": "toc 2",
+      "text": "1 Đặt vấn đề\t1"
+    },
+    {
+      "index": 16,
+      "style": "toc 2",
+      "text": "2 Những nghiên cứu liên quan\t1"
+    },
+    {
+      "index": 17,
+      "style": "toc 2",
+      "text": "3 Mục tiêu\t2"
+    },
+    {
+      "index": 18,
+      "style": "toc 2",
+      "text": "4 Đối tượng và phạm vi nghiên cứu\t2"
+    },
+    {
+      "index": 19,
+      "style": "toc 2",
+      "text": "5 Sơ đồ DFD cấp 0\t2"
+    },
+    {
+      "index": 20,
+      "style": "toc 1",
+      "text": "CHƯƠNG 1 ĐẶC TẢ YÊU CẦU\t4"
+    },
+    {
+      "index": 21,
+      "style": "toc 2",
+      "text": "1.1 YÊU CẦU CHỨC NĂNG\t4"
+    },
+    {
+      "index": 22,
+      "style": "toc 2",
+      "text": "1.2 QUY TẮC DỮ LIỆU VÀ NGHIỆP VỤ\t5"
+    },
+    {
+      "index": 23,
+      "style": "toc 2",
+      "text": "1.3 PHÂN QUYỀN SỬ DỤNG\t5"
+    },
+    {
+      "index": 24,
+      "style": "toc 2",
+      "text": "1.4 YÊU CẦU GIAO DIỆN VÀ CHẤT LƯỢNG\t6"
+    },
+    {
+      "index": 25,
+      "style": "toc 1",
+      "text": "CHƯƠNG 2 THIẾT KẾ GIẢI PHÁP\t7"
+    },
+    {
+      "index": 26,
+      "style": "toc 2",
+      "text": "2.1 SƠ ĐỒ PHÂN CẤP HÀM\t7"
+    },
+    {
+      "index": 27,
+      "style": "toc 2",
+      "text": "2.2 TỔ CHỨC MÃ NGUỒN\t7"
+    },
+    {
+      "index": 28,
+      "style": "toc 2",
+      "text": "2.3 THIẾT KẾ DỮ LIỆU\t8"
+    },
+    {
+      "index": 29,
+      "style": "toc 2",
+      "text": "2.4 DANH SÁCH, TỪ ĐIỂN VÀ TẬP TIN\t9"
+    },
+    {
+      "index": 30,
+      "style": "toc 2",
+      "text": "2.5 THUẬT TOÁN LƯU ĐƠN HÀNG\t11"
+    },
+    {
+      "index": 31,
+      "style": "toc 2",
+      "text": "2.6 THUẬT TOÁN THANH TOÁN\t12"
+    },
+    {
+      "index": 32,
+      "style": "toc 1",
+      "text": "CHƯƠNG 3 CÀI ĐẶT GIẢI PHÁP\t13"
+    },
+    {
+      "index": 33,
+      "style": "toc 2",
+      "text": "3.1 MÔI TRƯỜNG VÀ KHỞI ĐỘNG\t13"
+    },
+    {
+      "index": 34,
+      "style": "toc 2",
+      "text": "3.2 VẬN DỤNG TÁM NỘI DUNG HỌC PHẦN\t13"
+    },
+    {
+      "index": 35,
+      "style": "toc 2",
+      "text": "3.3 XỬ LÝ GIAO DỊCH VÀ BẢO VỆ DỮ LIỆU\t14"
+    },
+    {
+      "index": 36,
+      "style": "toc 2",
+      "text": "3.4 GIAO DIỆN VÀ QUY TRÌNH THAO TÁC\t15"
+    },
+    {
+      "index": 37,
+      "style": "toc 3",
+      "text": "3.4.1 Đăng nhập\t15"
+    },
+    {
+      "index": 38,
+      "style": "toc 3",
+      "text": "3.4.2 Tổng quan và thực đơn\t16"
+    },
+    {
+      "index": 39,
+      "style": "toc 3",
+      "text": "3.4.3 Gọi món và thanh toán\t18"
+    },
+    {
+      "index": 40,
+      "style": "toc 3",
+      "text": "3.4.4 Báo cáo và giao diện nhân viên\t19"
+    },
+    {
+      "index": 41,
+      "style": "toc 1",
+      "text": "CHƯƠNG 4 ĐÁNH GIÁ KIỂM THỬ\t21"
+    },
+    {
+      "index": 42,
+      "style": "toc 2",
+      "text": "4.1 MỤC TIÊU VÀ PHƯƠNG PHÁP\t21"
+    },
+    {
+      "index": 43,
+      "style": "toc 2",
+      "text": "4.2 KẾT QUẢ BỘ KIỂM THỬ TÍCH HỢP\t21"
+    },
+    {
+      "index": 44,
+      "style": "toc 2",
+      "text": "4.3 KỊCH BẢN CHẠY THẬT VÀ XUẤT TẬP TIN\t22"
+    },
+    {
+      "index": 45,
+      "style": "toc 2",
+      "text": "4.4 ĐÁNH GIÁ VÀ GIỚI HẠN KIỂM TRA\t23"
+    },
+    {
+      "index": 46,
+      "style": "toc 1",
+      "text": "PHẦN KẾT LUẬN\t24"
+    },
+    {
+      "index": 47,
+      "style": "toc 2",
+      "text": "Kết quả đạt được\t24"
+    },
+    {
+      "index": 48,
+      "style": "toc 2",
+      "text": "Hướng phát triển\t24"
+    },
+    {
+      "index": 49,
+      "style": "toc 1",
+      "text": "TÀI LIỆU THAM KHẢO\t25"
+    },
+    {
+      "index": 50,
+      "style": "toc 1",
+      "text": "PHỤ LỤC HƯỚNG DẪN CÀI ĐẶT, SỬ DỤNG CHƯƠNG TRÌNH/GIẢI PHÁP\t26"
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "DANH MỤC BẢNG"
+    },
+    {
+      "index": 53,
+      "style": "table of figures",
+      "text": "Bảng 1 Ứng dụng và thư viện được khảo sát\t1"
+    },
+    {
+      "index": 54,
+      "style": "table of figures",
+      "text": "Bảng 2 Các luồng dữ liệu trên bản DFD gốc\t3"
+    },
+    {
+      "index": 55,
+      "style": "table of figures",
+      "text": "Bảng 1.1 Các chức năng của chương trình\t4"
+    },
+    {
+      "index": 56,
+      "style": "table of figures",
+      "text": "Bảng 1.2 Quy tắc kiểm tra dữ liệu\t5"
+    },
+    {
+      "index": 57,
+      "style": "table of figures",
+      "text": "Bảng 1.3 Quyền thao tác theo vai trò\t5"
+    },
+    {
+      "index": 58,
+      "style": "table of figures",
+      "text": "Bảng 2.1 Vai trò các thành phần mã nguồn\t7"
+    },
+    {
+      "index": 59,
+      "style": "table of figures",
+      "text": "Bảng 2.2 Các bảng và trường dữ liệu\t9"
+    },
+    {
+      "index": 60,
+      "style": "table of figures",
+      "text": "Bảng 2.3 Cấu trúc dữ liệu trong bộ nhớ\t9"
+    },
+    {
+      "index": 61,
+      "style": "table of figures",
+      "text": "Bảng 2.4 Cấu trúc tập tin CSV được xuất\t10"
+    },
+    {
+      "index": 62,
+      "style": "table of figures",
+      "text": "Bảng 3.1 Môi trường chạy được kiểm tra ngày 20/10/2026\t13"
+    },
+    {
+      "index": 63,
+      "style": "table of figures",
+      "text": "Bảng 3.2 Đối chiếu nội dung học phần từ 1 đến 4\t13"
+    },
+    {
+      "index": 64,
+      "style": "table of figures",
+      "text": "Bảng 3.3 Đối chiếu nội dung học phần từ 5 đến 8\t14"
+    },
+    {
+      "index": 65,
+      "style": "table of figures",
+      "text": "Bảng 4.1 Kết quả kiểm thử dữ liệu và nghiệp vụ\t21"
+    },
+    {
+      "index": 66,
+      "style": "table of figures",
+      "text": "Bảng 4.2 Kết quả kiểm thử giao dịch, báo cáo và giao diện\t22"
+    },
+    {
+      "index": 67,
+      "style": "table of figures",
+      "text": "Bảng 4.3 Kết quả chạy thật trên giao diện và SQL Server\t23"
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "DANH MỤC HÌNH"
+    },
+    {
+      "index": 70,
+      "style": "table of figures",
+      "text": "Hình 1 Sơ đồ DFD cấp 0 của ứng dụng\t3"
+    },
+    {
+      "index": 71,
+      "style": "table of figures",
+      "text": "Hình 2.1 Sơ đồ phân cấp hàm\t7"
+    },
+    {
+      "index": 72,
+      "style": "table of figures",
+      "text": "Hình 2.2 Quan hệ giữa bảy bảng dữ liệu\t8"
+    },
+    {
+      "index": 73,
+      "style": "table of figures",
+      "text": "Hình 2.3 Lưu đồ thuật toán lưu đơn hàng\t11"
+    },
+    {
+      "index": 74,
+      "style": "table of figures",
+      "text": "Hình 2.4 Lưu đồ thuật toán thanh toán đơn\t12"
+    },
+    {
+      "index": 75,
+      "style": "table of figures",
+      "text": "Hình 3.1 Giao diện đăng nhập\t16"
+    },
+    {
+      "index": 76,
+      "style": "table of figures",
+      "text": "Hình 3.2 Giao diện tổng quan của quản lý\t17"
+    },
+    {
+      "index": 77,
+      "style": "table of figures",
+      "text": "Hình 3.3 Giao diện quản lý thực đơn\t17"
+    },
+    {
+      "index": 78,
+      "style": "table of figures",
+      "text": "Hình 3.4 Giao diện gọi món với tổng đơn 80.000 đồng\t18"
+    },
+    {
+      "index": 79,
+      "style": "table of figures",
+      "text": "Hình 3.5 Giao diện xác nhận thu tiền\t19"
+    },
+    {
+      "index": 80,
+      "style": "table of figures",
+      "text": "Hình 3.6 Giao diện báo cáo doanh thu theo kỳ\t20"
+    },
+    {
+      "index": 81,
+      "style": "table of figures",
+      "text": "Hình 3.7 Giao diện sơ đồ bàn của nhân viên\t20"
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "DANH MỤC TỪ VIẾT TẮT"
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "CSV: Comma-Separated Values, tệp có các giá trị phân cách bằng dấu phẩy"
+    },
+    {
+      "index": 85,
+      "style": "Normal",
+      "text": "DFD: Data Flow Diagram, sơ đồ luồng dữ liệu"
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "ODBC: Open Database Connectivity, giao tiếp kết nối cơ sở dữ liệu"
+    },
+    {
+      "index": 87,
+      "style": "Normal",
+      "text": "PBKDF2: Password-Based Key Derivation Function 2, hàm dẫn xuất khóa từ mật khẩu"
+    },
+    {
+      "index": 88,
+      "style": "Normal",
+      "text": "SQL: Structured Query Language, ngôn ngữ truy vấn có cấu trúc"
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "UTF-8: Unicode Transformation Format 8-bit, mã hóa Unicode"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 91,
+      "style": "Front Heading",
+      "text": "GIỚI THIỆU"
+    },
+    {
+      "index": 92,
+      "style": "Heading 2",
+      "text": "Đặt vấn đề"
+    },
+    {
+      "index": 93,
+      "style": "Normal",
+      "text": "Quán cà phê cần theo dõi bàn đang phục vụ, món đã gọi và tiền phải thu trong từng đơn. Khi ghi nhận rời rạc, người phục vụ khó kiểm tra món đã lưu và quản lý mất thời gian tổng hợp doanh thu. Đề tài xây dựng một ứng dụng Python trên máy tính để thực hiện các thao tác này trong cùng một quy trình."
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "Ứng dụng sử dụng Tkinter/ttk để tạo giao diện tiếng Việt và Microsoft SQL Server để lưu dữ liệu. SQL là ngôn ngữ truy vấn có cấu trúc (Structured Query Language). Chương trình kết nối qua giao tiếp ODBC (Open Database Connectivity) bằng thư viện pyodbc. Nội dung báo cáo mô tả đúng chức năng đang có và kết quả chạy thử của dự án."
+    },
+    {
+      "index": 95,
+      "style": "Heading 2",
+      "text": "Những nghiên cứu liên quan"
+    },
+    {
+      "index": 96,
+      "style": "Normal",
+      "text": "Bảng 1 tổng hợp ứng dụng và thư viện được khảo sát."
+    },
+    {
+      "index": 97,
+      "style": "Caption",
+      "text": "Bảng 1 Ứng dụng và thư viện được khảo sát"
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "Nguồn: tổng hợp từ abdelbend (không ghi năm a, b), mkleehammer và cộng sự (không ghi năm b), Python Software Foundation (không ghi năm a, b, d, e)."
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Restaurant Management System là ứng dụng tham khảo chính, có mã nguồn công khai bằng Python (abdelbend, không ghi năm a, b). Các thư viện còn lại có tài liệu chính thức: Tkinter cho giao diện, csv cho tập tin, decimal cho số tiền và unittest cho kiểm thử (Python Software Foundation, không ghi năm a, b, d, e). pyodbc cung cấp kết nối cơ sở dữ liệu (mkleehammer và cộng sự, không ghi năm b)."
+    },
+    {
+      "index": 100,
+      "style": "Normal",
+      "text": "Ứng dụng tham khảo tổ chức việc chọn món, ghi nhận yêu cầu và hiển thị hóa đơn. Mã db.py sử dụng SQLite với dữ liệu thực đơn và khách hàng. Cách đặt thao tác chọn món cạnh thông tin đơn phù hợp một chương trình phục vụ tại quầy. Tuy nhiên, cấu trúc lưu trữ và giao diện của ứng dụng đó không được xem là bằng chứng cho chức năng của đề tài này. Các chức năng phân quyền, bàn, điểm khách và báo cáo trong đề tài được đối chiếu trực tiếp với mã nguồn hiện có."
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "Đề tài áp dụng cách tổ chức thao tác ngắn, hiển thị tổng tiền gần giỏ hàng và giữ trạng thái bàn rõ ràng. Dữ liệu được lưu ở SQL Server với đơn và chi tiết đơn tách riêng. Việc phân tích ứng dụng tham khảo giúp xác định cách trình bày quy trình, còn các quyết định xử lý được kiểm tra bằng mã và kết quả chạy của dự án."
+    },
+    {
+      "index": 102,
+      "style": "Heading 2",
+      "text": "Mục tiêu"
+    },
+    {
+      "index": 103,
+      "style": "Normal",
+      "text": "Mục tiêu là xây dựng ứng dụng quản lý quán cà phê quy mô nhỏ và vừa, có giao diện dễ thao tác, lưu được dữ liệu và hỗ trợ theo dõi doanh thu. Chương trình cần phân biệt quyền quản lý và nhân viên, kiểm tra dữ liệu nhập, giữ đúng lịch sử giá bán và xử lý trọn vẹn việc thanh toán."
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "Về học phần, dự án thể hiện đủ tám nội dung đã học thông qua biến, điều kiện, vòng lặp, hàm, chuỗi, danh sách, tập tin và giao diện Tkinter. Mã được chia theo nhiệm vụ, sử dụng các câu lệnh quen thuộc để có thể trình bày và kiểm tra từng bước."
+    },
+    {
+      "index": 105,
+      "style": "Heading 2",
+      "text": "Đối tượng và phạm vi nghiên cứu"
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "Đối tượng sử dụng là quản lý và nhân viên phục vụ tại quầy. Quản lý chuẩn bị danh mục, nhân sự, tài khoản và xem báo cáo. Nhân viên xem thực đơn, theo dõi bàn, lập hoặc sửa đơn và xác nhận thanh toán. Khách hàng được lưu như dữ liệu của đơn, chưa có giao diện đăng nhập riêng."
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "Phạm vi triển khai là ứng dụng trên Windows, kết nối SQL Server bằng xác thực Windows. Chương trình chưa có quản lý kho nguyên liệu, thuế, khuyến mãi, in hóa đơn, thanh toán ngân hàng hoặc vận hành qua Internet. Chức năng tập tin hiện có là xuất báo cáo CSV (Comma-Separated Values), không có nhập dữ liệu từ CSV."
+    },
+    {
+      "index": 108,
+      "style": "Heading 2",
+      "text": "Sơ đồ DFD cấp 0"
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "Sơ đồ luồng dữ liệu (Data Flow Diagram, DFD) cấp 0 biểu diễn toàn bộ ứng dụng bằng một tiến trình trung tâm. Hình 1 sử dụng nguyên bản bản vẽ do sinh viên cung cấp, có hai tác nhân Nhân viên và Quản lý. Tiến trình được đánh số 1 theo bản gốc. Luồng vào gồm thông tin đăng nhập, dữ liệu đơn, danh mục và yêu cầu thống kê. Luồng ra gồm kết quả xác thực, thông tin phục vụ và báo cáo."
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "Hình 1 trình bày sơ đồ DFD cấp 0 của ứng dụng."
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 112,
+      "style": "Caption",
+      "text": "Hình 1 Sơ đồ DFD cấp 0 của ứng dụng"
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "Ảnh DFD gốc có kích thước 927 nhân 180 điểm ảnh nên chữ trong hình nhỏ khi đặt trên trang A4. Bảng 2 chép lại đúng các nhãn và chiều truyền để thuận tiện đọc và đối chiếu, không chỉnh sửa ảnh gốc."
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "Bảng 2 tổng hợp các luồng dữ liệu trên bản DFD gốc."
+    },
+    {
+      "index": 115,
+      "style": "Caption",
+      "text": "Bảng 2 Các luồng dữ liệu trên bản DFD gốc"
+    },
+    {
+      "index": 116,
+      "style": "Normal",
+      "text": "Khi quản lý chọn xuất báo cáo, thao tác từ giao diện được xử lý bởi StatisticsTab.export() trong Python, đọc số liệu qua CoffeeService.statistics() rồi ghi tập tin CSV ở vị trí người dùng chọn. SQL Server là nơi lưu dữ liệu chính. Tập tin CSV là đầu ra tổng hợp, không thay thế cơ sở dữ liệu và không được nhập ngược tự động."
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "Bản vẽ phù hợp mức mô tả tổng quát. Luồng “yêu cầu thu tiền, khoảng thời gian thống kê” của Quản lý đang gộp hai nhóm dữ liệu, có thể tách khi cần diễn giải chi tiết. Kết quả lưu, sửa, hủy và thông báo lỗi chưa được ghi thành nhãn riêng. Các nhận xét này không làm thay đổi bản gốc. Mã PlantUML tương đương và kết quả đối chiếu được lưu trong README.md để sinh viên kiểm chứng."
+    },
+    {
+      "index": 118,
+      "style": "Heading 1",
+      "text": "\nĐẶC TẢ YÊU CẦU"
+    },
+    {
+      "index": 119,
+      "style": "Heading 2",
+      "text": "YÊU CẦU CHỨC NĂNG"
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "Bảng 1.1 tổng hợp các chức năng của chương trình."
+    },
+    {
+      "index": 121,
+      "style": "Caption",
+      "text": "Bảng 1.1 Các chức năng của chương trình"
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Luồng phục vụ bắt đầu từ việc chọn bàn hoặc mở đơn đang xử lý. Người dùng thêm món, điều chỉnh số lượng, chọn khách nếu có và lưu đơn. Sau khi nhận tiền, người dùng xác nhận thanh toán. Chương trình ghi trạng thái đơn, thời điểm thanh toán, điểm tích lũy và trạng thái bàn trong cùng một giao dịch."
+    },
+    {
+      "index": 123,
+      "style": "Heading 2",
+      "text": "QUY TẮC DỮ LIỆU VÀ NGHIỆP VỤ"
+    },
+    {
+      "index": 124,
+      "style": "Normal",
+      "text": "Bảng 1.2 tổng hợp quy tắc kiểm tra dữ liệu."
+    },
+    {
+      "index": 125,
+      "style": "Caption",
+      "text": "Bảng 1.2 Quy tắc kiểm tra dữ liệu"
+    },
+    {
+      "index": 126,
+      "style": "Normal",
+      "text": "Tổng đơn được cộng từ thành tiền của từng món. Ví dụ, hai cà phê đen giá 25.000 đồng và một cà phê sữa giá 30.000 đồng tạo tổng 80.000 đồng. Nếu nhận 100.000 đồng, giao diện hiển thị tiền thừa 20.000 đồng. Khách đăng ký nhận 8 điểm khi đơn được thanh toán. Đơn của khách lẻ không cộng điểm."
+    },
+    {
+      "index": 127,
+      "style": "Heading 2",
+      "text": "PHÂN QUYỀN SỬ DỤNG"
+    },
+    {
+      "index": 128,
+      "style": "Normal",
+      "text": "Bảng 1.3 tổng hợp quyền thao tác theo vai trò."
+    },
+    {
+      "index": 129,
+      "style": "Caption",
+      "text": "Bảng 1.3 Quyền thao tác theo vai trò"
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "Quản lý có tám trang chức năng. Nhân viên có Đơn hàng, Sơ đồ bàn và Thực đơn. Các hàm nghiệp vụ kiểm tra lại phiên đăng nhập và vai trò trước khi thao tác, vì việc ẩn nút trên giao diện chưa đủ để bảo vệ dữ liệu."
+    },
+    {
+      "index": 131,
+      "style": "Heading 2",
+      "text": "YÊU CẦU GIAO DIỆN VÀ CHẤT LƯỢNG"
+    },
+    {
+      "index": 132,
+      "style": "Normal",
+      "text": "Các thao tác chính dùng màu xanh đậm, nền sáng và khoảng cách thống nhất. Màu trạng thái luôn đi cùng nhãn chữ. Bàn được biểu diễn bằng thẻ để người phục vụ nhận ra tình trạng nhanh. Màn hình gọi món đặt thực đơn bên trái và giỏ hàng bên phải. Nút lưu và thu tiền nằm gần tổng đơn để giảm chuyển hướng khi thao tác."
+    },
+    {
+      "index": 133,
+      "style": "Normal",
+      "text": "Nút, ô nhập và danh sách chọn vẫn là thành phần ttk. ui/theme.py thay hình nền và trạng thái hiển thị để có góc bo, phản hồi khi rê chuột, nhận tiêu điểm hoặc bị vô hiệu hóa. Các ảnh nền được Tkinter đọc trực tiếp, không cần bổ sung thư viện giao diện. Dữ liệu liên kết và giao dịch được kiểm tra để hạn chế lưu dở dang hoặc làm mất lịch sử."
+    },
+    {
+      "index": 134,
+      "style": "Heading 1",
+      "text": "\nTHIẾT KẾ GIẢI PHÁP"
+    },
+    {
+      "index": 135,
+      "style": "Heading 2",
+      "text": "SƠ ĐỒ PHÂN CẤP HÀM"
+    },
+    {
+      "index": 136,
+      "style": "Normal",
+      "text": "Các nhóm chức năng được liên hệ với tên hàm thật trong mã nguồn. login() là hàm ở models/service.py. show_login() thuộc CoffeeApp, các hàm xử lý dữ liệu thuộc CoffeeService. Nhóm báo cáo sử dụng Dashboard.refresh() và StatisticsTab.export(). Đường nối trong sơ đồ thể hiện phân rã chức năng, không biểu diễn thứ tự thực thi."
+    },
+    {
+      "index": 137,
+      "style": "Normal",
+      "text": "Hình 2.1 trình bày sơ đồ phân cấp hàm."
+    },
+    {
+      "index": 138,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 139,
+      "style": "Caption",
+      "text": "Hình 2.1 Sơ đồ phân cấp hàm"
+    },
+    {
+      "index": 140,
+      "style": "Heading 2",
+      "text": "TỔ CHỨC MÃ NGUỒN"
+    },
+    {
+      "index": 141,
+      "style": "Normal",
+      "text": "Bảng 2.1 tổng hợp vai trò các thành phần mã nguồn."
+    },
+    {
+      "index": 142,
+      "style": "Caption",
+      "text": "Bảng 2.1 Vai trò các thành phần mã nguồn"
+    },
+    {
+      "index": 143,
+      "style": "Normal",
+      "text": "Giao diện nhận dữ liệu và gọi hàm xử lý. CoffeeService kiểm tra quyền, trạng thái và thực hiện truy vấn. Những thao tác ghi dùng khối try/except/finally với commit(), rollback() và close() rõ ràng. Cách tổ chức này giữ được ranh giới giữa hiển thị và xử lý mà không bổ sung framework hay lớp trung gian không cần thiết."
+    },
+    {
+      "index": 144,
+      "style": "Heading 2",
+      "text": "THIẾT KẾ DỮ LIỆU"
+    },
+    {
+      "index": 145,
+      "style": "Normal",
+      "text": "Dự án có bảy bảng SQL. Sơ đồ quan hệ được bổ sung để làm rõ dữ liệu lưu trữ thực tế, phục vụ giải thích kết nối cơ sở dữ liệu. Tên bảng, trường và quan hệ lấy từ database_setup.py. Hai vạch biểu thị đúng một, vòng tròn kèm vạch biểu thị không hoặc một, vòng tròn kèm chân quạ biểu thị không hoặc nhiều."
+    },
+    {
+      "index": 146,
+      "style": "Normal",
+      "text": "Hình 2.2 trình bày quan hệ giữa bảy bảng dữ liệu."
+    },
+    {
+      "index": 147,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 148,
+      "style": "Caption",
+      "text": "Hình 2.2 Quan hệ giữa bảy bảng dữ liệu"
+    },
+    {
+      "index": 149,
+      "style": "Normal",
+      "text": "Mỗi tài khoản bắt buộc liên kết một nhân viên, mỗi nhân viên có tối đa một tài khoản. Đơn bắt buộc có bàn và nhân viên lập, khách hàng có thể để trống. Một đơn đã lưu qua hàm nghiệp vụ phải có ít nhất một món. Riêng ràng buộc khóa ngoại không bắt buộc đơn luôn có chi tiết, vì vậy phía chi tiết trên sơ đồ thể hiện không hoặc nhiều."
+    },
+    {
+      "index": 150,
+      "style": "Normal",
+      "text": "Bảng 2.2 tổng hợp các bảng và trường dữ liệu."
+    },
+    {
+      "index": 151,
+      "style": "Caption",
+      "text": "Bảng 2.2 Các bảng và trường dữ liệu"
+    },
+    {
+      "index": 152,
+      "style": "Normal",
+      "text": "Gia, DonGia và TongTien dùng DECIMAL(18,2), số lượng dùng số nguyên. ThanhTien là cột tính toán từ SoLuong và DonGia. PhienBan dùng ROWVERSION để phát hiện dữ liệu đã thay đổi kể từ lần đọc trước, không phải thời gian tạo hoặc sửa (Microsoft, không ghi năm). Các khóa ngoại giữ liên kết lịch sử. Chỉ mục duy nhất có điều kiện ngăn một bàn có hai đơn đang xử lý."
+    },
+    {
+      "index": 153,
+      "style": "Heading 2",
+      "text": "DANH SÁCH, TỪ ĐIỂN VÀ TẬP TIN"
+    },
+    {
+      "index": 154,
+      "style": "Normal",
+      "text": "Danh sách (list) lưu nhiều phần tử theo thứ tự. Từ điển (dict) lưu cặp khóa và giá trị. Bộ giá trị (tuple) lưu một nhóm phần tử, được dùng cho các mốc thời gian và doanh thu trả về từ truy vấn."
+    },
+    {
+      "index": 155,
+      "style": "Normal",
+      "text": "Bảng 2.3 tổng hợp cấu trúc dữ liệu trong bộ nhớ."
+    },
+    {
+      "index": 156,
+      "style": "Caption",
+      "text": "Bảng 2.3 Cấu trúc dữ liệu trong bộ nhớ"
+    },
+    {
+      "index": 157,
+      "style": "Normal",
+      "text": "Kết quả truy vấn được chuyển thành danh sách từ điển để truy cập bằng tên cột. Giỏ hàng dùng mã sản phẩm làm khóa nên thêm cùng món sẽ cập nhật số lượng. Trước khi ghi, quantities gộp các dòng cùng mã sản phẩm và kiểm tra giới hạn số lượng. Cấu trúc này được dùng trực tiếp trong vòng lặp của save_order()."
+    },
+    {
+      "index": 158,
+      "style": "Normal",
+      "text": "Bảng 2.4 tổng hợp cấu trúc tập tin CSV được xuất."
+    },
+    {
+      "index": 159,
+      "style": "Caption",
+      "text": "Bảng 2.4 Cấu trúc tập tin CSV được xuất"
+    },
+    {
+      "index": 160,
+      "style": "Normal",
+      "text": "StatisticsTab.export() ghi tập tin bằng csv.writer với encoding=\"utf-8-sig\". Đây là mã hóa UTF-8 (Unicode Transformation Format 8-bit) có dấu nhận biết đầu tệp (Byte Order Mark). Tập tin dùng dấu phẩy phân cách các trường, ngày theo năm-tháng-ngày và số tiền dạng chuỗi thập phân của Decimal. Số liệu hiển thị trong báo cáo này dùng dấu chấm hàng nghìn theo quy định trình bày. Đó là cách trình bày khác với dữ liệu gốc trong tập tin."
+    },
+    {
+      "index": 161,
+      "style": "Heading 2",
+      "text": "THUẬT TOÁN LƯU ĐƠN HÀNG"
+    },
+    {
+      "index": 162,
+      "style": "Normal",
+      "text": "save_order() kiểm tra giỏ trước khi mở giao dịch. Trong giao dịch, hàm kiểm tra phiên, đơn đang sửa, bàn và khách. Vòng lặp đọc sản phẩm, chọn đơn giá phù hợp và cộng tổng. Món đã lưu giữ tên và đơn giá cũ. Món ngừng bán chỉ được giữ số lượng không vượt chi tiết cũ. Sau khi ghi đơn và chi tiết, hàm đồng bộ bàn rồi xác nhận giao dịch."
+    },
+    {
+      "index": 163,
+      "style": "Normal",
+      "text": "Hình 2.3 trình bày lưu đồ thuật toán lưu đơn hàng."
+    },
+    {
+      "index": 164,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 165,
+      "style": "Caption",
+      "text": "Hình 2.3 Lưu đồ thuật toán lưu đơn hàng"
+    },
+    {
+      "index": 166,
+      "style": "Normal",
+      "text": "Nếu lỗi xảy ra trong giao dịch, khối except gọi rollback() rồi chuyển lỗi lên giao diện. Khối finally luôn đóng kết nối. Khi sửa đơn, expected_version phải khớp PhienBan hiện tại. Khi chuyển bàn, trạng thái cả bàn cũ và bàn mới đều được tính lại."
+    },
+    {
+      "index": 167,
+      "style": "Heading 2",
+      "text": "THUẬT TOÁN THANH TOÁN"
+    },
+    {
+      "index": 168,
+      "style": "Normal",
+      "text": "PaymentDialog kiểm tra tiền khách đưa và hiển thị tiền thừa. Khi người dùng xác nhận đã thu đủ, giao diện gọi finish_order() cùng phiên bản đơn. Hàm kiểm tra trạng thái, tính điểm, cập nhật đơn, khách và bàn trong cùng một giao dịch. Tiền nhận và tiền thừa chỉ hỗ trợ thao tác tại quầy, không có cột lưu hai giá trị này trong cơ sở dữ liệu."
+    },
+    {
+      "index": 169,
+      "style": "Normal",
+      "text": "Hình 2.4 trình bày lưu đồ thuật toán thanh toán đơn."
+    },
+    {
+      "index": 170,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 171,
+      "style": "Caption",
+      "text": "Hình 2.4 Lưu đồ thuật toán thanh toán đơn"
+    },
+    {
+      "index": 172,
+      "style": "Normal",
+      "text": "finish_order() còn có nhánh pay=False để hủy đơn đang xử lý. Nhánh đó ghi trạng thái “Đã huỷ” theo hằng CANCELLED trong mã, không ghi doanh thu và không cộng điểm. Lưu đồ trên trình bày nhánh thanh toán là chức năng xử lý quan trọng."
+    },
+    {
+      "index": 173,
+      "style": "Heading 1",
+      "text": "\nCÀI ĐẶT GIẢI PHÁP"
+    },
+    {
+      "index": 174,
+      "style": "Heading 2",
+      "text": "MÔI TRƯỜNG VÀ KHỞI ĐỘNG"
+    },
+    {
+      "index": 175,
+      "style": "Normal",
+      "text": "Bảng 3.1 tổng hợp môi trường chạy được kiểm tra ngày 20/10/2026."
+    },
+    {
+      "index": 176,
+      "style": "Caption",
+      "text": "Bảng 3.1 Môi trường chạy được kiểm tra ngày 20/10/2026"
+    },
+    {
+      "index": 177,
+      "style": "Normal",
+      "text": "Môi trường được kiểm tra bằng phiên bản Python, Tcl/Tk, pyodbc và thông tin máy chủ SQL trong lần chạy thực tế. Các lệnh khởi động và kiểm thử được thực hiện bằng PowerShell trên Windows."
+    },
+    {
+      "index": 178,
+      "style": "Normal",
+      "text": "main.py tạo CoffeeApp, thiết lập giao diện rồi mở LoginWindow. Khi xác thực thành công, CoffeeService được truyền cho MainWindow. Màn hình chính tạo các trang theo vai trò. database_setup.py dùng để tạo cấu trúc và dữ liệu ban đầu, chạy lại không xóa dữ liệu đang có hoặc đặt lại mật khẩu."
+    },
+    {
+      "index": 179,
+      "style": "Heading 2",
+      "text": "VẬN DỤNG TÁM NỘI DUNG HỌC PHẦN"
+    },
+    {
+      "index": 180,
+      "style": "Normal",
+      "text": "Bảng 3.2 tổng hợp đối chiếu nội dung học phần từ 1 đến 4."
+    },
+    {
+      "index": 181,
+      "style": "Caption",
+      "text": "Bảng 3.2 Đối chiếu nội dung học phần từ 1 đến 4"
+    },
+    {
+      "index": 182,
+      "style": "Normal",
+      "text": "Ví dụ, hàm phone() trong models/service.py xử lý chuỗi số điện thoại. Hàm loại khoảng trắng, cho phép để trống và từ chối chuỗi sai định dạng. Đoạn trích dưới đây là mã hiện đang chạy."
+    },
+    {
+      "index": 183,
+      "style": "Code",
+      "text": "def phone(value):\n    value = str(value or \"\").strip().replace(\" \", \"\")\n    if value and not re.fullmatch(r\"(?:0[0-9]{9}|\\+84[0-9]{9})\", value):\n        raise AppError(\"Số điện thoại gồm 10 chữ số bắt đầu bằng 0 hoặc +84 và 9 chữ số.\")\n    return value"
+    },
+    {
+      "index": 184,
+      "style": "Normal",
+      "text": "Bảng 3.3 tổng hợp đối chiếu nội dung học phần từ 5 đến 8."
+    },
+    {
+      "index": 185,
+      "style": "Caption",
+      "text": "Bảng 3.3 Đối chiếu nội dung học phần từ 5 đến 8"
+    },
+    {
+      "index": 186,
+      "style": "Normal",
+      "text": "Giỏ hàng và quantities minh họa việc dùng từ điển kết hợp vòng lặp. Danh sách bản ghi được lọc, sắp xếp rồi đưa vào Treeview. Kết quả này thể hiện xử lý dữ liệu bằng các cấu trúc cơ bản thay vì phụ thuộc vào thư viện phân tích dữ liệu."
+    },
+    {
+      "index": 187,
+      "style": "Heading 2",
+      "text": "XỬ LÝ GIAO DỊCH VÀ BẢO VỆ DỮ LIỆU"
+    },
+    {
+      "index": 188,
+      "style": "Normal",
+      "text": "Mỗi thao tác ghi mở một kết nối và thực hiện các bước trong khối try. Nếu thành công thì commit(), nếu có ngoại lệ thì rollback(), cuối cùng close() để giải phóng kết nối. Trong pyodbc, việc xác nhận hoặc hoàn tác giao dịch cần thực hiện trên kết nối tương ứng (mkleehammer và cộng sự, không ghi năm a). Hàm finish_order() dưới đây thể hiện trực tiếp cách xử lý này."
+    },
+    {
+      "index": 189,
+      "style": "Code",
+      "text": "def finish_order(self, order_id, pay=True, expected_version=None):\n    connection = connect()\n    try:\n        connection.execute(\"SET XACT_ABORT ON\")\n        cursor = connection.cursor()\n        _lock(cursor, \"CoffeeOrders\")\n        self._authorize(cursor)\n        order = self._pending_order(cursor, order_id)\n        if expected_version is not None and bytes(order[\"PhienBan\"]) != bytes(expected_version):\n            raise AppError(\"Đơn vừa được thay đổi. Vui lòng làm mới và kiểm tra lại số tiền.\")\n        points = int(order[\"TongTien\"] // 10000) if pay and order[\"MaKH\"] else 0\n        cursor.execute(\"\"\"UPDATE dbo.DonHang SET TrangThai = ?, DiemDaCong = ?,\n            ThoiGianThanhToan = CASE WHEN ? = 1 THEN SYSDATETIME() ELSE NULL END WHERE MaDH = ?\"\"\",\n            PAID if pay else CANCELLED, points, int(pay), order_id)\n        if points:\n            cursor.execute(\"UPDATE dbo.KhachHang SET DiemTichLuy = DiemTichLuy + ? WHERE MaKH = ?\",\n                           points, order[\"MaKH\"])\n        self._sync_table(cursor, order[\"MaBan\"])\n        connection.commit()\n    except Exception:\n        connection.rollback()\n        raise\n    finally:\n        connection.close()"
+    },
+    {
+      "index": 190,
+      "style": "Normal",
+      "text": "Tham số truy vấn được truyền bằng dấu hỏi để dữ liệu nhập không trở thành câu lệnh SQL. Tên bảng và cột chỉ được lấy từ danh sách ENTITIES cố định. Các thao tác sửa đơn sử dụng PhienBan để ngăn ghi đè dữ liệu cũ. Khóa giao dịch và chỉ mục duy nhất ngăn chiếm cùng bàn hoặc thanh toán một đơn hai lần."
+    },
+    {
+      "index": 191,
+      "style": "Normal",
+      "text": "Mật khẩu được dẫn xuất bằng PBKDF2 (Password-Based Key Derivation Function 2), sử dụng SHA-256, dữ liệu ngẫu nhiên riêng và 260.000 vòng lặp trong security.py. Khi kiểm tra, chương trình dùng hmac.compare_digest. Báo cáo mô tả đúng cơ chế đang dùng, không xem đây là khẳng định hệ thống đã được kiểm định an toàn toàn diện (Python Software Foundation, không ghi năm c)."
+    },
+    {
+      "index": 192,
+      "style": "Heading 2",
+      "text": "GIAO DIỆN VÀ QUY TRÌNH THAO TÁC"
+    },
+    {
+      "index": 193,
+      "style": "Heading 3",
+      "text": "Đăng nhập"
+    },
+    {
+      "index": 194,
+      "style": "Normal",
+      "text": "Màn hình tách phần nhận diện và biểu mẫu. Tên đăng nhập, mật khẩu và nút xác nhận được sắp xếp theo chiều dọc. Lỗi được hiển thị ngay trên biểu mẫu, mật khẩu được xóa sau khi xác thực thành công."
+    },
+    {
+      "index": 195,
+      "style": "Normal",
+      "text": "Hình 3.1 trình bày giao diện đăng nhập."
+    },
+    {
+      "index": 196,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 197,
+      "style": "Caption",
+      "text": "Hình 3.1 Giao diện đăng nhập"
+    },
+    {
+      "index": 198,
+      "style": "Heading 3",
+      "text": "Tổng quan và thực đơn"
+    },
+    {
+      "index": 199,
+      "style": "Normal",
+      "text": "Tổng quan hiển thị doanh thu hôm nay, số hóa đơn đã thanh toán, số đơn đang phục vụ và số bàn trống. Biểu đồ lấy dữ liệu thật từ các đơn thử trong cơ sở dữ liệu. Ảnh chụp được thực hiện trước khi thanh toán đơn 80.000 đồng, vì vậy doanh thu hôm nay ở ảnh là 85.000 đồng và có một đơn đang phục vụ."
+    },
+    {
+      "index": 200,
+      "style": "Normal",
+      "text": "Hình 3.2 trình bày giao diện tổng quan của quản lý."
+    },
+    {
+      "index": 201,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 202,
+      "style": "Caption",
+      "text": "Hình 3.2 Giao diện tổng quan của quản lý"
+    },
+    {
+      "index": 203,
+      "style": "Normal",
+      "text": "Trang Thực đơn cho phép tìm kiếm, thêm, sửa, xóa và ngừng bán sản phẩm theo quyền. Nút sửa và xóa bị vô hiệu hóa khi chưa chọn một dòng. Những sản phẩm đã được chi tiết đơn tham chiếu không được xóa để giữ lịch sử."
+    },
+    {
+      "index": 204,
+      "style": "Normal",
+      "text": "Hình 3.3 trình bày giao diện quản lý thực đơn."
+    },
+    {
+      "index": 205,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 206,
+      "style": "Caption",
+      "text": "Hình 3.3 Giao diện quản lý thực đơn"
+    },
+    {
+      "index": 207,
+      "style": "Heading 3",
+      "text": "Gọi món và thanh toán"
+    },
+    {
+      "index": 208,
+      "style": "Normal",
+      "text": "Màn hình gọi món hiển thị bàn và khách ở trên, thực đơn cùng giỏ ở giữa. Các nút tăng, giảm, áp dụng số lượng và bỏ món nằm cạnh giỏ. Với dữ liệu thử gồm hai cà phê đen và một cà phê sữa, tổng là 80.000 đồng. Dòng “3 món” trên giao diện là tổng số lượng ba ly, giỏ gồm hai loại sản phẩm."
+    },
+    {
+      "index": 209,
+      "style": "Normal",
+      "text": "Hình 3.4 trình bày giao diện gọi món với tổng đơn 80.000 đồng."
+    },
+    {
+      "index": 210,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 211,
+      "style": "Caption",
+      "text": "Hình 3.4 Giao diện gọi món với tổng đơn 80.000 đồng"
+    },
+    {
+      "index": 212,
+      "style": "Normal",
+      "text": "Màn hình thu tiền đặt tổng phải thu, ô tiền khách đưa và tiền thừa theo thứ tự kiểm tra tại quầy. Khi số tiền chưa hợp lệ hoặc chưa đủ, nút hoàn tất bị vô hiệu hóa. Ảnh ghi nhận trường hợp nhận 100.000 đồng và trả lại 20.000 đồng."
+    },
+    {
+      "index": 213,
+      "style": "Normal",
+      "text": "Hình 3.5 trình bày giao diện xác nhận thu tiền."
+    },
+    {
+      "index": 214,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 215,
+      "style": "Caption",
+      "text": "Hình 3.5 Giao diện xác nhận thu tiền"
+    },
+    {
+      "index": 216,
+      "style": "Heading 3",
+      "text": "Báo cáo và giao diện nhân viên"
+    },
+    {
+      "index": 217,
+      "style": "Normal",
+      "text": "Quản lý chọn ngày hoặc tháng rồi xem doanh thu, số hóa đơn, trung bình mỗi đơn và món bán chạy. Kỳ 14/10/2026 đến 20/10/2026 trong lần chạy thử có 8 đơn đã thanh toán, doanh thu 1.200.000 đồng và trung bình 150.000 đồng mỗi đơn."
+    },
+    {
+      "index": 218,
+      "style": "Normal",
+      "text": "Hình 3.6 trình bày giao diện báo cáo doanh thu theo kỳ."
+    },
+    {
+      "index": 219,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 220,
+      "style": "Caption",
+      "text": "Hình 3.6 Giao diện báo cáo doanh thu theo kỳ"
+    },
+    {
+      "index": 221,
+      "style": "Normal",
+      "text": "Nhân viên chỉ có ba trang phục vụ. Sơ đồ bàn hiển thị trạng thái bằng màu và chữ. Nút Gọi món mở đơn mới trên bàn trống, còn bàn đang phục vụ cho phép tiếp tục đơn hiện có. Ảnh chụp sau khi thanh toán cho thấy cả tám bàn đều trống."
+    },
+    {
+      "index": 222,
+      "style": "Normal",
+      "text": "Hình 3.7 trình bày giao diện sơ đồ bàn của nhân viên."
+    },
+    {
+      "index": 223,
+      "style": "Normal",
+      "text": ""
+    },
+    {
+      "index": 224,
+      "style": "Caption",
+      "text": "Hình 3.7 Giao diện sơ đồ bàn của nhân viên"
+    },
+    {
+      "index": 225,
+      "style": "Heading 1",
+      "text": "\nĐÁNH GIÁ KIỂM THỬ"
+    },
+    {
+      "index": 226,
+      "style": "Heading 2",
+      "text": "MỤC TIÊU VÀ PHƯƠNG PHÁP"
+    },
+    {
+      "index": 227,
+      "style": "Normal",
+      "text": "Kiểm thử nhằm đối chiếu các yêu cầu nhập liệu, tính toán, phân quyền và lưu trữ với hành vi thực tế. Bộ tests/test_coffee.py sử dụng unittest, SQL Server thật và các cửa sổ Tkinter. Cơ sở dữ liệu thử được tạo riêng và xóa khi kết thúc, dữ liệu của quán không được dùng làm nơi ghi kết quả thử."
+    },
+    {
+      "index": 228,
+      "style": "Normal",
+      "text": "Bộ kiểm thử tích hợp gồm 19 phương thức, có trường hợp dùng nhiều bộ dữ liệu. Một số phép thử giao diện thay hộp thông báo bằng unittest.mock để không chờ thao tác người dùng. Phần truy vấn, ràng buộc và giao dịch chạy trên SQL Server thật. Riêng lần trình diễn bổ sung dùng các cửa sổ thật và hộp thoại lưu CSV thật, không thay thế hộp thoại xuất tập tin."
+    },
+    {
+      "index": 229,
+      "style": "Heading 2",
+      "text": "KẾT QUẢ BỘ KIỂM THỬ TÍCH HỢP"
+    },
+    {
+      "index": 230,
+      "style": "Normal",
+      "text": "Ngày 20/10/2026, bộ kiểm thử trước khi dọn mã đạt 19 kiểm thử trong 18,003 giây. Sau khi thay cách quản lý giao dịch và xử lý ngoại lệ bằng khối lệnh trực tiếp, lần chạy lại đạt 19 kiểm thử trong 16,156 giây. Hai thời gian chỉ ghi nhận lần chạy tương ứng, không dùng để kết luận chương trình tăng tốc."
+    },
+    {
+      "index": 231,
+      "style": "Code",
+      "text": "python -B -m unittest discover -s tests -v\nRan 19 tests in 16.156s\nOK"
+    },
+    {
+      "index": 232,
+      "style": "Normal",
+      "text": "Bảng 4.1 tổng hợp kết quả kiểm thử dữ liệu và nghiệp vụ."
+    },
+    {
+      "index": 233,
+      "style": "Caption",
+      "text": "Bảng 4.1 Kết quả kiểm thử dữ liệu và nghiệp vụ"
+    },
+    {
+      "index": 234,
+      "style": "Normal",
+      "text": "Bảng 4.2 tổng hợp kết quả kiểm thử giao dịch, báo cáo và giao diện."
+    },
+    {
+      "index": 235,
+      "style": "Caption",
+      "text": "Bảng 4.2 Kết quả kiểm thử giao dịch, báo cáo và giao diện"
+    },
+    {
+      "index": 236,
+      "style": "Heading 2",
+      "text": "KỊCH BẢN CHẠY THẬT VÀ XUẤT TẬP TIN"
+    },
+    {
+      "index": 237,
+      "style": "Normal",
+      "text": "Lần chạy bổ sung tạo dữ liệu thử riêng gồm năm món khởi đầu, tám bàn, một khách và một nhân viên có tài khoản. Các đơn có thời điểm thanh toán trong bảy ngày được chuẩn bị để kiểm tra báo cáo. Số liệu ở đây là dữ liệu phục vụ kiểm thử, không phải doanh thu của một quán đang kinh doanh."
+    },
+    {
+      "index": 238,
+      "style": "Normal",
+      "text": "Bảng 4.3 tổng hợp kết quả chạy thật trên giao diện và SQL Server."
+    },
+    {
+      "index": 239,
+      "style": "Caption",
+      "text": "Bảng 4.3 Kết quả chạy thật trên giao diện và SQL Server"
+    },
+    {
+      "index": 240,
+      "style": "Normal",
+      "text": "Tập tin do hộp thoại lưu tạo ra là doanh_thu_2026-10-14.csv, nằm trong thư mục D:\\NCTU\\Python\\ThucHanh\\SoLieuCSVProject do người dùng chọn. Khi đọc lại, tập tin có dấu nhận biết UTF-8, đúng tiêu đề và hai dòng sản phẩm. Cà phê đen có 30 ly, doanh thu 750.000 đồng. Cà phê sữa có 15 ly, doanh thu 450.000 đồng. Tổng hai dòng bằng tổng doanh thu 1.200.000 đồng và số đơn ở đầu tập tin bằng 8."
+    },
+    {
+      "index": 241,
+      "style": "Heading 2",
+      "text": "ĐÁNH GIÁ VÀ GIỚI HẠN KIỂM TRA"
+    },
+    {
+      "index": 242,
+      "style": "Normal",
+      "text": "Các chức năng đã thử đáp ứng quy trình phục vụ, quản trị và báo cáo trong phạm vi đề tài. Dữ liệu hợp lệ được ghi, dữ liệu sai bị từ chối, các thao tác liên quan được hoàn tác khi có lỗi. Giao diện phân biệt vai trò, làm rõ tổng tiền và trạng thái bàn. Mã sau khi dọn vẫn vượt qua bộ kiểm thử tích hợp đã có."
+    },
+    {
+      "index": 243,
+      "style": "Normal",
+      "text": "Việc lưu trữ đã được kiểm tra sau khi đóng cửa sổ và tạo kết nối mới. Chưa thực hiện tắt máy rồi khởi động lại hoặc mô phỏng mất điện. Vì vậy, báo cáo chưa kết luận đạt tình huống tắt máy theo nghĩa đầy đủ. Chưa có thử nghiệm tải lớn, nhiều máy vận hành dài ngày hoặc đánh giá bảo mật độc lập. Những giới hạn này cần được phân biệt với các kết quả đã quan sát."
+    },
+    {
+      "index": 244,
+      "style": "Front Heading",
+      "text": "PHẦN KẾT LUẬN"
+    },
+    {
+      "index": 245,
+      "style": "Heading 2",
+      "text": "Kết quả đạt được"
+    },
+    {
+      "index": 246,
+      "style": "Normal",
+      "text": "Đề tài đã xây dựng ứng dụng quản lý quán cà phê bằng Python với giao diện Tkinter/ttk, kết nối SQL Server và xuất báo cáo CSV. Chương trình có quản lý danh mục, tài khoản, bàn, khách hàng, đơn hàng, thanh toán và thống kê theo kỳ. Các thao tác quan trọng kiểm tra dữ liệu, quyền và trạng thái trước khi cập nhật."
+    },
+    {
+      "index": 247,
+      "style": "Normal",
+      "text": "Kết quả chạy thử xác nhận tính tổng 80.000 đồng, tiền thừa 20.000 đồng, cộng 8 điểm và tập tin báo cáo có 8 đơn với doanh thu 1.200.000 đồng. Bộ kiểm thử tích hợp 19 trường hợp đạt sau khi dọn mã. Tám nội dung học phần được đối chiếu với các tệp và hàm hiện có, giúp giải thích quá trình vận dụng kiến thức vào một ứng dụng hoàn chỉnh trong phạm vi môn học."
+    },
+    {
+      "index": 248,
+      "style": "Heading 2",
+      "text": "Hướng phát triển"
+    },
+    {
+      "index": 249,
+      "style": "Normal",
+      "text": "Trong phạm vi tiếp theo, có thể bổ sung in hóa đơn, quản lý nguyên liệu, sao lưu và phục hồi dữ liệu. Trước khi mở rộng cần hoàn thành thử nghiệm sau khi khởi động lại máy, thử tải và đánh giá quyền truy cập cơ sở dữ liệu. Các chức năng này là định hướng, chưa được xem là kết quả đã cài đặt."
+    },
+    {
+      "index": 250,
+      "style": "Front Heading",
+      "text": "TÀI LIỆU THAM KHẢO"
+    },
+    {
+      "index": 251,
+      "style": "Normal",
+      "text": "Tài liệu tiếng Anh"
+    },
+    {
+      "index": 252,
+      "style": "References",
+      "text": "abdelbend (không ghi năm a). db.py trong Restaurant Management System. Truy cập ngày 04/10/2026. https://github.com/abdelbend/Restaurant-Management-System/blob/main/db.py"
+    },
+    {
+      "index": 253,
+      "style": "References",
+      "text": "abdelbend (không ghi năm b). Restaurant Management System. Truy cập ngày 04/10/2026. https://github.com/abdelbend/Restaurant-Management-System"
+    },
+    {
+      "index": 254,
+      "style": "References",
+      "text": "Microsoft (không ghi năm). rowversion (Transact-SQL). Truy cập ngày 04/10/2026. https://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql"
+    },
+    {
+      "index": 255,
+      "style": "References",
+      "text": "mkleehammer và cộng sự (không ghi năm a). Database Transaction Management. Truy cập ngày 04/10/2026. https://github.com/mkleehammer/pyodbc/wiki/Database-Transaction-Management"
+    },
+    {
+      "index": 256,
+      "style": "References",
+      "text": "mkleehammer và cộng sự (không ghi năm b). pyodbc Python ODBC bridge. Truy cập ngày 04/10/2026. https://github.com/mkleehammer/pyodbc"
+    },
+    {
+      "index": 257,
+      "style": "References",
+      "text": "Python Software Foundation (không ghi năm a). csv CSV File Reading and Writing. Truy cập ngày 04/10/2026. https://docs.python.org/3/library/csv.html"
+    },
+    {
+      "index": 258,
+      "style": "References",
+      "text": "Python Software Foundation (không ghi năm b). decimal Decimal fixed-point and floating-point arithmetic. Truy cập ngày 04/10/2026. https://docs.python.org/3/library/decimal.html"
+    },
+    {
+      "index": 259,
+      "style": "References",
+      "text": "Python Software Foundation (không ghi năm c). hashlib Secure hashes and message digests. Truy cập ngày 04/10/2026. https://docs.python.org/3/library/hashlib.html"
+    },
+    {
+      "index": 260,
+      "style": "References",
+      "text": "Python Software Foundation (không ghi năm d). tkinter Python interface to Tcl/Tk. Truy cập ngày 04/10/2026. https://docs.python.org/3/library/tkinter.html"
+    },
+    {
+      "index": 261,
+      "style": "References",
+      "text": "Python Software Foundation (không ghi năm e). unittest Unit testing framework. Truy cập ngày 04/10/2026. https://docs.python.org/3/library/unittest.html"
+    },
+    {
+      "index": 262,
+      "style": "Front Heading",
+      "text": "PHỤ LỤC\nHƯỚNG DẪN CÀI ĐẶT, SỬ DỤNG CHƯƠNG TRÌNH/GIẢI PHÁP"
+    },
+    {
+      "index": 263,
+      "style": "Appendix Heading",
+      "text": "Chuẩn bị môi trường"
+    },
+    {
+      "index": 264,
+      "style": "Normal",
+      "text": "Cài Python cho Windows từ trang chính thức python.org nếu máy chưa có. Trong trình cài đặt, giữ thành phần Tcl/Tk và pip, đồng thời chọn thêm Python vào PATH để gọi bằng lệnh python. Sau khi cài, mở PowerShell và kiểm tra phiên bản. Lần chạy của báo cáo sử dụng Python 3.14.3."
+    },
+    {
+      "index": 265,
+      "style": "Code",
+      "text": "python --version\npython -m tkinter"
+    },
+    {
+      "index": 266,
+      "style": "Normal",
+      "text": "Chuẩn bị SQL Server hoặc SQL Server Express đang hoạt động và trình điều khiển ODBC phù hợp. Tài khoản Windows chạy chương trình cần quyền tạo cơ sở dữ liệu khi thiết lập lần đầu và quyền đọc, ghi dữ liệu khi sử dụng. Cấu hình mặc định của dự án là THINKPADX1\\SQLSEVER và QuanLyQuanCoffee. Nếu dùng máy khác, sửa biến môi trường COFFEE_SQL_SERVER, COFFEE_SQL_DATABASE hoặc cấu hình trong db_connection.py theo máy thực tế."
+    },
+    {
+      "index": 267,
+      "style": "Appendix Heading",
+      "text": "Cài phụ thuộc và khởi tạo dữ liệu"
+    },
+    {
+      "index": 268,
+      "style": "Normal",
+      "text": "Tại thư mục dự án, thực hiện lần lượt các lệnh sau. requirements.txt chỉ yêu cầu pyodbc. database_setup.py tạo bảy bảng, năm sản phẩm, tám bàn và tài khoản quản lý khởi đầu. Chạy lại không xóa dữ liệu hoặc đặt lại mật khẩu đã đổi."
+    },
+    {
+      "index": 269,
+      "style": "Code",
+      "text": "python -m pip install -r requirements.txt\npython database_setup.py\npython main.py"
+    },
+    {
+      "index": 270,
+      "style": "Normal",
+      "text": "Đăng nhập lần đầu bằng admin với mật khẩu (mật khẩu mẫu đã ẩn), sau đó đổi mật khẩu cá nhân. Quản lý tạo hồ sơ nhân viên trước khi cấp tài khoản. Không dùng tài khoản khởi đầu làm thông tin công khai khi đưa hệ thống vào sử dụng."
+    },
+    {
+      "index": 271,
+      "style": "Appendix Heading",
+      "text": "Quy trình sử dụng"
+    },
+    {
+      "index": 272,
+      "style": "Normal",
+      "text": "1. Quản lý kiểm tra thực đơn, giá, bàn, khách và tài khoản trước ca phục vụ."
+    },
+    {
+      "index": 273,
+      "style": "Normal",
+      "text": "2. Nhân viên mở Sơ đồ bàn, chọn bàn trống để gọi món hoặc tiếp tục đơn đang phục vụ."
+    },
+    {
+      "index": 274,
+      "style": "Normal",
+      "text": "3. Chọn món, thay đổi số lượng và chọn khách nếu cần tích điểm. Lưu đơn để tiếp tục phục vụ. Khi đổi bàn phải chọn bàn chưa có đơn đang xử lý."
+    },
+    {
+      "index": 275,
+      "style": "Normal",
+      "text": "4. Chọn Lưu & thu tiền hoặc Thu tiền, nhập số tiền đã nhận, kiểm tra tiền thừa rồi xác nhận hoàn tất. Quay lại màn hình gọi món không hủy đơn đã lưu."
+    },
+    {
+      "index": 276,
+      "style": "Normal",
+      "text": "5. Quản lý mở Báo cáo doanh thu, chọn kỳ, xem số liệu rồi dùng Xuất CSV và chọn nơi lưu. Mở tập tin để đối chiếu tổng doanh thu và số đơn."
+    },
+    {
+      "index": 277,
+      "style": "Normal",
+      "text": "6. Dùng F5 để làm mới trang hiện tại. Đăng xuất khi kết thúc phiên làm việc."
+    },
+    {
+      "index": 278,
+      "style": "Appendix Heading",
+      "text": "Chạy kiểm thử và chuẩn bị trình bày"
+    },
+    {
+      "index": 279,
+      "style": "Code",
+      "text": "python -B -m unittest discover -s tests -v"
+    },
+    {
+      "index": 280,
+      "style": "Normal",
+      "text": "Bộ kiểm thử cần SQL Server và cửa sổ Tkinter. Cơ sở dữ liệu thử được tạo riêng rồi xóa sau khi hoàn tất. Kịch bản trình bày và cách giải thích giỏ hàng, giá lúc bán, giao dịch được lưu trong README.md."
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Nguồn",
+        "Nội dung tham khảo",
+        "Áp dụng trong đề tài"
+      ],
+      [
+        "Restaurant Management System",
+        "Ứng dụng Python quản lý thực đơn và đơn hàng.",
+        "Đối chiếu quy trình chọn món và xem hoá đơn."
+      ],
+      [
+        "Tkinter/ttk",
+        "Widget, biến giao diện và vòng lặp sự kiện.",
+        "Cửa sổ, bảng, hộp thoại, nút và bộ lọc."
+      ],
+      [
+        "pyodbc",
+        "Cầu nối Python và ODBC.",
+        "Kết nối SQL Server, truyền tham số truy vấn."
+      ],
+      [
+        "csv",
+        "Ghi dữ liệu dạng hàng và cột.",
+        "Xuất báo cáo CSV tiếng Việt."
+      ],
+      [
+        "decimal",
+        "Số thập phân với độ chính xác kiểm soát được.",
+        "Tính tiền và tổng doanh thu."
+      ],
+      [
+        "unittest",
+        "Tổ chức và chạy kiểm thử.",
+        "Kiểm tra nghiệp vụ, dữ liệu và giao diện."
+      ]
+    ],
+    [
+      [
+        "Nguồn",
+        "Đích",
+        "Dữ liệu trao đổi"
+      ],
+      [
+        "Nhân viên",
+        "Hệ thống",
+        "yêu cầu sửa/hủy đơn"
+      ],
+      [
+        "Nhân viên",
+        "Hệ thống",
+        "thông tin bàn, món, số lượng, tiền khách đưa"
+      ],
+      [
+        "Nhân viên",
+        "Hệ thống",
+        "thông tin đăng nhập"
+      ],
+      [
+        "Hệ thống",
+        "Nhân viên",
+        "kết quả xác thực"
+      ],
+      [
+        "Hệ thống",
+        "Nhân viên",
+        "chi tiết đơn, tổng tiền, tiền thừa"
+      ],
+      [
+        "Hệ thống",
+        "Nhân viên",
+        "thực đơn, trạng thái bàn"
+      ],
+      [
+        "Quản lý",
+        "Hệ thống",
+        "thông tin đăng nhập"
+      ],
+      [
+        "Quản lý",
+        "Hệ thống",
+        "dữ liệu sản phẩm, bàn, khách hàng, nhân viên, tài khoản"
+      ],
+      [
+        "Quản lý",
+        "Hệ thống",
+        "yêu cầu thu tiền, khoảng thời gian thống kê"
+      ],
+      [
+        "Hệ thống",
+        "Quản lý",
+        "doanh thu, số hóa đơn, món bán chạy, báo cáo CSV"
+      ],
+      [
+        "Hệ thống",
+        "Quản lý",
+        "danh sách sản phẩm, bàn, khách hàng, nhân viên, tài khoản"
+      ],
+      [
+        "Hệ thống",
+        "Quản lý",
+        "kết quả xác thực"
+      ]
+    ],
+    [
+      [
+        "Chức năng",
+        "Kết quả yêu cầu"
+      ],
+      [
+        "Đăng nhập và phiên làm việc",
+        "Xác thực mật khẩu, xác định vai trò, đổi mật khẩu, đăng xuất."
+      ],
+      [
+        "Quản lý danh mục",
+        "Quản lý thêm, tìm, sửa, xoá món, bàn, khách hàng và nhân viên."
+      ],
+      [
+        "Quản lý tài khoản",
+        "Cấp tài khoản, chọn vai trò, khoá/mở và đặt lại mật khẩu."
+      ],
+      [
+        "Phục vụ bàn",
+        "Hiển thị bàn trống hoặc đang phục vụ, mở đúng đơn hiện có."
+      ],
+      [
+        "Xử lý đơn",
+        "Chọn món, đổi số lượng, bỏ món, lưu đơn và chuyển bàn hợp lệ."
+      ],
+      [
+        "Thanh toán và huỷ",
+        "Tính tiền thừa, ghi thu tiền, cộng điểm, trả bàn, giữ lịch sử."
+      ],
+      [
+        "Thống kê",
+        "Tổng doanh thu, số hoá đơn, trung bình và món bán chạy."
+      ],
+      [
+        "Xuất báo cáo",
+        "Xuất CSV cho kỳ đã chọn, giữ tiếng Việt và số liệu đúng."
+      ]
+    ],
+    [
+      [
+        "Dữ liệu / thao tác",
+        "Quy tắc"
+      ],
+      [
+        "Tên và giá món",
+        "Tên không được rỗng. Giá nguyên đồng từ 1 đến 1.000.000.000."
+      ],
+      [
+        "Số lượng",
+        "Số nguyên từ 1 đến 999 cho mỗi món sau khi gộp các dòng trùng."
+      ],
+      [
+        "Số điện thoại",
+        "Có thể để trống. Nếu nhập, dùng 10 số bắt đầu bằng 0 hoặc +84 và 9 số."
+      ],
+      [
+        "Trạng thái bàn",
+        "Mỗi bàn có tối đa một đơn đang xử lý. Lưu, chuyển, huỷ và thanh toán cập nhật bàn tương ứng."
+      ],
+      [
+        "Giá lịch sử",
+        "Chi tiết đã lưu giữ tên và đơn giá lúc bán. Đổi giá thực đơn không sửa hoá đơn cũ."
+      ],
+      [
+        "Thu tiền",
+        "Chỉ xác nhận đơn đang xử lý và nhận đủ tiền. Mỗi 10.000 đồng được 1 điểm, làm tròn xuống."
+      ],
+      [
+        "Lịch sử và liên kết",
+        "Không sửa hoặc xoá đơn đã thanh toán. Không xoá bản ghi còn được tham chiếu."
+      ],
+      [
+        "Tài khoản quản lý",
+        "Không tự xoá, tự khoá hoặc hạ quyền. Phải còn ít nhất một quản lý hoạt động."
+      ]
+    ],
+    [
+      [
+        "Thao tác",
+        "Nhân viên",
+        "Quản lý"
+      ],
+      [
+        "Xem bàn và thực đơn",
+        "Có",
+        "Có"
+      ],
+      [
+        "Tạo, sửa đơn đang xử lý",
+        "Có",
+        "Có"
+      ],
+      [
+        "Thanh toán, huỷ đơn đang xử lý",
+        "Có",
+        "Có"
+      ],
+      [
+        "Xoá đơn chưa thanh toán",
+        "Không",
+        "Có, theo trạng thái hợp lệ"
+      ],
+      [
+        "Sửa danh mục và nhân sự",
+        "Không",
+        "Có"
+      ],
+      [
+        "Quản lý tài khoản",
+        "Không",
+        "Có"
+      ],
+      [
+        "Xem thống kê, xuất CSV",
+        "Không",
+        "Có"
+      ],
+      [
+        "Đổi mật khẩu cá nhân",
+        "Có",
+        "Có"
+      ]
+    ],
+    [
+      [
+        "Thành phần",
+        "Trách nhiệm"
+      ],
+      [
+        "main.py, ui/",
+        "Khởi động, đăng nhập, điều hướng và thu thập thao tác."
+      ],
+      [
+        "models/service.py",
+        "Kiểm tra dữ liệu, quyền, xử lý đơn và thống kê."
+      ],
+      [
+        "db_connection.py",
+        "Mở kết nối SQL Server và chuyển kết quả truy vấn thành danh sách từ điển."
+      ],
+      [
+        "database_setup.py",
+        "Tạo cấu trúc dữ liệu và dữ liệu khởi đầu."
+      ],
+      [
+        "security.py",
+        "Băm và kiểm tra mật khẩu."
+      ],
+      [
+        "ui/theme.py, assets/",
+        "Màu sắc, kiểu chữ, trạng thái và hình ảnh control."
+      ],
+      [
+        "tests/test_coffee.py",
+        "Kiểm thử tích hợp bằng SQL Server và Tkinter."
+      ]
+    ],
+    [
+      [
+        "Bảng",
+        "Trường và ý nghĩa"
+      ],
+      [
+        "NhanVien",
+        "MaNV: khoá chính. HoTen, SDT, ChucVu: thông tin nhân sự."
+      ],
+      [
+        "TaiKhoan",
+        "MaTK, TenDangNhap duy nhất, MatKhauHash, VaiTro, MaNV duy nhất, HoatDong."
+      ],
+      [
+        "KhachHang",
+        "MaKH, HoTen, SDT, DiemTichLuy không âm."
+      ],
+      [
+        "Ban",
+        "MaBan, TenBan duy nhất, KhuVuc, TrangThai."
+      ],
+      [
+        "SanPham",
+        "MaSP, TenSP, DanhMuc, Gia DECIMAL(18,2), MoTa, TrangThai bán."
+      ],
+      [
+        "DonHang",
+        "MaDH, MaBan, MaKH, MaNV, thời gian tạo/thanh toán, TongTien, DiemDaCong, TrangThai, PhienBan."
+      ],
+      [
+        "ChiTietDonHang",
+        "MaCTDH, MaDH, MaSP, TenSPLucBan, SoLuong, DonGia và ThanhTien tính từ số lượng nhân đơn giá."
+      ]
+    ],
+    [
+      [
+        "Cấu trúc",
+        "Ví dụ và cách dùng"
+      ],
+      [
+        "Danh sách từ điển",
+        "Danh sách sản phẩm và kết quả truy vấn. Mỗi dict có tên cột làm khoá."
+      ],
+      [
+        "Giỏ hàng dạng từ điển",
+        "Khoá là MaSP. Giá trị chứa MaSP, TenSP, SoLuong và DonGia."
+      ],
+      [
+        "Ánh xạ lựa chọn",
+        "Nhãn bàn hoặc khách hàng ánh xạ tới mã tương ứng để tránh nhập mã bằng tay."
+      ],
+      [
+        "Gộp số lượng quantities",
+        "Gộp số lượng các dòng cùng mã sản phẩm trước khi lưu."
+      ],
+      [
+        "Danh sách bộ giá trị",
+        "Dãy thời gian và doanh thu cung cấp cho biểu đồ."
+      ]
+    ],
+    [
+      [
+        "Dòng",
+        "Nội dung"
+      ],
+      [
+        "1",
+        "Từ ngày, giá trị ngày đầu, Đến ngày, giá trị ngày cuối."
+      ],
+      [
+        "2",
+        "Tổng doanh thu (đồng), giá trị tổng, Đơn đã thanh toán, số đơn."
+      ],
+      [
+        "3",
+        "Dòng trống phân cách thông tin kỳ và dữ liệu món."
+      ],
+      [
+        "4",
+        "Mã sản phẩm, Sản phẩm, Số lượng, Doanh thu (đồng)."
+      ],
+      [
+        "5 trở đi",
+        "Một dòng cho mỗi sản phẩm thuộc kết quả thống kê bán chạy."
+      ]
+    ],
+    [
+      [
+        "Thành phần",
+        "Phiên bản / cấu hình"
+      ],
+      [
+        "Hệ điều hành",
+        "Windows 11, bản dựng 26300."
+      ],
+      [
+        "Python",
+        "3.14.3"
+      ],
+      [
+        "Tk",
+        "8.6.15, dùng qua tkinter/ttk."
+      ],
+      [
+        "pyodbc",
+        "5.3.0"
+      ],
+      [
+        "SQL Server",
+        "Express 64-bit, phiên bản 16.0.1210.3."
+      ],
+      [
+        "Kết nối mặc định",
+        "THINKPADX1\\SQLSEVER, Windows Authentication."
+      ],
+      [
+        "Database mặc định",
+        "QuanLyQuanCoffee."
+      ],
+      [
+        "Thư viện cài thêm",
+        "requirements.txt chỉ khai báo pyodbc>=5.2,<6."
+      ]
+    ],
+    [
+      [
+        "Nội dung",
+        "Lý thuyết / thực hành",
+        "Minh chứng trong mã"
+      ],
+      [
+        "Bài 1. Giới thiệu về lập trình Python và các công cụ lập trình",
+        "3 / 3",
+        "main.py là điểm chạy. requirements.txt khai báo phụ thuộc. Chạy chương trình và kiểm thử bằng Python."
+      ],
+      [
+        "Bài 2. Các khái niệm cơ bản",
+        "3 / 3",
+        "Biến, kiểu dữ liệu, phép toán, import, lớp và đối tượng. Dùng int, str, bool và Decimal."
+      ],
+      [
+        "Bài 3. Các biểu thức điều kiện và vòng lặp",
+        "6 / 6",
+        "if kiểm tra giá, quyền và trạng thái. for gộp món, tính tổng và ghi từng dòng CSV."
+      ],
+      [
+        "Bài 4. Hàm trong Python",
+        "6 / 6",
+        "price, phone, report_period và các phương thức CoffeeService chia nhiệm vụ xử lý rõ ràng."
+      ]
+    ],
+    [
+      [
+        "Nội dung",
+        "Lý thuyết / thực hành",
+        "Minh chứng trong mã"
+      ],
+      [
+        "Bài 5. Xử lý chuỗi",
+        "3 / 3",
+        "strip loại khoảng trắng. Chuẩn hoá tìm kiếm không dấu. Kiểm tra số điện thoại và định dạng số tiền."
+      ],
+      [
+        "Bài 6. Xử lý danh sách",
+        "3 / 3",
+        "Danh sách bản ghi, list comprehension, lọc và sắp xếp dữ liệu bảng. Giỏ và ánh xạ dùng thêm dict."
+      ],
+      [
+        "Bài 7. Xử lý tập tin",
+        "3 / 3",
+        "open mở tập tin với encoding=\"utf-8-sig\", csv.writer ghi báo cáo. Nhật ký lỗi chỉ được tạo khi có lỗi và có giới hạn kích thước."
+      ],
+      [
+        "Bài 8. Thiết kế giao diện với tkinter",
+        "3 / 3",
+        "Tk, Toplevel, ttk.Frame, Entry, Button, Combobox, Treeview, StringVar, pack và grid."
+      ]
+    ],
+    [
+      [
+        "Thứ tự",
+        "Trường hợp và kết quả mong đợi",
+        "Kết quả thực tế"
+      ],
+      [
+        "1",
+        "Băm mật khẩu khác dữ liệu ngẫu nhiên, đăng nhập đúng, từ chối sai mật khẩu và chuỗi chèn SQL.",
+        "Đạt"
+      ],
+      [
+        "2",
+        "Chạy thiết lập lại không nhân đôi dữ liệu mẫu.",
+        "Đạt"
+      ],
+      [
+        "3",
+        "Từ chối giá sai, số điện thoại sai, tên rỗng và điểm không nguyên.",
+        "Đạt"
+      ],
+      [
+        "4",
+        "Thêm, đọc, sửa, xoá các danh mục theo quyền.",
+        "Đạt"
+      ],
+      [
+        "5",
+        "Tạo, sửa, chuyển bàn và xoá đơn chưa thanh toán theo quy tắc.",
+        "Đạt"
+      ],
+      [
+        "6",
+        "Lỗi trong lưu đơn hoàn tác thay đổi.",
+        "Đạt"
+      ],
+      [
+        "7",
+        "Thanh toán cộng điểm và giữ lịch sử, không sửa/xoá đơn đã thanh toán.",
+        "Đạt"
+      ],
+      [
+        "8",
+        "Huỷ hoặc xoá đơn cập nhật đúng trạng thái bàn.",
+        "Đạt"
+      ],
+      [
+        "9",
+        "Nhân viên bị từ chối thao tác quản trị ở tầng nghiệp vụ.",
+        "Đạt"
+      ],
+      [
+        "10",
+        "Không tự xoá, tự khoá hoặc hạ quyền quản lý đang dùng.",
+        "Đạt"
+      ]
+    ],
+    [
+      [
+        "Thứ tự",
+        "Trường hợp và kết quả mong đợi",
+        "Kết quả thực tế"
+      ],
+      [
+        "11",
+        "Sửa giá menu không đổi giá đã lưu. Món ngừng bán bị hạn chế đúng.",
+        "Đạt"
+      ],
+      [
+        "12",
+        "Bản đơn cũ không ghi đè hoặc thanh toán sau khi đơn đã đổi.",
+        "Đạt"
+      ],
+      [
+        "13",
+        "Hai thao tác giữ cùng bàn chỉ cho một đơn đang xử lý thành công.",
+        "Đạt"
+      ],
+      [
+        "14",
+        "Hai thao tác thanh toán chỉ hoàn tất đơn và cộng điểm một lần.",
+        "Đạt"
+      ],
+      [
+        "15",
+        "Lỗi SQL khi cộng điểm hoàn tác cả thanh toán và trạng thái bàn.",
+        "Đạt"
+      ],
+      [
+        "16",
+        "Báo cáo đúng ngày, tháng, năm nhuận, không tính đơn huỷ/chưa thanh toán.",
+        "Đạt"
+      ],
+      [
+        "17",
+        "Thêm, đọc, sửa, xóa tài khoản, đổi mật khẩu và kiểm tra phiên bị khoá.",
+        "Đạt"
+      ],
+      [
+        "18",
+        "Đăng nhập, mở các trang, biểu mẫu và luồng gọi món bằng Tkinter.",
+        "Đạt"
+      ],
+      [
+        "19",
+        "Nút, combobox, spinbox bo góc hoạt động bằng chuột, bàn phím và đúng trạng thái vô hiệu hóa.",
+        "Đạt"
+      ]
+    ],
+    [
+      [
+        "Chức năng và dữ liệu đầu vào",
+        "Kết quả mong đợi",
+        "Kết quả thực tế"
+      ],
+      [
+        "Đăng nhập sai mật khẩu.",
+        "Từ chối và giữ biểu mẫu.",
+        "Báo lỗi trên biểu mẫu đăng nhập."
+      ],
+      [
+        "Giá sản phẩm nhập chữ.",
+        "Không lưu sản phẩm.",
+        "Biểu mẫu giữ lại và hiển thị lỗi."
+      ],
+      [
+        "Thêm món hợp lệ giá 27.000 đồng, sau đó xóa.",
+        "Ghi và xóa đúng dữ liệu.",
+        "Đối chiếu SQL xác nhận cả hai thao tác."
+      ],
+      [
+        "Nhập chữ vào số lượng.",
+        "Từ chối dữ liệu sai.",
+        "Giỏ không nhận số lượng sai."
+      ],
+      [
+        "Hai cà phê đen giá 25.000 đồng, một cà phê sữa giá 30.000 đồng.",
+        "Tổng 80.000 đồng.",
+        "Giỏ và đơn SQL cùng có tổng 80.000 đồng."
+      ],
+      [
+        "Tiền nhận 50.000 đồng, sau đó 100.000 đồng.",
+        "Chặn khi thiếu, thừa 20.000 đồng khi đủ.",
+        "Nút bị khóa khi thiếu. Khi hoàn tất, khách tăng 8 điểm."
+      ],
+      [
+        "Hủy rồi xóa một đơn chưa thanh toán.",
+        "Bàn trống, không có doanh thu.",
+        "Trạng thái và kết quả tổng hợp đúng."
+      ],
+      [
+        "Kỳ 14/10/2026 đến 20/10/2026, xuất CSV.",
+        "Tập tin khớp số liệu hiển thị.",
+        "8 đơn, 1.200.000 đồng, đúng mã hóa tiếng Việt."
+      ],
+      [
+        "Đăng nhập bằng tài khoản nhân viên.",
+        "Chỉ có ba trang phục vụ.",
+        "Có Đơn hàng, Sơ đồ bàn và Thực đơn."
+      ],
+      [
+        "Đóng cửa sổ, đăng nhập và mở lại bằng kết nối mới.",
+        "Đơn và điểm đã ghi vẫn còn.",
+        "Đơn đã thanh toán 80.000 đồng, khách có 8 điểm."
+      ]
+    ]
+  ],
+  "captions": [
+    "Bảng 1 Ứng dụng và thư viện được khảo sát",
+    "Hình 1 Sơ đồ DFD cấp 0 của ứng dụng",
+    "Bảng 2 Các luồng dữ liệu trên bản DFD gốc",
+    "Bảng 1.1 Các chức năng của chương trình",
+    "Bảng 1.2 Quy tắc kiểm tra dữ liệu",
+    "Bảng 1.3 Quyền thao tác theo vai trò",
+    "Hình 2.1 Sơ đồ phân cấp hàm",
+    "Bảng 2.1 Vai trò các thành phần mã nguồn",
+    "Hình 2.2 Quan hệ giữa bảy bảng dữ liệu",
+    "Bảng 2.2 Các bảng và trường dữ liệu",
+    "Bảng 2.3 Cấu trúc dữ liệu trong bộ nhớ",
+    "Bảng 2.4 Cấu trúc tập tin CSV được xuất",
+    "Hình 2.3 Lưu đồ thuật toán lưu đơn hàng",
+    "Hình 2.4 Lưu đồ thuật toán thanh toán đơn",
+    "Bảng 3.1 Môi trường chạy được kiểm tra ngày 20/10/2026",
+    "Bảng 3.2 Đối chiếu nội dung học phần từ 1 đến 4",
+    "Bảng 3.3 Đối chiếu nội dung học phần từ 5 đến 8",
+    "Hình 3.1 Giao diện đăng nhập",
+    "Hình 3.2 Giao diện tổng quan của quản lý",
+    "Hình 3.3 Giao diện quản lý thực đơn",
+    "Hình 3.4 Giao diện gọi món với tổng đơn 80.000 đồng",
+    "Hình 3.5 Giao diện xác nhận thu tiền",
+    "Hình 3.6 Giao diện báo cáo doanh thu theo kỳ",
+    "Hình 3.7 Giao diện sơ đồ bàn của nhân viên",
+    "Bảng 4.1 Kết quả kiểm thử dữ liệu và nghiệp vụ",
+    "Bảng 4.2 Kết quả kiểm thử giao dịch, báo cáo và giao diện",
+    "Bảng 4.3 Kết quả chạy thật trên giao diện và SQL Server"
+  ],
+  "fields": [
+    " TOC \\o \"1-3\" \\h \\z \\u ",
+    " PAGEREF _Toc243353259 \\h ",
+    " PAGEREF _Toc243353260 \\h ",
+    " PAGEREF _Toc243353261 \\h ",
+    " PAGEREF _Toc243353262 \\h ",
+    " PAGEREF _Toc243353263 \\h ",
+    " PAGEREF _Toc243353264 \\h ",
+    " PAGEREF _Toc243353265 \\h ",
+    " PAGEREF _Toc243353266 \\h ",
+    " PAGEREF _Toc243353267 \\h ",
+    " PAGEREF _Toc243353268 \\h ",
+    " PAGEREF _Toc243353269 \\h ",
+    " PAGEREF _Toc243353270 \\h ",
+    " PAGEREF _Toc243353271 \\h ",
+    " PAGEREF _Toc243353272 \\h ",
+    " PAGEREF _Toc243353273 \\h ",
+    " PAGEREF _Toc243353274 \\h ",
+    " PAGEREF _Toc243353275 \\h ",
+    " PAGEREF _Toc243353276 \\h ",
+    " PAGEREF _Toc243353277 \\h ",
+    " PAGEREF _Toc243353278 \\h ",
+    " PAGEREF _Toc243353279 \\h ",
+    " PAGEREF _Toc243353280 \\h ",
+    " PAGEREF _Toc243353281 \\h ",
+    " PAGEREF _Toc243353282 \\h ",
+    " PAGEREF _Toc243353283 \\h ",
+    " PAGEREF _Toc243353284 \\h ",
+    " PAGEREF _Toc243353285 \\h ",
+    " PAGEREF _Toc243353286 \\h ",
+    " PAGEREF _Toc243353287 \\h ",
+    " PAGEREF _Toc243353288 \\h ",
+    " PAGEREF _Toc243353289 \\h ",
+    " PAGEREF _Toc243353290 \\h ",
+    " PAGEREF _Toc243353291 \\h ",
+    " PAGEREF _Toc243353292 \\h ",
+    " PAGEREF _Toc243353293 \\h ",
+    " PAGEREF _Toc243353294 \\h ",
+    " PAGEREF _Toc243353295 \\h ",
+    " TOC \\h \\z \\c \"Table\" ",
+    " PAGEREF _Toc243353195 \\h ",
+    " PAGEREF _Toc243353196 \\h ",
+    " PAGEREF _Toc243353197 \\h ",
+    " PAGEREF _Toc243353198 \\h ",
+    " PAGEREF _Toc243353199 \\h ",
+    " PAGEREF _Toc243353200 \\h ",
+    " PAGEREF _Toc243353201 \\h ",
+    " PAGEREF _Toc243353202 \\h ",
+    " PAGEREF _Toc243353203 \\h ",
+    " PAGEREF _Toc243353204 \\h ",
+    " PAGEREF _Toc243353205 \\h ",
+    " PAGEREF _Toc243353206 \\h ",
+    " PAGEREF _Toc243353207 \\h ",
+    " PAGEREF _Toc243353208 \\h ",
+    " PAGEREF _Toc243353209 \\h ",
+    " TOC \\h \\z \\c \"Figure\" ",
+    " PAGEREF _Toc243353210 \\h ",
+    " PAGEREF _Toc243353211 \\h ",
+    " PAGEREF _Toc243353212 \\h ",
+    " PAGEREF _Toc243353213 \\h ",
+    " PAGEREF _Toc243353214 \\h ",
+    " PAGEREF _Toc243353215 \\h ",
+    " PAGEREF _Toc243353216 \\h ",
+    " PAGEREF _Toc243353217 \\h ",
+    " PAGEREF _Toc243353218 \\h ",
+    " PAGEREF _Toc243353219 \\h ",
+    " PAGEREF _Toc243353220 \\h ",
+    " PAGEREF _Toc243353221 \\h ",
+    " SEQ Table \\r 1 \\* ARABIC ",
+    " SEQ Figure \\r 1 \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\r 1 \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Figure \\r 1 \\* ARABIC ",
+    " SEQ Table \\r 1 \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Table \\r 1 \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Figure \\r 1 \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Figure \\* ARABIC ",
+    " SEQ Table \\r 1 \\* ARABIC ",
+    " SEQ Table \\* ARABIC ",
+    " SEQ Table \\* ARABIC "
+  ],
+  "media": [
+    "word/media/image1.png",
+    "word/media/image2.png",
+    "word/media/image3.png",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png",
+    "word/media/image7.png",
+    "word/media/image8.png",
+    "word/media/image9.png",
+    "word/media/image10.png",
+    "word/media/image11.png",
+    "word/media/image12.png",
+    "word/media/image13.png"
+  ],
+  "sections": [
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00495078\"><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"1134\" w:bottom=\"1134\" w:left=\"1984\" w:header=\"567\" w:footer=\"567\" w:gutter=\"0\"/><w:cols w:space=\"720\"/><w:docGrid w:linePitch=\"360\"/></w:sectPr>",
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00495078\"><w:footerReference w:type=\"default\" r:id=\"rId9\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"1134\" w:bottom=\"1134\" w:left=\"1984\" w:header=\"567\" w:footer=\"567\" w:gutter=\"0\"/><w:pgNumType w:fmt=\"lowerRoman\" w:start=\"1\"/><w:cols w:space=\"720\"/><w:docGrid w:linePitch=\"360\"/></w:sectPr>",
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:cx=\"http://schemas.microsoft.com/office/drawing/2014/chartex\" xmlns:cx1=\"http://schemas.microsoft.com/office/drawing/2015/9/8/chartex\" xmlns:cx2=\"http://schemas.microsoft.com/office/drawing/2015/10/21/chartex\" xmlns:cx3=\"http://schemas.microsoft.com/office/drawing/2016/5/9/chartex\" xmlns:cx4=\"http://schemas.microsoft.com/office/drawing/2016/5/10/chartex\" xmlns:cx5=\"http://schemas.microsoft.com/office/drawing/2016/5/11/chartex\" xmlns:cx6=\"http://schemas.microsoft.com/office/drawing/2016/5/12/chartex\" xmlns:cx7=\"http://schemas.microsoft.com/office/drawing/2016/5/13/chartex\" xmlns:cx8=\"http://schemas.microsoft.com/office/drawing/2016/5/14/chartex\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:aink=\"http://schemas.microsoft.com/office/drawing/2016/ink\" xmlns:am3d=\"http://schemas.microsoft.com/office/drawing/2017/model3d\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:oel=\"http://schemas.microsoft.com/office/2019/extlst\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w15=\"http://schemas.microsoft.com/office/word/2012/wordml\" xmlns:w16cex=\"http://schemas.microsoft.com/office/word/2018/wordml/cex\" xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\" xmlns:w16=\"http://schemas.microsoft.com/office/word/2018/wordml\" xmlns:w16du=\"http://schemas.microsoft.com/office/word/2023/wordml/word16du\" xmlns:w16sdtdh=\"http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash\" xmlns:w16sdtfl=\"http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock\" xmlns:w16se=\"http://schemas.microsoft.com/office/word/2015/wordml/symex\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00495078\" w:rsidSect=\"00034616\"><w:footerReference w:type=\"default\" r:id=\"rId32\"/><w:pgSz w:w=\"11906\" w:h=\"16838\"/><w:pgMar w:top=\"1134\" w:right=\"1134\" w:bottom=\"1134\" w:left=\"1984\" w:header=\"567\" w:footer=\"567\" w:gutter=\"0\"/><w:pgNumType w:start=\"1\"/><w:cols w:space=\"720\"/><w:docGrid w:linePitch=\"360\"/></w:sectPr>"
+  ],
+  "parts": [
+    {
+      "part": "[Content_Types].xml",
+      "sha256": "97a750f59030d0026b639aa2a675b5fba7eb4c1aa35e3764ba9ca043cbd49955",
+      "bytes": 2147
+    },
+    {
+      "part": "_rels/.rels",
+      "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df",
+      "bytes": 590
+    },
+    {
+      "part": "word/document.xml",
+      "sha256": "8f887a52c4efaeceddb32370e0fa8bd0ca0a7fed90fb065802ecdb7ea09f92f2",
+      "bytes": 479082
+    },
+    {
+      "part": "word/_rels/document.xml.rels",
+      "sha256": "f7a5da392381266600525a66858844426743608996bded701acc664b23b306b5",
+      "bytes": 5323
+    },
+    {
+      "part": "word/footnotes.xml",
+      "sha256": "55e416227f765049bfc5ffef033c3a0c4a81dd77d59446b23e351e185fa7f09d",
+      "bytes": 3160
+    },
+    {
+      "part": "word/endnotes.xml",
+      "sha256": "51d0f8a04468d0107b6961bc06230628bf65a89bbb1a1da8a106f99428a216de",
+      "bytes": 3154
+    },
+    {
+      "part": "word/footer1.xml",
+      "sha256": "42bbe5765d69ac75dce32aa66bb764d470c025032494bb7193897096736e7646",
+      "bytes": 3036
+    },
+    {
+      "part": "word/footer2.xml",
+      "sha256": "74607274231701e4c2ba8e226619d821a2e3d365918b8910a80fa0f780cf9256",
+      "bytes": 3036
+    },
+    {
+      "part": "word/media/image1.png",
+      "sha256": "fdf816a16964157a96134739bd8afd4e94fed9bb6919eda9dc79221265f63b9f",
+      "bytes": 57889
+    },
+    {
+      "part": "word/media/image2.png",
+      "sha256": "d009f45dca9a9dc0d21b995b116bd83e4eb44539652aa8529eaf1f62e52e4e1c",
+      "bytes": 63647
+    },
+    {
+      "part": "word/media/image3.png",
+      "sha256": "5a0e65b05bf71966cc6fcf19674420f110054b885547b1bae01b07cc15a362a8",
+      "bytes": 59014
+    },
+    {
+      "part": "word/media/image4.png",
+      "sha256": "031adf112b3d4834684b5d50c8176b4b8f2848b0a106a63de8a61058303914b3",
+      "bytes": 89876
+    },
+    {
+      "part": "word/media/image5.png",
+      "sha256": "7dee978a804c971436b0e6c5ff3e0b81ec879e2a6d7b7291151539ff4aa3e83b",
+      "bytes": 122988
+    },
+    {
+      "part": "word/media/image6.png",
+      "sha256": "488c0c6b4fc4a8df942549f0b17a60d24499831382d51de06772fab0c8a6bde2",
+      "bytes": 102700
+    },
+    {
+      "part": "word/media/image7.png",
+      "sha256": "11aeaaacc30a25225eb8a0e4973b37ad80944994d87710b844291e9c3083e913",
+      "bytes": 29472
+    },
+    {
+      "part": "word/media/image8.png",
+      "sha256": "e6b09ef60b0e8620a770d892bfc213a4dfb3700bafc52fe58ebec60fd2a34fdd",
+      "bytes": 70534
+    },
+    {
+      "part": "word/media/image9.png",
+      "sha256": "b22e0bbae33b4c8d37fa56f29d965f239c4fd5671c70b149919eed49e2b7ef44",
+      "bytes": 60293
+    },
+    {
+      "part": "word/media/image10.png",
+      "sha256": "37d738172437362eeb13f4e5a139dfc0fe4e766151ee1688e8650d1bddd258ce",
+      "bytes": 51214
+    },
+    {
+      "part": "word/media/image11.png",
+      "sha256": "9f347aa4db7452d0f2d81ab631ad7fe0cfd36a04efa4c054453ea7e0d4920afa",
+      "bytes": 22358
+    },
+    {
+      "part": "word/media/image12.png",
+      "sha256": "e66306c3b074d4eadb6dd358d920d998e851a1c0cbbbe4328c815bb573029256",
+      "bytes": 72224
+    },
+    {
+      "part": "word/media/image13.png",
+      "sha256": "c7e92ce157c4ef8da753f7b8d8c5321407757c19954f3902bdd547e9a9e6e240",
+      "bytes": 66723
+    },
+    {
+      "part": "word/theme/theme1.xml",
+      "sha256": "b2295d3198893d2c03f5e584c749a15751b798aefdcd9bee2889f13903d68cb2",
+      "bytes": 7643
+    },
+    {
+      "part": "word/settings.xml",
+      "sha256": "da5460350ad5d7ebc16d401ba40c8923b60355d2f80af079626839767a178b8b",
+      "bytes": 3531
+    },
+    {
+      "part": "customXml/item1.xml",
+      "sha256": "fd38bf9d14299ec0909557ff8b08b38816a6860d488f11a7c53dc63eb13ee44f",
+      "bytes": 260
+    },
+    {
+      "part": "customXml/itemProps1.xml",
+      "sha256": "4c998dc0bc6eb6f38ecc20856255fff6891d5b6345a7260698c53063da4bc5f2",
+      "bytes": 341
+    },
+    {
+      "part": "word/numbering.xml",
+      "sha256": "6bd0d87d7267d5d8ef0bb5d6fb6ba446fe9e3b397f008d84c4088029f8183b16",
+      "bytes": 10146
+    },
+    {
+      "part": "word/styles.xml",
+      "sha256": "f9377065e6f8f08c5b18ec244aa95c669dfecd42de0f4f4a160ec6bd662055a2",
+      "bytes": 346751
+    },
+    {
+      "part": "word/webSettings.xml",
+      "sha256": "ee07406206c299bd15efc79295c9a223911089ff30b81b89c17dd93064d33d58",
+      "bytes": 1046
+    },
+    {
+      "part": "word/fontTable.xml",
+      "sha256": "80afe49c53877d33b6047ff8675986a50411b025dc09721369b573151c58ab63",
+      "bytes": 2929
+    },
+    {
+      "part": "docProps/core.xml",
+      "sha256": "3e0f14f2aaed9c518c91baf67c1cadd7a499503d7f39461e0588051055c8d9eb",
+      "bytes": 883
+    },
+    {
+      "part": "docProps/app.xml",
+      "sha256": "1fd0f027cf21d3d6a94c48bf5dbbf1ef9645c66aacde15309fd7aa2261c64b34",
+      "bytes": 1047
+    },
+    {
+      "part": "customXml/_rels/item1.xml.rels",
+      "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0",
+      "bytes": 296
+    }
+  ],
+  "internal_links": 64,
+  "all_text": "TRƯ\nỜ\nNG Đ\nẠ\nI H\nỌ\nC NAM C\nẦ\nN THƠ\nTRƯ\nỜ\nNG CÔNG NGH\nỆ\n S\nỐ\n VÀ TRÍ TU\nỆ\n NHÂN T\nẠ\nO\nBÁO CÁO H\nỌ\nC PH\nẦ\nN\nL\nẬ\nP TRÌNH PYTHON - TH\nỰ\nC HÀNH\nĐ\nề\n tài\nXÂY D\nỰ\nNG \nỨ\nNG D\nỤ\nNG\nQU\nẢ\nN LÝ QUÁN CÀ PHÊ B\nẰ\nNG PYTHON\nCoffee Shop Management Application\nSinh viên th\nự\nc hi\nệ\nn\nLê Minh Phú - MSSV: 236717\nL\nớ\np: DH23TIN02\nGi\nả\nng viên hư\nớ\nng d\nẫ\nn\nBùi Th\nị\n Di\nễ\nm Trinh\nC\nầ\nn Thơ, tháng 10 năm 2026\nM\nỤ\nC L\nỤ\nC\nGIỚI THIỆU\n1\n1 Đặt vấn đề\n1\n2 Những nghiên cứu liên quan\n1\n3 Mục tiêu\n2\n4 Đối tượng và phạm vi nghiên cứu\n2\n5 Sơ đồ DFD cấp 0\n2\nCHƯƠNG 1 ĐẶC TẢ YÊU CẦU\n4\n1.1 YÊU CẦU CHỨC NĂNG\n4\n1.2 QUY TẮC DỮ LIỆU VÀ NGHIỆP VỤ\n5\n1.3 PHÂN QUYỀN SỬ DỤNG\n5\n1.4 YÊU CẦU GIAO DIỆN VÀ CHẤT LƯỢNG\n6\nCHƯƠNG 2 THIẾT KẾ GIẢI PHÁP\n7\n2.1 SƠ ĐỒ PHÂN CẤP HÀM\n7\n2.2 TỔ CHỨC MÃ NGUỒN\n7\n2.3 THIẾT KẾ DỮ LIỆU\n8\n2.4 DANH SÁCH, TỪ ĐIỂN VÀ TẬP TIN\n9\n2.5 THUẬT TOÁN LƯU ĐƠN HÀNG\n11\n2.6 THUẬT TOÁN THANH TOÁN\n12\nCHƯƠNG 3 CÀI ĐẶT GIẢI PHÁP\n13\n3.1 MÔI TRƯỜNG VÀ KHỞI ĐỘNG\n13\n3.2 VẬN DỤNG TÁM NỘI DUNG HỌC PHẦN\n13\n3.3 XỬ LÝ GIAO DỊCH VÀ BẢO VỆ DỮ LIỆU\n14\n3.4 GIAO DIỆN VÀ QUY TRÌNH THAO TÁC\n15\n3.4.1 Đăng nhập\n15\n3.4.2 Tổng quan và thực đơn\n16\n3.4.3 Gọi món và thanh toán\n18\n3.4.4 Báo cáo và giao diện nhân viên\n19\nCHƯƠNG 4 ĐÁNH GIÁ KIỂM THỬ\n21\n4.1 MỤC TIÊU VÀ PHƯƠNG PHÁP\n21\n4.2 KẾT QUẢ BỘ KIỂM THỬ TÍCH HỢP\n21\n4.3 KỊCH BẢN CHẠY THẬT VÀ XUẤT TẬP TIN\n22\n4.4 ĐÁNH GIÁ VÀ GIỚI HẠN KIỂM TRA\n23\nPHẦN KẾT LUẬN\n24\nKết quả đạt được\n24\nHướng phát triển\n24\nTÀI LIỆU THAM KHẢO\n25\nPHỤ LỤC HƯỚNG DẪN CÀI ĐẶT, SỬ DỤNG CHƯƠNG TRÌNH/GIẢI PHÁP\n26\nDANH M\nỤ\nC B\nẢ\nNG\nBảng 1 Ứng dụng và thư viện được khảo sát\n1\nBảng 2 Các luồng dữ liệu trên bản DFD gốc\n3\nBảng 1.1 Các chức năng của chương trình\n4\nBảng 1.2 Quy tắc kiểm tra dữ liệu\n5\nBảng 1.3 Quyền thao tác theo vai trò\n5\nBảng 2.1 Vai trò các thành phần mã nguồn\n7\nBảng 2.2 Các bảng và trường dữ liệu\n9\nBảng 2.3 Cấu trúc dữ liệu trong bộ nhớ\n9\nBảng 2.4 Cấu trúc tập tin CSV được xuất\n10\nBảng 3.1 Môi trường chạy được kiểm tra ngày 20/10/2026\n13\nBảng 3.2 Đối chiếu nội dung học phần từ 1 đến 4\n13\nBảng 3.3 Đối chiếu nội dung học phần từ 5 đến 8\n14\nBảng 4.1 Kết quả kiểm thử dữ liệu và nghiệp vụ\n21\nBảng 4.2 Kết quả kiểm thử giao dịch, báo cáo và giao diện\n22\nBảng 4.3 Kết quả chạy thật trên giao diện và SQL Server\n23\nDANH M\nỤ\nC HÌNH\nHình 1 Sơ đồ DFD cấp 0 của ứng dụng\n3\nHình 2.1 Sơ đồ phân cấp hàm\n7\nHình 2.2 Quan hệ giữa bảy bảng dữ liệu\n8\nHình 2.3 Lưu đồ thuật toán lưu đơn hàng\n11\nHình 2.4 Lưu đồ thuật toán thanh toán đơn\n12\nHình 3.1 Giao diện đăng nhập\n16\nHình 3.2 Giao diện tổng quan của quản lý\n17\nHình 3.3 Giao diện quản lý thực đơn\n17\nHình 3.4 Giao diện gọi món với tổng đơn 80.000 đồng\n18\nHình 3.5 Giao diện xác nhận thu tiền\n19\nHình 3.6 Giao diện báo cáo doanh thu theo kỳ\n20\nHình 3.7 Giao diện sơ đồ bàn của nhân viên\n20\nDANH M\nỤ\nC T\nỪ\n VI\nẾ\nT T\nẮ\nT\nCSV: \nComma-Separated Values\n, t\nệ\np có các giá tr\nị\n phân cách b\nằ\nng d\nấ\nu ph\nẩ\ny\nDFD: \nData Flow Diagram\n, sơ đ\nồ\n lu\nồ\nng d\nữ\n li\nệ\nu\nODBC: \nOpen Database Connectivity\n, giao ti\nế\np k\nế\nt n\nố\ni cơ s\nở\n d\nữ\n li\nệ\nu\nPBKDF2: \nPassword-Based Key Derivation Function 2\n, hàm d\nẫ\nn xu\nấ\nt khóa t\nừ\n m\nậ\nt kh\nẩ\nu\nSQL: \nStructured Query Language\n, ngôn ng\nữ\n truy v\nấ\nn có c\nấ\nu trúc\nUTF-8: \nUnicode Transformation Format\n 8-bit, mã hóa Unicode\nGI\nỚ\nI THI\nỆ\nU\nĐ\nặ\nt v\nấ\nn đ\nề\nQuán cà phê c\nầ\nn theo dõi bàn đang ph\nụ\nc v\nụ\n, món đã g\nọ\ni và ti\nề\nn ph\nả\ni thu trong t\nừ\nng đơn. Khi ghi nh\nậ\nn r\nờ\ni r\nạ\nc, ngư\nờ\ni ph\nụ\nc v\nụ\n khó ki\nể\nm tra món đã lưu và qu\nả\nn lý m\nấ\nt th\nờ\ni gian t\nổ\nng h\nợ\np doanh thu. Đ\nề\n tài xây d\nự\nng m\nộ\nt \nứ\nng d\nụ\nng Python trên máy tính đ\nể\n th\nự\nc hi\nệ\nn các thao tác này trong cùng m\nộ\nt quy trình.\nỨ\nng d\nụ\nng s\nử\n d\nụ\nng Tkinter/ttk đ\nể\n t\nạ\no giao di\nệ\nn ti\nế\nng Vi\nệ\nt và Microsoft SQL Server đ\nể\n lưu d\nữ\n li\nệ\nu. SQL là ngôn ng\nữ\n truy v\nấ\nn có c\nấ\nu trúc (\nStructured Query Language\n). Chương trình k\nế\nt n\nố\ni qua giao ti\nế\np ODBC (\nOpen Database Connectivity\n) b\nằ\nng thư vi\nệ\nn pyodbc. N\nộ\ni dung báo cáo mô t\nả\n đúng ch\nứ\nc năng đang có và k\nế\nt qu\nả\n ch\nạ\ny th\nử\n c\nủ\na d\nự\n án.\nNh\nữ\nng nghiên c\nứ\nu liên quan\nB\nả\nng 1 t\nổ\nng h\nợ\np \nứ\nng d\nụ\nng và thư vi\nệ\nn đư\nợ\nc kh\nả\no sát.\nB\nả\nng \n1\n \nỨ\nng d\nụ\nng và thư vi\nệ\nn đư\nợ\nc kh\nả\no sát\nNgu\nồ\nn\nN\nộ\ni dung tham kh\nả\no\nÁp d\nụ\nng trong đ\nề\n tài\nRestaurant Management System\nỨ\nng d\nụ\nng Python qu\nả\nn lý th\nự\nc đơn và đơn hàng.\nĐ\nố\ni chi\nế\nu quy trình ch\nọ\nn món và xem hoá đơn.\nTkinter/ttk\nWidget, bi\nế\nn giao di\nệ\nn và vòng l\nặ\np s\nự\n ki\nệ\nn.\nC\nử\na s\nổ\n, b\nả\nng, h\nộ\np tho\nạ\ni, nút và b\nộ\n l\nọ\nc.\npyodbc\nC\nầ\nu n\nố\ni Python và ODBC.\nK\nế\nt n\nố\ni SQL Server, truy\nề\nn tham s\nố\n truy v\nấ\nn.\ncsv\nGhi d\nữ\n li\nệ\nu d\nạ\nng hàng và c\nộ\nt.\nXu\nấ\nt báo cáo CSV ti\nế\nng Vi\nệ\nt.\ndecimal\nS\nố\n th\nậ\np phân v\nớ\ni đ\nộ\n chính xác ki\nể\nm soát đư\nợ\nc.\nTính ti\nề\nn và t\nổ\nng doanh thu.\nunittest\nT\nổ\n ch\nứ\nc và ch\nạ\ny ki\nể\nm th\nử\n.\nKi\nể\nm tra nghi\nệ\np v\nụ\n, d\nữ\n li\nệ\nu và giao di\nệ\nn.\nNgu\nồ\nn: t\nổ\nng h\nợ\np t\nừ\n abdelbend (không ghi năm a, b), mkleehammer và c\nộ\nng s\nự\n (không ghi năm b), Python Software Foundation (không ghi năm a, b, d, e).\nRestaurant Management System là \nứ\nng d\nụ\nng tham kh\nả\no chính, có mã ngu\nồ\nn công khai b\nằ\nng Python (abdelbend, không ghi năm a, b). Các thư vi\nệ\nn còn l\nạ\ni có tài li\nệ\nu chính th\nứ\nc: Tkinter cho giao di\nệ\nn, csv cho t\nậ\np tin, decimal cho s\nố\n ti\nề\nn và unittest cho ki\nể\nm th\nử\n (Python Software Foundation, không ghi năm a, b, d, e). pyodbc cung c\nấ\np k\nế\nt n\nố\ni cơ s\nở\n d\nữ\n li\nệ\nu (mkleehammer và c\nộ\nng s\nự\n, không ghi năm b).\nỨ\nng d\nụ\nng tham kh\nả\no t\nổ\n ch\nứ\nc vi\nệ\nc ch\nọ\nn món, ghi nh\nậ\nn yêu c\nầ\nu và hi\nể\nn th\nị\n hóa đơn. Mã db.py s\nử\n d\nụ\nng SQLite v\nớ\ni d\nữ\n li\nệ\nu th\nự\nc đơn và khách hàng. Cách đ\nặ\nt thao tác ch\nọ\nn món c\nạ\nnh thông tin đơn phù h\nợ\np m\nộ\nt chương trình ph\nụ\nc v\nụ\n t\nạ\ni qu\nầ\ny. Tuy nhiên, c\nấ\nu trúc lưu tr\nữ\n và giao di\nệ\nn c\nủ\na \nứ\nng d\nụ\nng đó không đư\nợ\nc xem là b\nằ\nng \nch\nứ\nng cho ch\nứ\nc năng c\nủ\na đ\nề\n tài này. Các ch\nứ\nc năng phân quy\nề\nn, bàn, đi\nể\nm khách và báo cáo trong đ\nề\n tài đư\nợ\nc đ\nố\ni chi\nế\nu tr\nự\nc ti\nế\np v\nớ\ni mã ngu\nồ\nn hi\nệ\nn có.\nĐ\nề\n tài áp d\nụ\nng cách t\nổ\n ch\nứ\nc thao tác ng\nắ\nn, hi\nể\nn th\nị\n t\nổ\nng ti\nề\nn g\nầ\nn gi\nỏ\n hàng và gi\nữ\n tr\nạ\nng thái bàn rõ ràng. D\nữ\n li\nệ\nu đư\nợ\nc lưu \nở\n SQL Server v\nớ\ni đơn và chi ti\nế\nt đơn tách riêng. Vi\nệ\nc phân tích \nứ\nng d\nụ\nng tham kh\nả\no giúp xác đ\nị\nnh cách trình bày quy trình, còn các quy\nế\nt đ\nị\nnh x\nử\n lý đư\nợ\nc ki\nể\nm tra b\nằ\nng mã và k\nế\nt qu\nả\n ch\nạ\ny c\nủ\na d\nự\n án.\nM\nụ\nc tiêu\nM\nụ\nc tiêu là xây d\nự\nng \nứ\nng d\nụ\nng qu\nả\nn lý quán cà phê quy mô nh\nỏ\n và v\nừ\na, có giao di\nệ\nn d\nễ\n thao tác, lưu đư\nợ\nc d\nữ\n li\nệ\nu và h\nỗ\n tr\nợ\n theo dõi doanh thu. Chương trình c\nầ\nn phân bi\nệ\nt quy\nề\nn qu\nả\nn lý và nhân viên, ki\nể\nm tra d\nữ\n li\nệ\nu nh\nậ\np, gi\nữ\n đúng l\nị\nch s\nử\n giá bán và x\nử\n lý tr\nọ\nn v\nẹ\nn vi\nệ\nc thanh toán.\nV\nề\n h\nọ\nc ph\nầ\nn, d\nự\n án th\nể\n hi\nệ\nn đ\nủ\n tám n\nộ\ni dung đã h\nọ\nc thông qua bi\nế\nn, đi\nề\nu ki\nệ\nn, vòng l\nặ\np, hàm, chu\nỗ\ni, danh sách, t\nậ\np tin và giao di\nệ\nn Tkinter. Mã đư\nợ\nc chia theo nhi\nệ\nm v\nụ\n, s\nử\n d\nụ\nng các câu l\nệ\nnh quen thu\nộ\nc đ\nể\n có th\nể\n trình bày và ki\nể\nm tra t\nừ\nng bư\nớ\nc.\nĐ\nố\ni tư\nợ\nng và ph\nạ\nm vi nghiên c\nứ\nu\nĐ\nố\ni tư\nợ\nng s\nử\n d\nụ\nng là qu\nả\nn lý và nhân viên ph\nụ\nc v\nụ\n t\nạ\ni qu\nầ\ny. Qu\nả\nn lý chu\nẩ\nn b\nị\n danh m\nụ\nc, nhân s\nự\n, tài kho\nả\nn và xem báo cáo. Nhân viên xem th\nự\nc đơn, theo dõi bàn, l\nậ\np ho\nặ\nc s\nử\na đơn và xác nh\nậ\nn thanh toán. Khách hàng đư\nợ\nc lưu như d\nữ\n li\nệ\nu c\nủ\na đơn, chưa có giao di\nệ\nn đăng nh\nậ\np riêng.\nPh\nạ\nm vi tri\nể\nn khai là \nứ\nng d\nụ\nng trên Windows, k\nế\nt n\nố\ni SQL Server b\nằ\nng xác th\nự\nc Windows. Chương trình chưa có qu\nả\nn lý kho nguyên li\nệ\nu, thu\nế\n, khuy\nế\nn mãi, in hóa đơn, thanh toán ngân hàng ho\nặ\nc v\nậ\nn hành qua Internet. Ch\nứ\nc năng t\nậ\np tin hi\nệ\nn có là xu\nấ\nt báo cáo CSV (\nComma-Separated Values\n), không có nh\nậ\np d\nữ\n li\nệ\nu t\nừ\n CSV.\nSơ đ\nồ\n DFD c\nấ\np 0\nSơ đ\nồ\n lu\nồ\nng d\nữ\n li\nệ\nu (\nData Flow Diagram\n, DFD) c\nấ\np 0 bi\nể\nu di\nễ\nn toàn b\nộ\n \nứ\nng d\nụ\nng b\nằ\nng m\nộ\nt ti\nế\nn trình trung tâm. Hình 1 s\nử\n d\nụ\nng nguyên b\nả\nn b\nả\nn v\nẽ\n do sinh viên cung c\nấ\np, có hai tác nhân Nhân viên và Qu\nả\nn lý. Ti\nế\nn trình đư\nợ\nc đánh s\nố\n 1 theo b\nả\nn g\nố\nc. Lu\nồ\nng vào g\nồ\nm thông tin đăng nh\nậ\np, d\nữ\n li\nệ\nu đơn, danh m\nụ\nc và yêu c\nầ\nu th\nố\nng kê. Lu\nồ\nng ra g\nồ\nm k\nế\nt qu\nả\n xác th\nự\nc, thông tin ph\nụ\nc v\nụ\n và báo cáo.\nHình 1 trình bày sơ đ\nồ\n DFD c\nấ\np 0 c\nủ\na \nứ\nng d\nụ\nng.\nHình \n1\n Sơ đ\nồ\n DFD c\nấ\np 0 c\nủ\na \nứ\nng d\nụ\nng\nẢ\nnh DFD g\nố\nc có kích thư\nớ\nc 927 nhân 180 đi\nể\nm \nả\nnh nên ch\nữ\n trong hình nh\nỏ\n khi đ\nặ\nt trên trang A4. B\nả\nng 2 chép l\nạ\ni đúng các nhãn và chi\nề\nu truy\nề\nn đ\nể\n thu\nậ\nn ti\nệ\nn đ\nọ\nc và đ\nố\ni chi\nế\nu, không ch\nỉ\nnh s\nử\na \nả\nnh g\nố\nc.\nB\nả\nng 2 t\nổ\nng h\nợ\np các lu\nồ\nng d\nữ\n li\nệ\nu trên b\nả\nn DFD g\nố\nc.\nB\nả\nng \n2\n Các lu\nồ\nng d\nữ\n li\nệ\nu trên b\nả\nn DFD g\nố\nc\nNgu\nồ\nn\nĐích\nD\nữ\n li\nệ\nu trao đ\nổ\ni\nNhân viên\nH\nệ\n th\nố\nng\nyêu c\nầ\nu s\nử\na/h\nủ\ny đơn\nNhân viên\nH\nệ\n th\nố\nng\nthông tin bàn, món, s\nố\n lư\nợ\nng, ti\nề\nn khách đưa\nNhân viên\nH\nệ\n th\nố\nng\nthông tin đăng nh\nậ\np\nH\nệ\n th\nố\nng\nNhân viên\nk\nế\nt qu\nả\n xác th\nự\nc\nH\nệ\n th\nố\nng\nNhân viên\nchi ti\nế\nt đơn, t\nổ\nng ti\nề\nn, ti\nề\nn th\nừ\na\nH\nệ\n th\nố\nng\nNhân viên\nth\nự\nc đơn, tr\nạ\nng thái bàn\nQu\nả\nn lý\nH\nệ\n th\nố\nng\nthông tin đăng nh\nậ\np\nQu\nả\nn lý\nH\nệ\n th\nố\nng\nd\nữ\n li\nệ\nu s\nả\nn ph\nẩ\nm, bàn, khách hàng, nhân viên, tài kho\nả\nn\nQu\nả\nn lý\nH\nệ\n th\nố\nng\nyêu c\nầ\nu thu ti\nề\nn, kho\nả\nng th\nờ\ni gian th\nố\nng kê\nH\nệ\n th\nố\nng\nQu\nả\nn lý\ndoanh thu, s\nố\n hóa đơn, món bán ch\nạ\ny, báo cáo CSV\nH\nệ\n th\nố\nng\nQu\nả\nn lý\ndanh sách s\nả\nn ph\nẩ\nm, bàn, khách hàng, nhân viên, tài kho\nả\nn\nH\nệ\n th\nố\nng\nQu\nả\nn lý\nk\nế\nt qu\nả\n xác th\nự\nc\nKhi qu\nả\nn lý ch\nọ\nn xu\nấ\nt báo cáo, thao tác t\nừ\n giao di\nệ\nn đư\nợ\nc x\nử\n lý b\nở\ni StatisticsTab.export() trong Python, đ\nọ\nc s\nố\n li\nệ\nu qua CoffeeService.statistics() r\nồ\ni ghi t\nậ\np tin CSV \nở\n v\nị\n trí ngư\nờ\ni dùng ch\nọ\nn. SQL Server là nơi lưu d\nữ\n li\nệ\nu chính. T\nậ\np tin CSV là đ\nầ\nu ra t\nổ\nng h\nợ\np, không thay th\nế\n cơ s\nở\n d\nữ\n li\nệ\nu và không đư\nợ\nc nh\nậ\np ngư\nợ\nc t\nự\n đ\nộ\nng.\nB\nả\nn v\nẽ\n phù h\nợ\np m\nứ\nc mô t\nả\n t\nổ\nng quát. Lu\nồ\nng “yêu c\nầ\nu thu ti\nề\nn, kho\nả\nng th\nờ\ni gian th\nố\nng kê” c\nủ\na Qu\nả\nn lý đang g\nộ\np hai nhóm d\nữ\n li\nệ\nu, có th\nể\n tách khi c\nầ\nn di\nễ\nn gi\nả\ni chi ti\nế\nt. K\nế\nt qu\nả\n lưu, s\nử\na, h\nủ\ny và thông báo l\nỗ\ni chưa đư\nợ\nc ghi thành nhãn riêng. Các nh\nậ\nn xét này không làm thay đ\nổ\ni b\nả\nn g\nố\nc. Mã PlantUML tương đương và k\nế\nt qu\nả\n đ\nố\ni chi\nế\nu đư\nợ\nc lưu trong README.md đ\nể\n sinh viên ki\nể\nm ch\nứ\nng.\nĐ\nẶ\nC T\nẢ\n YÊU C\nẦ\nU\nYÊU C\nẦ\nU CH\nỨ\nC NĂNG\nB\nả\nng 1.1 t\nổ\nng h\nợ\np các ch\nứ\nc năng c\nủ\na chương trình.\nB\nả\nng 1.\n1\n Các ch\nứ\nc năng c\nủ\na chương trình\nCh\nứ\nc năng\nK\nế\nt qu\nả\n yêu c\nầ\nu\nĐăng nh\nậ\np và phiên làm vi\nệ\nc\nXác th\nự\nc m\nậ\nt kh\nẩ\nu, xác đ\nị\nnh vai trò, đ\nổ\ni m\nậ\nt kh\nẩ\nu, đăng xu\nấ\nt.\nQu\nả\nn lý danh m\nụ\nc\nQu\nả\nn lý thêm, tìm, s\nử\na, xoá món, bàn, khách hàng và nhân viên.\nQu\nả\nn lý tài kho\nả\nn\nC\nấ\np tài kho\nả\nn, ch\nọ\nn vai trò, khoá/m\nở\n và đ\nặ\nt l\nạ\ni m\nậ\nt kh\nẩ\nu.\nPh\nụ\nc v\nụ\n bàn\nHi\nể\nn th\nị\n bàn tr\nố\nng ho\nặ\nc đang ph\nụ\nc v\nụ\n, m\nở\n đúng đơn hi\nệ\nn có.\nX\nử\n lý đơn\nCh\nọ\nn món, đ\nổ\ni s\nố\n lư\nợ\nng, b\nỏ\n món, lưu đơn và chuy\nể\nn bàn h\nợ\np l\nệ\n.\nThanh toán và hu\nỷ\nTính ti\nề\nn th\nừ\na, ghi thu ti\nề\nn, c\nộ\nng đi\nể\nm, tr\nả\n bàn, gi\nữ\n l\nị\nch s\nử\n.\nTh\nố\nng kê\nT\nổ\nng doanh thu, s\nố\n hoá đơn, trung bình và món bán ch\nạ\ny.\nXu\nấ\nt báo cáo\nXu\nấ\nt CSV cho k\nỳ\n đã ch\nọ\nn, gi\nữ\n ti\nế\nng Vi\nệ\nt và s\nố\n li\nệ\nu đúng.\nLu\nồ\nng ph\nụ\nc v\nụ\n b\nắ\nt đ\nầ\nu t\nừ\n vi\nệ\nc ch\nọ\nn bàn ho\nặ\nc m\nở\n đơn đang x\nử\n lý. Ngư\nờ\ni dùng thêm món, đi\nề\nu ch\nỉ\nnh s\nố\n lư\nợ\nng, ch\nọ\nn khách n\nế\nu có và lưu đơn. Sau khi nh\nậ\nn ti\nề\nn, ngư\nờ\ni dùng xác nh\nậ\nn thanh toán. Chương trình ghi tr\nạ\nng thái đơn, th\nờ\ni đi\nể\nm thanh toán, đi\nể\nm tích lũy và tr\nạ\nng thái bàn trong cùng m\nộ\nt giao d\nị\nch.\nQUY T\nẮ\nC D\nỮ\n LI\nỆ\nU VÀ NGHI\nỆ\nP V\nỤ\nB\nả\nng 1.2 t\nổ\nng h\nợ\np quy t\nắ\nc ki\nể\nm tra d\nữ\n li\nệ\nu.\nB\nả\nng 1.\n2\n Quy t\nắ\nc ki\nể\nm tra d\nữ\n li\nệ\nu\nD\nữ\n li\nệ\nu / thao tác\nQuy t\nắ\nc\nTên và giá món\nTên không đư\nợ\nc r\nỗ\nng. Giá nguyên đ\nồ\nng t\nừ\n 1 đ\nế\nn 1.000.000.000.\nS\nố\n lư\nợ\nng\nS\nố\n nguyên t\nừ\n 1 đ\nế\nn 999 cho m\nỗ\ni món sau khi g\nộ\np các dòng trùng.\nS\nố\n đi\nệ\nn tho\nạ\ni\nCó th\nể\n đ\nể\n tr\nố\nng. N\nế\nu nh\nậ\np, dùng 10 s\nố\n b\nắ\nt đ\nầ\nu b\nằ\nng 0 ho\nặ\nc +84 và 9 s\nố\n.\nTr\nạ\nng thái bàn\nM\nỗ\ni bàn có t\nố\ni đa m\nộ\nt đơn đang x\nử\n lý. Lưu, chuy\nể\nn, hu\nỷ\n và thanh toán c\nậ\np nh\nậ\nt bàn tương \nứ\nng.\nGiá l\nị\nch s\nử\nChi ti\nế\nt đã lưu gi\nữ\n tên và đơn giá lúc bán. Đ\nổ\ni giá th\nự\nc đơn không s\nử\na hoá đơn cũ.\nThu ti\nề\nn\nCh\nỉ\n xác nh\nậ\nn đơn đang x\nử\n lý và nh\nậ\nn đ\nủ\n ti\nề\nn. M\nỗ\ni 10.000 đ\nồ\nng đư\nợ\nc 1 đi\nể\nm, làm tròn xu\nố\nng.\nL\nị\nch s\nử\n và liên k\nế\nt\nKhông s\nử\na ho\nặ\nc xoá đơn đã thanh toán. Không xoá b\nả\nn ghi còn đư\nợ\nc tham chi\nế\nu.\nTài kho\nả\nn qu\nả\nn lý\nKhông t\nự\n xoá, t\nự\n khoá ho\nặ\nc h\nạ\n quy\nề\nn. Ph\nả\ni còn ít nh\nấ\nt m\nộ\nt qu\nả\nn lý ho\nạ\nt đ\nộ\nng.\nT\nổ\nng đơn đư\nợ\nc c\nộ\nng t\nừ\n thành ti\nề\nn c\nủ\na t\nừ\nng món. Ví d\nụ\n, hai cà phê đen giá 25.000 đ\nồ\nng và m\nộ\nt cà phê s\nữ\na giá 30.000 đ\nồ\nng t\nạ\no t\nổ\nng 80.000 đ\nồ\nng. N\nế\nu nh\nậ\nn 100.000 đ\nồ\nng, giao di\nệ\nn hi\nể\nn th\nị\n ti\nề\nn th\nừ\na 20.000 đ\nồ\nng. Khách đăng ký nh\nậ\nn 8 đi\nể\nm khi đơn đư\nợ\nc thanh toán. Đơn c\nủ\na khách l\nẻ\n không c\nộ\nng đi\nể\nm.\nPHÂN QUY\nỀ\nN S\nỬ\n D\nỤ\nNG\nB\nả\nng 1.3 t\nổ\nng h\nợ\np quy\nề\nn thao tác theo vai trò.\nB\nả\nng 1.\n3\n Quy\nề\nn thao tác theo vai trò\nThao tác\nNhân viên\nQu\nả\nn lý\nXem bàn và th\nự\nc đơn\nCó\nCó\nT\nạ\no, s\nử\na đơn đang x\nử\n lý\nCó\nCó\nThanh toán, hu\nỷ\n đơn đang x\nử\n lý\nCó\nCó\nXoá đơn chưa thanh toán\nKhông\nCó, theo tr\nạ\nng thái h\nợ\np l\nệ\nS\nử\na danh m\nụ\nc và nhân s\nự\nKhông\nCó\nQu\nả\nn lý tài kho\nả\nn\nKhông\nCó\nXem th\nố\nng kê, xu\nấ\nt CSV\nKhông\nCó\nĐ\nổ\ni m\nậ\nt kh\nẩ\nu cá nhân\nCó\nCó\nQu\nả\nn lý có tám trang ch\nứ\nc năng. Nhân viên có Đơn hàng, Sơ đ\nồ\n bàn và Th\nự\nc đơn. Các hàm nghi\nệ\np v\nụ\n ki\nể\nm tra l\nạ\ni phiên đăng nh\nậ\np và vai trò trư\nớ\nc khi thao tác, vì vi\nệ\nc \nẩ\nn nút trên giao di\nệ\nn chưa đ\nủ\n đ\nể\n b\nả\no v\nệ\n d\nữ\n li\nệ\nu.\nYÊU C\nẦ\nU GIAO DI\nỆ\nN VÀ CH\nẤ\nT LƯ\nỢ\nNG\nCác thao tác chính dùng màu xanh đ\nậ\nm, n\nề\nn sáng và kho\nả\nng cách th\nố\nng nh\nấ\nt. Màu tr\nạ\nng thái luôn đi cùng nhãn ch\nữ\n. Bàn đư\nợ\nc bi\nể\nu di\nễ\nn b\nằ\nng th\nẻ\n đ\nể\n ngư\nờ\ni ph\nụ\nc v\nụ\n nh\nậ\nn ra tình tr\nạ\nng nhanh. Màn hình g\nọ\ni món đ\nặ\nt th\nự\nc đơn bên trái và gi\nỏ\n hàng bên ph\nả\ni. Nút lưu và thu ti\nề\nn n\nằ\nm g\nầ\nn t\nổ\nng đơn đ\nể\n gi\nả\nm chuy\nể\nn hư\nớ\nng khi thao tác.\nNút, ô nh\nậ\np và danh sách ch\nọ\nn v\nẫ\nn là thành ph\nầ\nn ttk. ui/theme.py thay hình n\nề\nn và tr\nạ\nng thái hi\nể\nn th\nị\n đ\nể\n có góc bo, ph\nả\nn h\nồ\ni khi rê chu\nộ\nt, nh\nậ\nn tiêu đi\nể\nm ho\nặ\nc b\nị\n vô hi\nệ\nu hóa. Các \nả\nnh n\nề\nn đư\nợ\nc Tkinter đ\nọ\nc tr\nự\nc ti\nế\np, không c\nầ\nn b\nổ\n sung thư vi\nệ\nn giao di\nệ\nn. D\nữ\n li\nệ\nu liên k\nế\nt và giao d\nị\nch đư\nợ\nc ki\nể\nm tra đ\nể\n h\nạ\nn ch\nế\n lưu d\nở\n dang ho\nặ\nc làm m\nấ\nt l\nị\nch s\nử\n.\nTHI\nẾ\nT K\nẾ\n GI\nẢ\nI PHÁP\nSƠ Đ\nỒ\n PHÂN C\nẤ\nP HÀM\nCác nhóm ch\nứ\nc năng đư\nợ\nc liên h\nệ\n v\nớ\ni tên hàm th\nậ\nt trong mã ngu\nồ\nn. login() là hàm \nở\n models/service.py. show_login() thu\nộ\nc CoffeeApp, các hàm x\nử\n lý d\nữ\n li\nệ\nu thu\nộ\nc CoffeeService. Nhóm báo cáo s\nử\n d\nụ\nng Dashboard.refresh() và StatisticsTab.export(). Đư\nờ\nng n\nố\ni trong sơ đ\nồ\n th\nể\n hi\nệ\nn phân rã ch\nứ\nc năng, không bi\nể\nu di\nễ\nn th\nứ\n t\nự\n th\nự\nc thi.\nHình 2.1 trình bày sơ đ\nồ\n phân c\nấ\np hàm.\nHình 2.\n1\n Sơ đ\nồ\n phân c\nấ\np hàm\nT\nỔ\n CH\nỨ\nC MÃ NGU\nỒ\nN\nB\nả\nng 2.1 t\nổ\nng h\nợ\np vai trò các thành ph\nầ\nn mã ngu\nồ\nn.\nB\nả\nng 2.\n1\n Vai trò các thành ph\nầ\nn mã ngu\nồ\nn\nThành ph\nầ\nn\nTrách nhi\nệ\nm\nmain.py, ui/\nKh\nở\ni đ\nộ\nng, đăng nh\nậ\np, đi\nề\nu hư\nớ\nng và thu th\nậ\np thao tác.\nmodels/service.py\nKi\nể\nm tra d\nữ\n li\nệ\nu, quy\nề\nn, x\nử\n lý đơn và th\nố\nng kê.\ndb_connection.py\nM\nở\n k\nế\nt n\nố\ni SQL Server và chuy\nể\nn k\nế\nt qu\nả\n truy v\nấ\nn thành danh sách t\nừ\n đi\nể\nn.\ndatabase_setup.py\nT\nạ\no c\nấ\nu trúc d\nữ\n li\nệ\nu và d\nữ\n li\nệ\nu kh\nở\ni đ\nầ\nu.\nsecurity.py\nBăm và ki\nể\nm tra m\nậ\nt kh\nẩ\nu.\nui/theme.py, assets/\nMàu s\nắ\nc, ki\nể\nu ch\nữ\n, tr\nạ\nng thái và hình \nả\nnh control.\ntests/test_coffee.py\nKi\nể\nm th\nử\n tích h\nợ\np b\nằ\nng SQL Server và Tkinter.\nGiao di\nệ\nn nh\nậ\nn d\nữ\n li\nệ\nu và g\nọ\ni hàm x\nử\n lý. CoffeeService ki\nể\nm tra quy\nề\nn, tr\nạ\nng thái và th\nự\nc hi\nệ\nn truy v\nấ\nn. Nh\nữ\nng thao tác ghi dùng kh\nố\ni try/except/finally v\nớ\ni commit(), rollback() và close() rõ ràng. Cách t\nổ\n ch\nứ\nc này gi\nữ\n đư\nợ\nc ranh gi\nớ\ni gi\nữ\na hi\nể\nn th\nị\n và x\nử\n lý mà không b\nổ\n sung framework hay l\nớ\np trung gian không c\nầ\nn thi\nế\nt.\nTHI\nẾ\nT K\nẾ\n D\nỮ\n LI\nỆ\nU\nD\nự\n án có b\nả\ny b\nả\nng SQL. Sơ đ\nồ\n quan h\nệ\n đư\nợ\nc b\nổ\n sung đ\nể\n làm rõ d\nữ\n li\nệ\nu lưu tr\nữ\n th\nự\nc t\nế\n, ph\nụ\nc v\nụ\n gi\nả\ni thích k\nế\nt n\nố\ni cơ s\nở\n d\nữ\n li\nệ\nu. Tên b\nả\nng, trư\nờ\nng và quan h\nệ\n l\nấ\ny t\nừ\n database_setup.py. Hai v\nạ\nch bi\nể\nu th\nị\n đúng m\nộ\nt, vòng tròn kèm v\nạ\nch bi\nể\nu th\nị\n không ho\nặ\nc m\nộ\nt, vòng tròn kèm chân qu\nạ\n bi\nể\nu th\nị\n không ho\nặ\nc nhi\nề\nu.\nHình 2.2 trình bày quan h\nệ\n gi\nữ\na b\nả\ny b\nả\nng d\nữ\n li\nệ\nu.\nHình 2.\n2\n Quan h\nệ\n gi\nữ\na b\nả\ny b\nả\nng d\nữ\n li\nệ\nu\nM\nỗ\ni tài kho\nả\nn b\nắ\nt bu\nộ\nc liên k\nế\nt m\nộ\nt nhân viên, m\nỗ\ni nhân viên có t\nố\ni đa m\nộ\nt tài kho\nả\nn. Đơn b\nắ\nt bu\nộ\nc có bàn và nhân viên l\nậ\np, khách hàng có th\nể\n đ\nể\n tr\nố\nng. M\nộ\nt đơn đã lưu qua hàm nghi\nệ\np v\nụ\n ph\nả\ni có ít nh\nấ\nt m\nộ\nt món. Riêng ràng bu\nộ\nc khóa ngo\nạ\ni không b\nắ\nt bu\nộ\nc đơn luôn có chi ti\nế\nt, vì v\nậ\ny phía chi ti\nế\nt trên sơ đ\nồ\n th\nể\n hi\nệ\nn không ho\nặ\nc nhi\nề\nu.\nB\nả\nng 2.2 t\nổ\nng h\nợ\np các b\nả\nng và trư\nờ\nng d\nữ\n li\nệ\nu.\nB\nả\nng 2.\n2\n Các b\nả\nng và trư\nờ\nng d\nữ\n li\nệ\nu\nB\nả\nng\nTrư\nờ\nng và ý nghĩa\nNhanVien\nMaNV: khoá chính. HoTen, SDT, ChucVu: thông tin nhân s\nự\n.\nTaiKhoan\nMaTK, TenDangNhap duy nh\nấ\nt, MatKhauHash, VaiTro, MaNV duy nh\nấ\nt, HoatDong.\nKhachHang\nMaKH, HoTen, SDT, DiemTichLuy không âm.\nBan\nMaBan, TenBan duy nh\nấ\nt, KhuVuc, TrangThai.\nSanPham\nMaSP, TenSP, DanhMuc, Gia DECIMAL(18,2), MoTa, TrangThai bán.\nDonHang\nMaDH, MaBan, MaKH, MaNV, th\nờ\ni gian t\nạ\no/thanh toán, TongTien, DiemDaCong, TrangThai, PhienBan.\nChiTietDonHang\nMaCTDH, MaDH, MaSP, TenSPLucBan, SoLuong, DonGia và ThanhTien tính t\nừ\n s\nố\n lư\nợ\nng nhân đơn giá.\nGia, DonGia và TongTien dùng DECIMAL(18,2), s\nố\n lư\nợ\nng dùng s\nố\n nguyên. ThanhTien là c\nộ\nt tính toán t\nừ\n SoLuong và DonGia. PhienBan dùng ROWVERSION đ\nể\n phát hi\nệ\nn d\nữ\n li\nệ\nu đã thay đ\nổ\ni k\nể\n t\nừ\n l\nầ\nn đ\nọ\nc trư\nớ\nc, không ph\nả\ni th\nờ\ni gian t\nạ\no ho\nặ\nc s\nử\na (Microsoft, không ghi năm). Các khóa ngo\nạ\ni gi\nữ\n liên k\nế\nt l\nị\nch s\nử\n. Ch\nỉ\n m\nụ\nc duy nh\nấ\nt có đi\nề\nu ki\nệ\nn ngăn m\nộ\nt bàn có hai đơn đang x\nử\n lý.\nDANH SÁCH, T\nỪ\n ĐI\nỂ\nN VÀ T\nẬ\nP TIN\nDanh sách (list) lưu nhi\nề\nu ph\nầ\nn t\nử\n theo th\nứ\n t\nự\n. T\nừ\n đi\nể\nn (dict) lưu c\nặ\np khóa và giá tr\nị\n. B\nộ\n giá tr\nị\n (tuple) lưu m\nộ\nt nhóm ph\nầ\nn t\nử\n, đư\nợ\nc dùng cho các m\nố\nc th\nờ\ni gian và doanh thu tr\nả\n v\nề\n t\nừ\n truy v\nấ\nn.\nB\nả\nng 2.3 t\nổ\nng h\nợ\np c\nấ\nu trúc d\nữ\n li\nệ\nu trong b\nộ\n nh\nớ\n.\nB\nả\nng 2.\n3\n C\nấ\nu trúc d\nữ\n li\nệ\nu trong b\nộ\n nh\nớ\nC\nấ\nu trúc\nVí d\nụ\n và cách dùng\nDanh sách t\nừ\n đi\nể\nn\nDanh sách s\nả\nn ph\nẩ\nm và k\nế\nt qu\nả\n truy v\nấ\nn. M\nỗ\ni dict có tên c\nộ\nt làm khoá.\nGi\nỏ\n hàng d\nạ\nng t\nừ\n đi\nể\nn\nKhoá là MaSP. Giá tr\nị\n ch\nứ\na MaSP, TenSP, SoLuong và DonGia.\nÁnh x\nạ\n l\nự\na ch\nọ\nn\nNhãn bàn ho\nặ\nc khách hàng ánh x\nạ\n t\nớ\ni mã tương \nứ\nng đ\nể\n tránh nh\nậ\np mã b\nằ\nng tay.\nG\nộ\np s\nố\n lư\nợ\nng quantities\nG\nộ\np s\nố\n lư\nợ\nng các dòng cùng mã s\nả\nn ph\nẩ\nm trư\nớ\nc khi lưu.\nDanh sách b\nộ\n giá tr\nị\nDãy th\nờ\ni gian và doanh thu cung c\nấ\np cho bi\nể\nu đ\nồ\n.\nK\nế\nt qu\nả\n truy v\nấ\nn đư\nợ\nc chuy\nể\nn thành danh sách t\nừ\n đi\nể\nn đ\nể\n truy c\nậ\np b\nằ\nng tên c\nộ\nt. Gi\nỏ\n hàng dùng mã s\nả\nn ph\nẩ\nm làm khóa nên thêm cùng món s\nẽ\n c\nậ\np nh\nậ\nt s\nố\n lư\nợ\nng. Trư\nớ\nc khi ghi, quantities g\nộ\np các dòng cùng mã s\nả\nn ph\nẩ\nm và ki\nể\nm tra gi\nớ\ni h\nạ\nn s\nố\n lư\nợ\nng. C\nấ\nu trúc này đư\nợ\nc dùng tr\nự\nc ti\nế\np trong vòng l\nặ\np c\nủ\na save_order().\nB\nả\nng 2.4 t\nổ\nng h\nợ\np c\nấ\nu trúc t\nậ\np tin CSV đư\nợ\nc xu\nấ\nt.\nB\nả\nng 2.\n4\n C\nấ\nu trúc t\nậ\np tin CSV đư\nợ\nc xu\nấ\nt\nDòng\nN\nộ\ni dung\n1\nT\nừ\n ngày, giá tr\nị\n ngày đ\nầ\nu, Đ\nế\nn ngày, giá tr\nị\n ngày cu\nố\ni.\n2\nT\nổ\nng doanh thu (đ\nồ\nng), giá tr\nị\n t\nổ\nng, Đơn đã thanh toán, s\nố\n đơn.\n3\nDòng tr\nố\nng phân cách thông tin k\nỳ\n và d\nữ\n li\nệ\nu món.\n4\nMã s\nả\nn ph\nẩ\nm, S\nả\nn ph\nẩ\nm, S\nố\n lư\nợ\nng, Doanh thu (đ\nồ\nng).\n5 tr\nở\n đi\nM\nộ\nt dòng cho m\nỗ\ni s\nả\nn ph\nẩ\nm thu\nộ\nc k\nế\nt qu\nả\n th\nố\nng kê bán ch\nạ\ny.\nStatisticsTab.export() ghi t\nậ\np tin b\nằ\nng csv.writer v\nớ\ni encoding=\"utf-8-sig\". Đây là mã hóa UTF-8 (\nUnicode Transformation Format\n 8-bit) có d\nấ\nu nh\nậ\nn bi\nế\nt đ\nầ\nu t\nệ\np (\nByte Order Mark\n). T\nậ\np tin dùng d\nấ\nu ph\nẩ\ny phân cách các trư\nờ\nng, ngày theo năm-tháng-ngày và s\nố\n ti\nề\nn d\nạ\nng chu\nỗ\ni th\nậ\np phân c\nủ\na Decimal. S\nố\n li\nệ\nu hi\nể\nn th\nị\n trong báo cáo này dùng d\nấ\nu ch\nấ\nm hàng nghìn theo quy đ\nị\nnh trình bày. Đó là cách trình bày khác v\nớ\ni d\nữ\n li\nệ\nu g\nố\nc trong t\nậ\np tin.\nTHU\nẬ\nT TOÁN LƯU ĐƠN HÀNG\nsave_order() ki\nể\nm tra gi\nỏ\n trư\nớ\nc khi m\nở\n giao d\nị\nch. Trong giao d\nị\nch, hàm ki\nể\nm tra phiên, đơn đang s\nử\na, bàn và khách. Vòng l\nặ\np đ\nọ\nc s\nả\nn ph\nẩ\nm, ch\nọ\nn đơn giá phù h\nợ\np và c\nộ\nng t\nổ\nng. Món đã lưu gi\nữ\n tên và đơn giá cũ. Món ng\nừ\nng bán ch\nỉ\n đư\nợ\nc gi\nữ\n s\nố\n lư\nợ\nng không vư\nợ\nt chi ti\nế\nt cũ. Sau khi ghi đơn và chi ti\nế\nt, hàm đ\nồ\nng b\nộ\n bàn r\nồ\ni xác nh\nậ\nn giao d\nị\nch.\nHình 2.3 trình bày lưu đ\nồ\n thu\nậ\nt toán lưu đơn hàng.\nHình 2.\n3\n Lưu đ\nồ\n thu\nậ\nt toán lưu đơn hàng\nN\nế\nu l\nỗ\ni x\nả\ny ra trong giao d\nị\nch, kh\nố\ni except g\nọ\ni rollback() r\nồ\ni chuy\nể\nn l\nỗ\ni lên giao di\nệ\nn. Kh\nố\ni finally luôn đóng k\nế\nt n\nố\ni. Khi s\nử\na đơn, expected_version ph\nả\ni kh\nớ\np PhienBan hi\nệ\nn t\nạ\ni. Khi chuy\nể\nn bàn, tr\nạ\nng thái c\nả\n bàn cũ và bàn m\nớ\ni đ\nề\nu đư\nợ\nc tính l\nạ\ni.\nTHU\nẬ\nT TOÁN THANH TOÁN\nPaymentDialog ki\nể\nm tra ti\nề\nn khách đưa và hi\nể\nn th\nị\n ti\nề\nn th\nừ\na. Khi ngư\nờ\ni dùng xác nh\nậ\nn đã thu đ\nủ\n, giao di\nệ\nn g\nọ\ni finish_order() cùng phiên b\nả\nn đơn. Hàm ki\nể\nm tra tr\nạ\nng thái, tính đi\nể\nm, c\nậ\np nh\nậ\nt đơn, khách và bàn trong cùng m\nộ\nt giao d\nị\nch. Ti\nề\nn nh\nậ\nn và ti\nề\nn th\nừ\na ch\nỉ\n h\nỗ\n tr\nợ\n thao tác t\nạ\ni qu\nầ\ny, không có c\nộ\nt lưu hai giá tr\nị\n này trong cơ s\nở\n d\nữ\n li\nệ\nu.\nHình 2.4 trình bày lưu đ\nồ\n thu\nậ\nt toán thanh toán đơn.\nHình 2.\n4\n Lưu đ\nồ\n thu\nậ\nt toán thanh toán đơn\nfinish_order() còn có nhánh pay=False đ\nể\n h\nủ\ny đơn đang x\nử\n lý. Nhánh đó ghi tr\nạ\nng thái “Đã hu\nỷ\n” theo h\nằ\nng CANCELLED trong mã, không ghi doanh thu và không c\nộ\nng đi\nể\nm. Lưu đ\nồ\n trên trình bày nhánh thanh toán là ch\nứ\nc năng x\nử\n lý quan tr\nọ\nng.\nCÀI Đ\nẶ\nT GI\nẢ\nI PHÁP\nMÔI TRƯ\nỜ\nNG VÀ KH\nỞ\nI Đ\nỘ\nNG\nB\nả\nng 3.1 t\nổ\nng h\nợ\np môi trư\nờ\nng ch\nạ\ny đư\nợ\nc ki\nể\nm tra ngày 20/10/2026.\nB\nả\nng 3.\n1\n Môi trư\nờ\nng ch\nạ\ny đư\nợ\nc ki\nể\nm tra ngày 20/10/2026\nThành ph\nầ\nn\nPhiên b\nả\nn / c\nấ\nu hình\nH\nệ\n đi\nề\nu hành\nWindows 11, b\nả\nn d\nự\nng 26300.\nPython\n3.14.3\nTk\n8.6.15, dùng qua tkinter/ttk.\npyodbc\n5.3.0\nSQL Server\nExpress 64-bit, phiên b\nả\nn 16.0.1210.3.\nK\nế\nt n\nố\ni m\nặ\nc đ\nị\nnh\nTHINKPADX1\\SQLSEVER, Windows Authentication.\nDatabase m\nặ\nc đ\nị\nnh\nQuanLyQuanCoffee.\nThư vi\nệ\nn cài thêm\nrequirements.txt ch\nỉ\n khai báo pyodbc>=5.2,<6.\nMôi trư\nờ\nng đư\nợ\nc ki\nể\nm tra b\nằ\nng phiên b\nả\nn Python, Tcl/Tk, pyodbc và thông tin máy ch\nủ\n SQL trong l\nầ\nn ch\nạ\ny th\nự\nc t\nế\n. Các l\nệ\nnh kh\nở\ni đ\nộ\nng và ki\nể\nm th\nử\n đư\nợ\nc th\nự\nc hi\nệ\nn b\nằ\nng PowerShell trên Windows.\nmain.py t\nạ\no CoffeeApp, thi\nế\nt l\nậ\np giao di\nệ\nn r\nồ\ni m\nở\n LoginWindow. Khi xác th\nự\nc thành công, CoffeeService đư\nợ\nc truy\nề\nn cho MainWindow. Màn hình chính t\nạ\no các trang theo vai trò. database_setup.py dùng đ\nể\n t\nạ\no c\nấ\nu trúc và d\nữ\n li\nệ\nu ban đ\nầ\nu, ch\nạ\ny l\nạ\ni không xóa d\nữ\n li\nệ\nu đang có ho\nặ\nc đ\nặ\nt l\nạ\ni m\nậ\nt kh\nẩ\nu.\nV\nẬ\nN D\nỤ\nNG TÁM N\nỘ\nI DUNG H\nỌ\nC PH\nẦ\nN\nB\nả\nng 3.2 t\nổ\nng h\nợ\np đ\nố\ni chi\nế\nu n\nộ\ni dung h\nọ\nc ph\nầ\nn t\nừ\n 1 đ\nế\nn 4.\nB\nả\nng 3.\n2\n Đ\nố\ni chi\nế\nu n\nộ\ni dung h\nọ\nc ph\nầ\nn t\nừ\n 1 đ\nế\nn 4\nN\nộ\ni dung\nLý thuy\nế\nt / th\nự\nc hành\nMinh ch\nứ\nng trong mã\nBài 1. Gi\nớ\ni thi\nệ\nu v\nề\n l\nậ\np trình Python và các công c\nụ\n l\nậ\np trình\n3 / 3\nmain.py là đi\nể\nm ch\nạ\ny. requirements.txt khai báo ph\nụ\n thu\nộ\nc. Ch\nạ\ny chương trình và ki\nể\nm th\nử\n b\nằ\nng Python.\nBài 2. Các khái ni\nệ\nm cơ b\nả\nn\n3 / 3\nBi\nế\nn, ki\nể\nu d\nữ\n li\nệ\nu, phép toán, import, l\nớ\np và đ\nố\ni tư\nợ\nng. Dùng int, str, bool và Decimal.\nBài 3. Các bi\nể\nu th\nứ\nc đi\nề\nu ki\nệ\nn và vòng l\nặ\np\n6 / 6\nif ki\nể\nm tra giá, quy\nề\nn và tr\nạ\nng thái. for g\nộ\np món, tính t\nổ\nng và ghi t\nừ\nng dòng CSV.\nBài 4. Hàm trong Python\n6 / 6\nprice, phone, report_period và các phương th\nứ\nc CoffeeService chia nhi\nệ\nm v\nụ\n x\nử\n lý rõ ràng.\nVí d\nụ\n, hàm phone() trong models/service.py x\nử\n lý chu\nỗ\ni s\nố\n đi\nệ\nn tho\nạ\ni. Hàm lo\nạ\ni kho\nả\nng tr\nắ\nng, cho phép đ\nể\n tr\nố\nng và t\nừ\n ch\nố\ni chu\nỗ\ni sai đ\nị\nnh d\nạ\nng. Đo\nạ\nn trích dư\nớ\ni đây là mã hi\nệ\nn đang ch\nạ\ny.\ndef phone(value):\n    value = str(value or \"\").strip().replace(\" \", \"\")\n    if value and not re.fullmatch(r\"(?:0[0-9]{9}|\\+84[0-9]{9})\", value):\n        raise AppError(\"S\nố\n đi\nệ\nn tho\nạ\ni g\nồ\nm 10 ch\nữ\n s\nố\n b\nắ\nt đ\nầ\nu b\nằ\nng 0 ho\nặ\nc +84 và 9 ch\nữ\n s\nố\n.\")\n    return value\nB\nả\nng 3.3 t\nổ\nng h\nợ\np đ\nố\ni chi\nế\nu n\nộ\ni dung h\nọ\nc ph\nầ\nn t\nừ\n 5 đ\nế\nn 8.\nB\nả\nng 3.\n3\n Đ\nố\ni chi\nế\nu n\nộ\ni dung h\nọ\nc ph\nầ\nn t\nừ\n 5 đ\nế\nn 8\nN\nộ\ni dung\nLý thuy\nế\nt / th\nự\nc hành\nMinh ch\nứ\nng trong mã\nBài 5. X\nử\n lý chu\nỗ\ni\n3 / 3\nstrip lo\nạ\ni kho\nả\nng tr\nắ\nng. Chu\nẩ\nn hoá tìm ki\nế\nm không d\nấ\nu. Ki\nể\nm tra s\nố\n đi\nệ\nn tho\nạ\ni và đ\nị\nnh d\nạ\nng s\nố\n ti\nề\nn.\nBài 6. X\nử\n lý danh sách\n3 / 3\nDanh sách b\nả\nn ghi, list comprehension, l\nọ\nc và s\nắ\np x\nế\np d\nữ\n li\nệ\nu b\nả\nng. Gi\nỏ\n và ánh x\nạ\n dùng thêm dict.\nBài 7. X\nử\n lý t\nậ\np tin\n3 / 3\nopen m\nở\n t\nậ\np tin v\nớ\ni encoding=\"utf-8-sig\", csv.writer ghi báo cáo. Nh\nậ\nt ký l\nỗ\ni ch\nỉ\n đư\nợ\nc t\nạ\no khi có l\nỗ\ni và có gi\nớ\ni h\nạ\nn kích thư\nớ\nc.\nBài 8. Thi\nế\nt k\nế\n giao di\nệ\nn v\nớ\ni tkinter\n3 / 3\nTk, Toplevel, ttk.Frame, Entry, Button, Combobox, Treeview, StringVar, pack và grid.\nGi\nỏ\n hàng và quantities minh h\nọ\na vi\nệ\nc dùng t\nừ\n đi\nể\nn k\nế\nt h\nợ\np vòng l\nặ\np. Danh sách b\nả\nn ghi đư\nợ\nc l\nọ\nc, s\nắ\np x\nế\np r\nồ\ni đưa vào Treeview. K\nế\nt qu\nả\n này th\nể\n hi\nệ\nn x\nử\n lý d\nữ\n li\nệ\nu b\nằ\nng các c\nấ\nu trúc cơ b\nả\nn thay vì ph\nụ\n thu\nộ\nc vào thư vi\nệ\nn phân tích d\nữ\n li\nệ\nu.\nX\nỬ\n LÝ GIAO D\nỊ\nCH VÀ B\nẢ\nO V\nỆ\n D\nỮ\n LI\nỆ\nU\nM\nỗ\ni thao tác ghi m\nở\n m\nộ\nt k\nế\nt n\nố\ni và th\nự\nc hi\nệ\nn các bư\nớ\nc trong kh\nố\ni try. N\nế\nu thành công thì commit(), n\nế\nu có ngo\nạ\ni l\nệ\n thì rollback(), cu\nố\ni cùng close() đ\nể\n gi\nả\ni phóng k\nế\nt n\nố\ni. Trong pyodbc, vi\nệ\nc xác nh\nậ\nn ho\nặ\nc hoàn tác giao d\nị\nch c\nầ\nn th\nự\nc hi\nệ\nn trên k\nế\nt n\nố\ni tương \nứ\nng (mkleehammer và c\nộ\nng s\nự\n, không ghi năm a). Hàm finish_order() dư\nớ\ni đây th\nể\n hi\nệ\nn tr\nự\nc ti\nế\np cách x\nử\n lý này.\ndef finish_order(self, order_id, pay=True, expected_version=None):\n    connection = connect()\n    try:\n        connection.execute(\"SET XACT_ABORT ON\")\n        cursor = connection.cursor()\n        _lock(cursor, \"CoffeeOrders\")\n        self._authorize(cursor)\n        order = self._pending_order(cursor, order_id)\n        if expected_version is not None and bytes(order[\"PhienBan\"]) != bytes(expected_version):\n            raise AppError(\"Đơn v\nừ\na đư\nợ\nc thay đ\nổ\ni. Vui lòng làm m\nớ\ni và ki\nể\nm tra l\nạ\ni s\nố\n ti\nề\nn.\")\n        points = int(order[\"TongTien\"] // 10000) if pay and order[\"MaKH\"] else 0\n        cursor.execute(\"\"\"UPDATE dbo.DonHang SET TrangThai = ?, DiemDaCong = ?,\n            ThoiGianThanhToan = CASE WHEN ? = 1 THEN SYSDATETIME() ELSE NULL END WHERE MaDH = ?\"\"\",\n            PAID if pay else CANCELLED, points, int(pay), order_id)\n        if points:\n            cursor.execute(\"UPDATE dbo.KhachHang SET DiemTichLuy = DiemTichLuy + ? WHERE MaKH = ?\",\n                           points, order[\"MaKH\"])\n        self._sync_table(cursor, order[\"MaBan\"])\n        connection.commit()\n    except Exception:\n        connection.rollback()\n        raise\n    finally:\n        connection.close()\nTham s\nố\n truy v\nấ\nn đư\nợ\nc truy\nề\nn b\nằ\nng d\nấ\nu h\nỏ\ni đ\nể\n d\nữ\n li\nệ\nu nh\nậ\np không tr\nở\n thành câu l\nệ\nnh SQL. Tên b\nả\nng và c\nộ\nt ch\nỉ\n đư\nợ\nc l\nấ\ny t\nừ\n danh sách ENTITIES c\nố\n đ\nị\nnh. Các thao tác s\nử\na đơn s\nử\n d\nụ\nng PhienBan đ\nể\n ngăn ghi đè d\nữ\n li\nệ\nu cũ. Khóa giao d\nị\nch và ch\nỉ\n m\nụ\nc duy nh\nấ\nt ngăn chi\nế\nm cùng bàn ho\nặ\nc thanh toán m\nộ\nt đơn hai l\nầ\nn.\nM\nậ\nt kh\nẩ\nu đư\nợ\nc d\nẫ\nn xu\nấ\nt b\nằ\nng PBKDF2 (\nPassword-Based Key Derivation Function 2\n), s\nử\n d\nụ\nng SHA-256, d\nữ\n li\nệ\nu ng\nẫ\nu nhiên riêng và 260.000 vòng l\nặ\np trong security.py. Khi ki\nể\nm tra, chương trình dùng hmac.compare_digest. Báo cáo mô t\nả\n đúng cơ ch\nế\n đang dùng, không xem đây là kh\nẳ\nng đ\nị\nnh h\nệ\n th\nố\nng đã đư\nợ\nc ki\nể\nm đ\nị\nnh an toàn toàn di\nệ\nn (Python Software Foundation, không ghi năm c).\nGIAO DI\nỆ\nN VÀ QUY TRÌNH THAO TÁC\nĐăng nh\nậ\np\nMàn hình tách ph\nầ\nn nh\nậ\nn di\nệ\nn và bi\nể\nu m\nẫ\nu. Tên đăng nh\nậ\np, m\nậ\nt kh\nẩ\nu và nút xác nh\nậ\nn đư\nợ\nc s\nắ\np x\nế\np theo chi\nề\nu d\nọ\nc. L\nỗ\ni đư\nợ\nc hi\nể\nn th\nị\n ngay trên bi\nể\nu m\nẫ\nu, m\nậ\nt kh\nẩ\nu đư\nợ\nc xóa sau khi xác th\nự\nc thành công.\nHình 3.1 trình bày giao di\nệ\nn đăng nh\nậ\np.\nHình 3.\n1\n Giao di\nệ\nn đăng nh\nậ\np\nT\nổ\nng quan và th\nự\nc đơn\nT\nổ\nng quan hi\nể\nn th\nị\n doanh thu hôm nay, s\nố\n hóa đơn đã thanh toán, s\nố\n đơn đang ph\nụ\nc v\nụ\n và s\nố\n bàn tr\nố\nng. Bi\nể\nu đ\nồ\n l\nấ\ny d\nữ\n li\nệ\nu th\nậ\nt t\nừ\n các đơn th\nử\n trong cơ s\nở\n d\nữ\n li\nệ\nu. \nẢ\nnh ch\nụ\np đư\nợ\nc th\nự\nc hi\nệ\nn trư\nớ\nc khi thanh toán đơn 80.000 đ\nồ\nng, vì v\nậ\ny doanh thu hôm nay \nở\n \nả\nnh là 85.000 đ\nồ\nng và có m\nộ\nt đơn đang ph\nụ\nc v\nụ\n.\nHình 3.2 trình bày giao di\nệ\nn t\nổ\nng quan c\nủ\na qu\nả\nn lý.\nHình 3.\n2\n Giao di\nệ\nn t\nổ\nng quan c\nủ\na qu\nả\nn lý\nTrang Th\nự\nc đơn cho phép tìm ki\nế\nm, thêm, s\nử\na, xóa và ng\nừ\nng bán s\nả\nn ph\nẩ\nm theo quy\nề\nn. Nút s\nử\na và xóa b\nị\n vô hi\nệ\nu hóa khi chưa ch\nọ\nn m\nộ\nt dòng. Nh\nữ\nng s\nả\nn ph\nẩ\nm đã đư\nợ\nc chi ti\nế\nt đơn tham chi\nế\nu không đư\nợ\nc xóa đ\nể\n gi\nữ\n l\nị\nch s\nử\n.\nHình 3.3 trình bày giao di\nệ\nn qu\nả\nn lý th\nự\nc đơn.\nHình 3.\n3\n Giao di\nệ\nn qu\nả\nn lý th\nự\nc đơn\nG\nọ\ni món và thanh toán\nMàn hình g\nọ\ni món hi\nể\nn th\nị\n bàn và khách \nở\n trên, th\nự\nc đơn cùng gi\nỏ\n \nở\n gi\nữ\na. Các nút tăng, gi\nả\nm, áp d\nụ\nng s\nố\n lư\nợ\nng và b\nỏ\n món n\nằ\nm c\nạ\nnh gi\nỏ\n. V\nớ\ni d\nữ\n li\nệ\nu th\nử\n g\nồ\nm hai cà phê đen và m\nộ\nt cà phê s\nữ\na, t\nổ\nng là 80.000 đ\nồ\nng. Dòng “3 món” trên giao di\nệ\nn là t\nổ\nng s\nố\n lư\nợ\nng ba ly, gi\nỏ\n g\nồ\nm hai lo\nạ\ni s\nả\nn ph\nẩ\nm.\nHình 3.4 trình bày giao di\nệ\nn g\nọ\ni món v\nớ\ni t\nổ\nng đơn 80.000 đ\nồ\nng.\nHình 3.\n4\n Giao di\nệ\nn g\nọ\ni món v\nớ\ni t\nổ\nng đơn 80.000 đ\nồ\nng\nMàn hình thu ti\nề\nn đ\nặ\nt t\nổ\nng ph\nả\ni thu, ô ti\nề\nn khách đưa và ti\nề\nn th\nừ\na theo th\nứ\n t\nự\n ki\nể\nm tra t\nạ\ni qu\nầ\ny. Khi s\nố\n ti\nề\nn chưa h\nợ\np l\nệ\n ho\nặ\nc chưa đ\nủ\n, nút hoàn t\nấ\nt b\nị\n vô hi\nệ\nu hóa. \nẢ\nnh ghi nh\nậ\nn trư\nờ\nng h\nợ\np nh\nậ\nn 100.000 đ\nồ\nng và tr\nả\n l\nạ\ni 20.000 đ\nồ\nng.\nHình 3.5 trình bày giao di\nệ\nn xác nh\nậ\nn thu ti\nề\nn.\nHình 3.\n5\n Giao di\nệ\nn xác nh\nậ\nn thu ti\nề\nn\nBáo cáo và giao di\nệ\nn nhân viên\nQu\nả\nn lý ch\nọ\nn ngày ho\nặ\nc tháng r\nồ\ni xem doanh thu, s\nố\n hóa đơn, trung bình m\nỗ\ni đơn và món bán ch\nạ\ny. K\nỳ\n 14/10/2026 đ\nế\nn 20/10/2026 trong l\nầ\nn ch\nạ\ny th\nử\n có 8 đơn đã thanh toán, doanh thu 1.200.000 đ\nồ\nng và trung bình 150.000 đ\nồ\nng m\nỗ\ni đơn.\nHình 3.6 trình bày giao di\nệ\nn báo cáo doanh thu theo k\nỳ\n.\nHình 3.\n6\n Giao di\nệ\nn báo cáo doanh thu theo k\nỳ\nNhân viên ch\nỉ\n có ba trang ph\nụ\nc v\nụ\n. Sơ đ\nồ\n bàn hi\nể\nn th\nị\n tr\nạ\nng thái b\nằ\nng màu và ch\nữ\n. Nút G\nọ\ni món m\nở\n đơn m\nớ\ni trên bàn tr\nố\nng, còn bàn đang ph\nụ\nc v\nụ\n cho phép ti\nế\np t\nụ\nc đơn hi\nệ\nn có. \nẢ\nnh ch\nụ\np sau khi thanh toán cho th\nấ\ny c\nả\n tám bàn đ\nề\nu tr\nố\nng.\nHình 3.7 trình bày giao di\nệ\nn sơ đ\nồ\n bàn c\nủ\na nhân viên.\nHình 3.\n7\n Giao di\nệ\nn sơ đ\nồ\n bàn c\nủ\na nhân viên\nĐÁNH GIÁ KI\nỂ\nM TH\nỬ\nM\nỤ\nC TIÊU VÀ PHƯƠNG PHÁP\nKi\nể\nm th\nử\n nh\nằ\nm đ\nố\ni chi\nế\nu các yêu c\nầ\nu nh\nậ\np li\nệ\nu, tính toán, phân quy\nề\nn và lưu tr\nữ\n v\nớ\ni hành vi th\nự\nc t\nế\n. B\nộ\n tests/test_coffee.py s\nử\n d\nụ\nng unittest, SQL Server th\nậ\nt và các c\nử\na s\nổ\n Tkinter. Cơ s\nở\n d\nữ\n li\nệ\nu th\nử\n đư\nợ\nc t\nạ\no riêng và xóa khi k\nế\nt thúc, d\nữ\n li\nệ\nu c\nủ\na quán không đư\nợ\nc dùng làm nơi ghi k\nế\nt qu\nả\n th\nử\n.\nB\nộ\n ki\nể\nm th\nử\n tích h\nợ\np g\nồ\nm 19 phương th\nứ\nc, có trư\nờ\nng h\nợ\np dùng nhi\nề\nu b\nộ\n d\nữ\n li\nệ\nu. M\nộ\nt s\nố\n phép th\nử\n giao di\nệ\nn thay h\nộ\np thông báo b\nằ\nng unittest.mock đ\nể\n không ch\nờ\n thao tác ngư\nờ\ni dùng. Ph\nầ\nn truy v\nấ\nn, ràng bu\nộ\nc và giao d\nị\nch ch\nạ\ny trên SQL Server th\nậ\nt. Riêng l\nầ\nn trình di\nễ\nn b\nổ\n sung dùng các c\nử\na s\nổ\n th\nậ\nt và h\nộ\np tho\nạ\ni lưu CSV th\nậ\nt, không thay th\nế\n h\nộ\np tho\nạ\ni xu\nấ\nt t\nậ\np tin.\nK\nẾ\nT QU\nẢ\n B\nỘ\n KI\nỂ\nM TH\nỬ\n TÍCH H\nỢ\nP\nNgày 20/10/2026, b\nộ\n ki\nể\nm th\nử\n trư\nớ\nc khi d\nọ\nn mã đ\nạ\nt 19 ki\nể\nm th\nử\n trong 18,003 giây. Sau khi thay cách qu\nả\nn lý giao d\nị\nch và x\nử\n lý ngo\nạ\ni l\nệ\n b\nằ\nng kh\nố\ni l\nệ\nnh tr\nự\nc ti\nế\np, l\nầ\nn ch\nạ\ny l\nạ\ni đ\nạ\nt 19 ki\nể\nm th\nử\n trong 16,156 giây. Hai th\nờ\ni gian ch\nỉ\n ghi nh\nậ\nn l\nầ\nn ch\nạ\ny tương \nứ\nng, không dùng đ\nể\n k\nế\nt lu\nậ\nn chương trình tăng t\nố\nc.\npython -B -m unittest discover -s tests -v\nRan 19 tests in 16.156s\nOK\nB\nả\nng 4.1 t\nổ\nng h\nợ\np k\nế\nt qu\nả\n ki\nể\nm th\nử\n d\nữ\n li\nệ\nu và nghi\nệ\np v\nụ\n.\nB\nả\nng 4.\n1\n K\nế\nt qu\nả\n ki\nể\nm th\nử\n d\nữ\n li\nệ\nu và nghi\nệ\np v\nụ\nTh\nứ\n t\nự\nTrư\nờ\nng h\nợ\np và k\nế\nt qu\nả\n mong đ\nợ\ni\nK\nế\nt qu\nả\n th\nự\nc t\nế\n1\nBăm m\nậ\nt kh\nẩ\nu khác d\nữ\n li\nệ\nu ng\nẫ\nu nhiên, đăng nh\nậ\np đúng, t\nừ\n ch\nố\ni sai m\nậ\nt kh\nẩ\nu và chu\nỗ\ni chèn SQL.\nĐ\nạ\nt\n2\nCh\nạ\ny thi\nế\nt l\nậ\np l\nạ\ni không nhân đôi d\nữ\n li\nệ\nu m\nẫ\nu.\nĐ\nạ\nt\n3\nT\nừ\n ch\nố\ni giá sai, s\nố\n đi\nệ\nn tho\nạ\ni sai, tên r\nỗ\nng và đi\nể\nm không nguyên.\nĐ\nạ\nt\n4\nThêm, đ\nọ\nc, s\nử\na, xoá các danh m\nụ\nc theo quy\nề\nn.\nĐ\nạ\nt\n5\nT\nạ\no, s\nử\na, chuy\nể\nn bàn và xoá đơn chưa thanh toán theo quy t\nắ\nc.\nĐ\nạ\nt\n6\nL\nỗ\ni trong lưu đơn hoàn tác thay đ\nổ\ni.\nĐ\nạ\nt\n7\nThanh toán c\nộ\nng đi\nể\nm và gi\nữ\n l\nị\nch s\nử\n, không s\nử\na/xoá đơn đã thanh toán.\nĐ\nạ\nt\n8\nHu\nỷ\n ho\nặ\nc xoá đơn c\nậ\np nh\nậ\nt đúng tr\nạ\nng thái bàn.\nĐ\nạ\nt\n9\nNhân viên b\nị\n t\nừ\n ch\nố\ni thao tác qu\nả\nn tr\nị\n \nở\n t\nầ\nng nghi\nệ\np v\nụ\n.\nĐ\nạ\nt\n10\nKhông t\nự\n xoá, t\nự\n khoá ho\nặ\nc h\nạ\n quy\nề\nn qu\nả\nn lý đang dùng.\nĐ\nạ\nt\nB\nả\nng 4.2 t\nổ\nng h\nợ\np k\nế\nt qu\nả\n ki\nể\nm th\nử\n giao d\nị\nch, báo cáo và giao di\nệ\nn.\nB\nả\nng 4.\n2\n K\nế\nt qu\nả\n ki\nể\nm th\nử\n giao d\nị\nch, báo cáo và giao di\nệ\nn\nTh\nứ\n t\nự\nTrư\nờ\nng h\nợ\np và k\nế\nt qu\nả\n mong đ\nợ\ni\nK\nế\nt qu\nả\n th\nự\nc t\nế\n11\nS\nử\na giá menu không đ\nổ\ni giá đã lưu. Món ng\nừ\nng bán b\nị\n h\nạ\nn ch\nế\n đúng.\nĐ\nạ\nt\n12\nB\nả\nn đơn cũ không ghi đè ho\nặ\nc thanh toán sau khi đơn đã đ\nổ\ni.\nĐ\nạ\nt\n13\nHai thao tác gi\nữ\n cùng bàn ch\nỉ\n cho m\nộ\nt đơn đang x\nử\n lý thành công.\nĐ\nạ\nt\n14\nHai thao tác thanh toán ch\nỉ\n hoàn t\nấ\nt đơn và c\nộ\nng đi\nể\nm m\nộ\nt l\nầ\nn.\nĐ\nạ\nt\n15\nL\nỗ\ni SQL khi c\nộ\nng đi\nể\nm hoàn tác c\nả\n thanh toán và tr\nạ\nng thái bàn.\nĐ\nạ\nt\n16\nBáo cáo đúng ngày, tháng, năm nhu\nậ\nn, không tính đơn hu\nỷ\n/chưa thanh toán.\nĐ\nạ\nt\n17\nThêm, đ\nọ\nc, s\nử\na, xóa tài kho\nả\nn, đ\nổ\ni m\nậ\nt kh\nẩ\nu và ki\nể\nm tra phiên b\nị\n khoá.\nĐ\nạ\nt\n18\nĐăng nh\nậ\np, m\nở\n các trang, bi\nể\nu m\nẫ\nu và lu\nồ\nng g\nọ\ni món b\nằ\nng Tkinter.\nĐ\nạ\nt\n19\nNút, combobox, spinbox bo góc ho\nạ\nt đ\nộ\nng b\nằ\nng chu\nộ\nt, bàn phím và đúng tr\nạ\nng thái vô hi\nệ\nu hóa.\nĐ\nạ\nt\nK\nỊ\nCH B\nẢ\nN CH\nẠ\nY TH\nẬ\nT VÀ XU\nẤ\nT T\nẬ\nP TIN\nL\nầ\nn ch\nạ\ny b\nổ\n sung t\nạ\no d\nữ\n li\nệ\nu th\nử\n riêng g\nồ\nm năm món kh\nở\ni đ\nầ\nu, tám bàn, m\nộ\nt khách và m\nộ\nt nhân viên có tài kho\nả\nn. Các đơn có th\nờ\ni đi\nể\nm thanh toán trong b\nả\ny ngày đư\nợ\nc chu\nẩ\nn b\nị\n đ\nể\n ki\nể\nm tra báo cáo. S\nố\n li\nệ\nu \nở\n đây là d\nữ\n li\nệ\nu ph\nụ\nc v\nụ\n ki\nể\nm th\nử\n, không ph\nả\ni doanh thu c\nủ\na m\nộ\nt quán đang kinh doanh.\nB\nả\nng 4.3 t\nổ\nng h\nợ\np k\nế\nt qu\nả\n ch\nạ\ny th\nậ\nt trên giao di\nệ\nn và SQL Server.\nB\nả\nng 4.\n3\n K\nế\nt qu\nả\n ch\nạ\ny th\nậ\nt trên giao di\nệ\nn và SQL Server\nCh\nứ\nc năng và d\nữ\n li\nệ\nu đ\nầ\nu vào\nK\nế\nt qu\nả\n mong đ\nợ\ni\nK\nế\nt qu\nả\n th\nự\nc t\nế\nĐăng nh\nậ\np sai m\nậ\nt kh\nẩ\nu.\nT\nừ\n ch\nố\ni và gi\nữ\n bi\nể\nu m\nẫ\nu.\nBáo l\nỗ\ni trên bi\nể\nu m\nẫ\nu đăng nh\nậ\np.\nGiá s\nả\nn ph\nẩ\nm nh\nậ\np ch\nữ\n.\nKhông lưu s\nả\nn ph\nẩ\nm.\nBi\nể\nu m\nẫ\nu gi\nữ\n l\nạ\ni và hi\nể\nn th\nị\n l\nỗ\ni.\nThêm món h\nợ\np l\nệ\n giá 27.000 đ\nồ\nng, sau đó xóa.\nGhi và xóa đúng d\nữ\n li\nệ\nu.\nĐ\nố\ni chi\nế\nu SQL xác nh\nậ\nn c\nả\n hai thao tác.\nNh\nậ\np ch\nữ\n vào s\nố\n lư\nợ\nng.\nT\nừ\n ch\nố\ni d\nữ\n li\nệ\nu sai.\nGi\nỏ\n không nh\nậ\nn s\nố\n lư\nợ\nng sai.\nHai cà phê đen giá 25.000 đ\nồ\nng, m\nộ\nt cà phê s\nữ\na giá 30.000 đ\nồ\nng.\nT\nổ\nng 80.000 đ\nồ\nng.\nGi\nỏ\n và đơn SQL cùng có t\nổ\nng 80.000 đ\nồ\nng.\nTi\nề\nn nh\nậ\nn 50.000 đ\nồ\nng, sau đó 100.000 đ\nồ\nng.\nCh\nặ\nn khi thi\nế\nu, th\nừ\na 20.000 đ\nồ\nng khi đ\nủ\n.\nNút b\nị\n khóa khi thi\nế\nu. Khi hoàn t\nấ\nt, khách tăng 8 đi\nể\nm.\nH\nủ\ny r\nồ\ni xóa m\nộ\nt đơn chưa thanh toán.\nBàn tr\nố\nng, không có doanh thu.\nTr\nạ\nng thái và k\nế\nt qu\nả\n t\nổ\nng h\nợ\np đúng.\nK\nỳ\n 14/10/2026 đ\nế\nn 20/10/2026, xu\nấ\nt CSV.\nT\nậ\np tin kh\nớ\np s\nố\n li\nệ\nu hi\nể\nn th\nị\n.\n8 đơn, 1.200.000 đ\nồ\nng, đúng mã hóa ti\nế\nng Vi\nệ\nt.\nĐăng nh\nậ\np b\nằ\nng tài kho\nả\nn nhân viên.\nCh\nỉ\n có ba trang ph\nụ\nc v\nụ\n.\nCó Đơn hàng, Sơ đ\nồ\n bàn và Th\nự\nc đơn.\nĐóng c\nử\na s\nổ\n, đăng nh\nậ\np và m\nở\n l\nạ\ni b\nằ\nng k\nế\nt n\nố\ni m\nớ\ni.\nĐơn và đi\nể\nm đã ghi v\nẫ\nn còn.\nĐơn đã thanh toán 80.000 đ\nồ\nng, khách có 8 đi\nể\nm.\nT\nậ\np tin do h\nộ\np tho\nạ\ni lưu t\nạ\no ra là doanh_thu_2026-10-14.csv, n\nằ\nm trong thư m\nụ\nc D:\\NCTU\\Python\\ThucHanh\\SoLieuCSVProject do ngư\nờ\ni dùng ch\nọ\nn. Khi đ\nọ\nc l\nạ\ni, t\nậ\np tin có d\nấ\nu nh\nậ\nn bi\nế\nt UTF-8, đúng tiêu đ\nề\n và hai dòng s\nả\nn ph\nẩ\nm. Cà phê đen có 30 ly, doanh thu 750.000 đ\nồ\nng. Cà phê s\nữ\na có 15 ly, doanh thu 450.000 đ\nồ\nng. T\nổ\nng hai dòng b\nằ\nng t\nổ\nng doanh thu 1.200.000 đ\nồ\nng và s\nố\n đơn \nở\n đ\nầ\nu t\nậ\np tin b\nằ\nng 8.\nĐÁNH GIÁ VÀ GI\nỚ\nI H\nẠ\nN KI\nỂ\nM TRA\nCác ch\nứ\nc năng đã th\nử\n đáp \nứ\nng quy trình ph\nụ\nc v\nụ\n, qu\nả\nn tr\nị\n và báo cáo trong ph\nạ\nm vi đ\nề\n tài. D\nữ\n li\nệ\nu h\nợ\np l\nệ\n đư\nợ\nc ghi, d\nữ\n li\nệ\nu sai b\nị\n t\nừ\n ch\nố\ni, các thao tác liên quan đư\nợ\nc hoàn tác khi có l\nỗ\ni. Giao di\nệ\nn phân bi\nệ\nt vai trò, làm rõ t\nổ\nng ti\nề\nn và tr\nạ\nng thái bàn. Mã sau khi d\nọ\nn v\nẫ\nn vư\nợ\nt qua b\nộ\n ki\nể\nm th\nử\n tích h\nợ\np đã có.\nVi\nệ\nc lưu tr\nữ\n đã đư\nợ\nc ki\nể\nm tra sau khi đóng c\nử\na s\nổ\n và t\nạ\no k\nế\nt n\nố\ni m\nớ\ni. Chưa th\nự\nc hi\nệ\nn t\nắ\nt máy r\nồ\ni kh\nở\ni đ\nộ\nng l\nạ\ni ho\nặ\nc mô ph\nỏ\nng m\nấ\nt đi\nệ\nn. Vì v\nậ\ny, báo cáo chưa k\nế\nt lu\nậ\nn đ\nạ\nt tình hu\nố\nng t\nắ\nt máy theo nghĩa đ\nầ\ny đ\nủ\n. Chưa có th\nử\n nghi\nệ\nm t\nả\ni l\nớ\nn, nhi\nề\nu máy v\nậ\nn hành dài ngày ho\nặ\nc đánh giá b\nả\no m\nậ\nt đ\nộ\nc l\nậ\np. Nh\nữ\nng gi\nớ\ni h\nạ\nn này c\nầ\nn đư\nợ\nc phân bi\nệ\nt v\nớ\ni các k\nế\nt qu\nả\n đã quan sát.\nPH\nẦ\nN K\nẾ\nT LU\nẬ\nN\nK\nế\nt qu\nả\n đ\nạ\nt đư\nợ\nc\nĐ\nề\n tài đã xây d\nự\nng \nứ\nng d\nụ\nng qu\nả\nn lý quán cà phê b\nằ\nng Python v\nớ\ni giao di\nệ\nn Tkinter/ttk, k\nế\nt n\nố\ni SQL Server và xu\nấ\nt báo cáo CSV. Chương trình có qu\nả\nn lý danh m\nụ\nc, tài kho\nả\nn, bàn, khách hàng, đơn hàng, thanh toán và th\nố\nng kê theo k\nỳ\n. Các thao tác quan tr\nọ\nng ki\nể\nm tra d\nữ\n li\nệ\nu, quy\nề\nn và tr\nạ\nng thái trư\nớ\nc khi c\nậ\np nh\nậ\nt.\nK\nế\nt qu\nả\n ch\nạ\ny th\nử\n xác nh\nậ\nn tính t\nổ\nng 80.000 đ\nồ\nng, ti\nề\nn th\nừ\na 20.000 đ\nồ\nng, c\nộ\nng 8 đi\nể\nm và t\nậ\np tin báo cáo có 8 đơn v\nớ\ni doanh thu 1.200.000 đ\nồ\nng. B\nộ\n ki\nể\nm th\nử\n tích h\nợ\np 19 trư\nờ\nng h\nợ\np đ\nạ\nt sau khi d\nọ\nn mã. Tám n\nộ\ni dung h\nọ\nc ph\nầ\nn đư\nợ\nc đ\nố\ni chi\nế\nu v\nớ\ni các t\nệ\np và hàm hi\nệ\nn có, giúp gi\nả\ni thích quá trình v\nậ\nn d\nụ\nng ki\nế\nn th\nứ\nc vào m\nộ\nt \nứ\nng d\nụ\nng hoàn ch\nỉ\nnh trong ph\nạ\nm vi môn h\nọ\nc.\nHư\nớ\nng phát tri\nể\nn\nTrong ph\nạ\nm vi ti\nế\np theo, có th\nể\n b\nổ\n sung in hóa đơn, qu\nả\nn lý nguyên li\nệ\nu, sao lưu và ph\nụ\nc h\nồ\ni d\nữ\n li\nệ\nu. Trư\nớ\nc khi m\nở\n r\nộ\nng c\nầ\nn hoàn thành th\nử\n nghi\nệ\nm sau khi kh\nở\ni đ\nộ\nng l\nạ\ni máy, th\nử\n t\nả\ni và đánh giá quy\nề\nn truy c\nậ\np cơ s\nở\n d\nữ\n li\nệ\nu. Các ch\nứ\nc năng này là đ\nị\nnh hư\nớ\nng, chưa đư\nợ\nc xem là k\nế\nt qu\nả\n đã cài đ\nặ\nt.\nTÀI LI\nỆ\nU THAM KH\nẢ\nO\nTài li\nệ\nu ti\nế\nng Anh\nabdelbend (không ghi năm a). \ndb.py trong Restaurant Management System\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://github.com/abdelbend/Restaurant-Management-System/blob/main/db.py\nabdelbend (không ghi năm b). \nRestaurant Management System\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://github.com/abdelbend/Restaurant-Management-System\nMicrosoft (không ghi năm). \nrowversion (Transact-SQL)\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://learn.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql\nmkleehammer và c\nộ\nng s\nự\n (không ghi năm a). \nDatabase Transaction Management\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://github.com/mkleehammer/pyodbc/wiki/Database-Transaction-Management\nmkleehammer và c\nộ\nng s\nự\n (không ghi năm b). \npyodbc Python ODBC bridge\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://github.com/mkleehammer/pyodbc\nPython Software Foundation (không ghi năm a). \ncsv CSV File Reading and Writing\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://docs.python.org/3/library/csv.html\nPython Software Foundation (không ghi năm b). \ndecimal Decimal fixed-point and floating-point arithmetic\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://docs.python.org/3/library/decimal.html\nPython Software Foundation (không ghi năm c). \nhashlib Secure hashes and message digests\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://docs.python.org/3/library/hashlib.html\nPython Software Foundation (không ghi năm d). \ntkinter Python interface to Tcl/Tk\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://docs.python.org/3/library/tkinter.html\nPython Software Foundation (không ghi năm e). \nunittest Unit testing framework\n. Truy c\nậ\np ngày 04/10/2026. \nhttps://docs.python.org/3/library/unittest.html\nPH\nỤ\n L\nỤ\nC\nHƯ\nỚ\nNG D\nẪ\nN CÀI Đ\nẶ\nT, S\nỬ\n D\nỤ\nNG CHƯƠNG TRÌNH/GI\nẢ\nI PHÁP\nChu\nẩ\nn b\nị\n môi trư\nờ\nng\nCài Python cho Windows t\nừ\n trang chính th\nứ\nc python.org n\nế\nu máy chưa có. Trong trình cài đ\nặ\nt, gi\nữ\n thành ph\nầ\nn Tcl/Tk và pip, đ\nồ\nng th\nờ\ni ch\nọ\nn thêm Python vào PATH đ\nể\n g\nọ\ni b\nằ\nng l\nệ\nnh python. Sau khi cài, m\nở\n PowerShell và ki\nể\nm tra phiên b\nả\nn. L\nầ\nn ch\nạ\ny c\nủ\na báo cáo s\nử\n d\nụ\nng Python 3.14.3.\npython --version\npython -m tkinter\nChu\nẩ\nn b\nị\n SQL Server ho\nặ\nc SQL Server Express đang ho\nạ\nt đ\nộ\nng và trình đi\nề\nu khi\nể\nn ODBC phù h\nợ\np. Tài kho\nả\nn Windows ch\nạ\ny chương trình c\nầ\nn quy\nề\nn t\nạ\no cơ s\nở\n d\nữ\n li\nệ\nu khi thi\nế\nt l\nậ\np l\nầ\nn đ\nầ\nu và quy\nề\nn đ\nọ\nc, ghi d\nữ\n li\nệ\nu khi s\nử\n d\nụ\nng. C\nấ\nu hình m\nặ\nc đ\nị\nnh c\nủ\na d\nự\n án là THINKPADX1\\SQLSEVER và QuanLyQuanCoffee. N\nế\nu dùng máy khác, s\nử\na bi\nế\nn môi trư\nờ\nng COFFEE_SQL_SERVER, COFFEE_SQL_DATABASE ho\nặ\nc c\nấ\nu hình trong db_connection.py theo máy th\nự\nc t\nế\n.\nCài ph\nụ\n thu\nộ\nc và kh\nở\ni t\nạ\no d\nữ\n li\nệ\nu\nT\nạ\ni thư m\nụ\nc d\nự\n án, th\nự\nc hi\nệ\nn l\nầ\nn lư\nợ\nt các l\nệ\nnh sau. requirements.txt ch\nỉ\n yêu c\nầ\nu pyodbc. database_setup.py t\nạ\no b\nả\ny b\nả\nng, năm s\nả\nn ph\nẩ\nm, tám bàn và tài kho\nả\nn qu\nả\nn lý kh\nở\ni đ\nầ\nu. Ch\nạ\ny l\nạ\ni không xóa d\nữ\n li\nệ\nu ho\nặ\nc đ\nặ\nt l\nạ\ni m\nậ\nt kh\nẩ\nu đã đ\nổ\ni.\npython -m pip install -r requirements.txt\npython database_setup.py\npython main.py\nĐăng nh\nậ\np l\nầ\nn đ\nầ\nu b\nằ\nng admin v\nớ\ni m\nậ\nt kh\nẩ\nu (mật khẩu mẫu đã ẩn), sau đó đ\nổ\ni m\nậ\nt kh\nẩ\nu cá nhân. Qu\nả\nn lý t\nạ\no h\nồ\n sơ nhân viên trư\nớ\nc khi c\nấ\np tài kho\nả\nn. Không dùng tài kho\nả\nn kh\nở\ni đ\nầ\nu làm thông tin công khai khi đưa h\nệ\n th\nố\nng vào s\nử\n d\nụ\nng.\nQuy trình s\nử\n d\nụ\nng\n1. Qu\nả\nn lý ki\nể\nm tra th\nự\nc đơn, giá, bàn, khách và tài kho\nả\nn trư\nớ\nc ca ph\nụ\nc v\nụ\n.\n2. Nhân viên m\nở\n Sơ đ\nồ\n bàn, ch\nọ\nn bàn tr\nố\nng đ\nể\n g\nọ\ni món ho\nặ\nc ti\nế\np t\nụ\nc đơn đang ph\nụ\nc v\nụ\n.\n3. Ch\nọ\nn món, thay đ\nổ\ni s\nố\n lư\nợ\nng và ch\nọ\nn khách n\nế\nu c\nầ\nn tích đi\nể\nm. Lưu đơn đ\nể\n ti\nế\np t\nụ\nc ph\nụ\nc v\nụ\n. Khi đ\nổ\ni bàn ph\nả\ni ch\nọ\nn bàn chưa có đơn đang x\nử\n lý.\n4. Ch\nọ\nn Lưu & thu ti\nề\nn ho\nặ\nc Thu ti\nề\nn, nh\nậ\np s\nố\n ti\nề\nn đã nh\nậ\nn, ki\nể\nm tra ti\nề\nn th\nừ\na r\nồ\ni xác nh\nậ\nn hoàn t\nấ\nt. Quay l\nạ\ni màn hình g\nọ\ni món không h\nủ\ny đơn đã lưu.\n5. Qu\nả\nn lý m\nở\n Báo cáo doanh thu, ch\nọ\nn k\nỳ\n, xem s\nố\n li\nệ\nu r\nồ\ni dùng Xu\nấ\nt CSV và ch\nọ\nn nơi lưu. M\nở\n t\nậ\np tin đ\nể\n đ\nố\ni chi\nế\nu t\nổ\nng doanh thu và s\nố\n đơn.\n6. Dùng F5 đ\nể\n làm m\nớ\ni trang hi\nệ\nn t\nạ\ni. Đăng xu\nấ\nt khi k\nế\nt thúc phiên làm vi\nệ\nc.\nCh\nạ\ny ki\nể\nm th\nử\n và chu\nẩ\nn b\nị\n trình bày\npython -B -m unittest discover -s tests -v\nB\nộ\n ki\nể\nm th\nử\n c\nầ\nn SQL Server và c\nử\na s\nổ\n Tkinter. Cơ s\nở\n d\nữ\n li\nệ\nu th\nử\n đư\nợ\nc t\nạ\no riêng r\nồ\ni xóa sau khi hoàn t\nấ\nt. K\nị\nch b\nả\nn trình bày và cách gi\nả\ni thích gi\nỏ\n hàng, giá lúc bán, giao d\nị\nch đư\nợ\nc lưu trong README.md."
+}

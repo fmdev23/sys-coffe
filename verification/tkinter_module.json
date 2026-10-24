@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "tkinter"
+  ],
+  "started_at": "2026-10-22T22:41:24+07:00",
+  "finished_at": "2026-10-22T22:42:08+07:00",
+  "duration_wall_seconds": 43.537458,
+  "exit_code": 0,
+  "stdout": "tkinter_module.stdout.txt",
+  "stderr": "tkinter_module.stderr.txt",
+  "secret_redactions": 0
+}

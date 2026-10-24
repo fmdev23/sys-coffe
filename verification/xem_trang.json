@@ -1,0 +1,212 @@
+{
+  "time": "2026-10-22T23:09:02+07:00",
+  "method": "Word xuất PDF, render_docx.py 120 DPI, mở từng trang bằng view_image",
+  "all_final_pages_reviewed": true,
+  "notes": "Đã xem trang 1–24 trước sửa thuật ngữ. SHA ảnh xác nhận chỉ trang 5 và 15 thay đổi, đã mở lại cả hai. Đã mở trang 25–34 sau lần sửa cuối. Không thấy mất ảnh, méo hình, tách hàng, cắt chữ hoặc đoạn tràn sang trang riêng. DFD gốc chữ nhỏ, giữ nguyên và chép nhãn ở Bảng 2.",
+  "pages": [
+    {
+      "number": 1,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-1.png",
+      "sha256": "471a4128d679e18633c959cf72962e6380e19dce9b40149e7377371dbd1884b7",
+      "visually_reviewed": true
+    },
+    {
+      "number": 2,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-2.png",
+      "sha256": "70a16e114e59e5942036a3cfcadf8367942656d89622e25a50e8919410a518f3",
+      "visually_reviewed": true
+    },
+    {
+      "number": 3,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-3.png",
+      "sha256": "76ed399be911357c17841d94d990e5529042849b8d8e12b4cc670389d6dff478",
+      "visually_reviewed": true
+    },
+    {
+      "number": 4,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-4.png",
+      "sha256": "3e4417a99bd21272cc7f2aa39c339ca61d068328f6429ce2e0ca7168e27c1349",
+      "visually_reviewed": true
+    },
+    {
+      "number": 5,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-5.png",
+      "sha256": "6c28bce9b0642c7e359faca7c2c0babeab6fd566697955ef59b21c67fc721773",
+      "visually_reviewed": true
+    },
+    {
+      "number": 6,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-6.png",
+      "sha256": "37c4ff1d2d7754ae387d00a9de90e41f38a003fb2b0d2768b0cb2995f7bf2120",
+      "visually_reviewed": true
+    },
+    {
+      "number": 7,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-7.png",
+      "sha256": "76c4d3f4087448dcdcd636a63eac791ca55d2ef97e045bfd2a4df8840a7b6c2d",
+      "visually_reviewed": true
+    },
+    {
+      "number": 8,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-8.png",
+      "sha256": "7d66558adc92574c2f850d9d0439fdeda92e5be1ba64f624317d13a82c264ba7",
+      "visually_reviewed": true
+    },
+    {
+      "number": 9,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-9.png",
+      "sha256": "c437cf7dffba82ffca3eea1be4a8f244b8eaec225cbd75d01dc99484858d7c4c",
+      "visually_reviewed": true
+    },
+    {
+      "number": 10,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-10.png",
+      "sha256": "82c3169daf0e5f10b7f57f71299d4c826f6b490e686d613495f72eb04a63573d",
+      "visually_reviewed": true
+    },
+    {
+      "number": 11,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-11.png",
+      "sha256": "42292f1e7cadf6f95fcbfb50f019659be0bf2510d90c10a0e40cc8b2a1b29ddd",
+      "visually_reviewed": true
+    },
+    {
+      "number": 12,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-12.png",
+      "sha256": "c2943dd95dac3fb5bfb180928deebfdd35138b983dc2a8c426bea26a099d94a7",
+      "visually_reviewed": true
+    },
+    {
+      "number": 13,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-13.png",
+      "sha256": "95d8a45c0babc972825b5e4a2a38dee9d5bfdb1bf6ed61f109e62fac29ba46ce",
+      "visually_reviewed": true
+    },
+    {
+      "number": 14,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-14.png",
+      "sha256": "8cdbba5b5a6abe6d1f3463459cc32eadb6d34ac76df81cce6154b1776b4645d8",
+      "visually_reviewed": true
+    },
+    {
+      "number": 15,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-15.png",
+      "sha256": "0bb09bf2b8fa7fc4c1772172aea0cbc63a5036af47339bea1d5689ccd628a828",
+      "visually_reviewed": true
+    },
+    {
+      "number": 16,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-16.png",
+      "sha256": "473c1f143515254d5638ceb9197aae273ff8b5a4bcf952fb152a537ecf8a2fb1",
+      "visually_reviewed": true
+    },
+    {
+      "number": 17,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-17.png",
+      "sha256": "0c65a46fb990bbe755f047739a6b9906737fcd43f358045e0b65417604446ec8",
+      "visually_reviewed": true
+    },
+    {
+      "number": 18,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-18.png",
+      "sha256": "13af3342c937449cd8943d9937131f7cb72c6130477ce90a16243b70ad1db8b1",
+      "visually_reviewed": true
+    },
+    {
+      "number": 19,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-19.png",
+      "sha256": "73d7c87d8fe98667ab4ddcb890c9415e421f924a0971bc90c8a15d67db9eb079",
+      "visually_reviewed": true
+    },
+    {
+      "number": 20,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-20.png",
+      "sha256": "44654c51379b83af81a39718c63fd73534f6c21126f8550ad1161164d3c403b7",
+      "visually_reviewed": true
+    },
+    {
+      "number": 21,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-21.png",
+      "sha256": "160d991ec59e51f4772fc814224522724a55b8ceec3d2744b36b8bafa63f1daa",
+      "visually_reviewed": true
+    },
+    {
+      "number": 22,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-22.png",
+      "sha256": "29aca6215a4b0edc859827f9943e41824046c5ad2e51ef08699fae09e48e1805",
+      "visually_reviewed": true
+    },
+    {
+      "number": 23,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-23.png",
+      "sha256": "095ab8a57e2afbb142001ae26595cc2f3ddbea9c7c60c8a8e758dd80b5fd0cc1",
+      "visually_reviewed": true
+    },
+    {
+      "number": 24,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-24.png",
+      "sha256": "080d04c4820bda1ad69ed9a87d2a15d81fdf27ceb15aaf223eccaf21d3188fd0",
+      "visually_reviewed": true
+    },
+    {
+      "number": 25,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-25.png",
+      "sha256": "8f20b891ca128f4e8b9a3cdafa15a8ea83409a7b9c162bce55bd1caa5d616360",
+      "visually_reviewed": true
+    },
+    {
+      "number": 26,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-26.png",
+      "sha256": "ebe7083cac269b6dffdcaae8d24c3801b9cd115d5216562639e71b7d09235acd",
+      "visually_reviewed": true
+    },
+    {
+      "number": 27,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-27.png",
+      "sha256": "1f78dd0814eb34001ffa80a7c10bc6a5e3bdf9459176ddc5380d5c6b0b707dec",
+      "visually_reviewed": true
+    },
+    {
+      "number": 28,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-28.png",
+      "sha256": "a5942b4c9bb990ecfee6b27b187d2ec63c70f18a5601d9756a97a20ab9ab8c05",
+      "visually_reviewed": true
+    },
+    {
+      "number": 29,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-29.png",
+      "sha256": "36138bd27e0e54cbec037d414ed335d950e4c8639ca65ca79e8e537c425b2aec",
+      "visually_reviewed": true
+    },
+    {
+      "number": 30,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-30.png",
+      "sha256": "fb429c19d17e3a042616d73d63d9638a1489f5b81a91152b120e21d222d245b8",
+      "visually_reviewed": true
+    },
+    {
+      "number": 31,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-31.png",
+      "sha256": "dbeeea43524a3236ca3a418ee3983d104051340c5747fdadc7deb3f0babc8f27",
+      "visually_reviewed": true
+    },
+    {
+      "number": 32,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-32.png",
+      "sha256": "13084c6b05602f4b9c18980dcda2d84c6ab5d292887824144bbbd0240d67c55c",
+      "visually_reviewed": true
+    },
+    {
+      "number": 33,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-33.png",
+      "sha256": "36569d228992017730de969945da5ec51af773ceb70bc4d803e694ddac23546b",
+      "visually_reviewed": true
+    },
+    {
+      "number": 34,
+      "path": "D:\\NCTU\\Python\\ThucHanh\\Project\\verification\\trang_bao_cao\\page-34.png",
+      "sha256": "27dc1f5ccaebc47aa8bc59c0549f4273aa0be631b3ac7c33c3d184c2a0e80506",
+      "visually_reviewed": true
+    }
+  ]
+}

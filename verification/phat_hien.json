@@ -1,0 +1,98 @@
+{
+  "total": 15,
+  "resolved": 11,
+  "limitations": 4,
+  "application_bugs_demonstrated": 0,
+  "items": [
+    {
+      "category": "Báo cáo",
+      "finding": "Thiếu IDE được xác nhận",
+      "action": "Thêm VS Code và kết quả code --version",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "Thời gian cũ 18,003/16,156 giây thiếu log tương ứng",
+      "action": "Thay bằng lần mới 19,656 giây, exit 0. Log lịch sử thật ghi 19,801 giây",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "Chưa nêu rõ người/công cụ thực thi",
+      "action": "Ghi Codex thực thi tự động, mô tả phạm vi mock thông báo",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "Dễ gộp số liệu cũ, ảnh cũ với lần mới",
+      "action": "Ghi riêng ngày 20/10 và 22/10, chú thích bảng lịch sử",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "CSV chưa giải thích giới hạn TOP 10",
+      "action": "Thêm giới hạn và kịch bản SQL/CSV thật 13 món",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "Kiểm tra tiền dễ bị hiểu là ràng buộc dịch vụ",
+      "action": "Giải thích kiểm tra tại PaymentDialog, không lưu tiền nhận/thừa",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Báo cáo",
+      "finding": "Chưa nhấn mạnh expected_version là tùy chọn",
+      "action": "Mô tả đúng chữ ký dịch vụ và lời gọi GUI",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Trình bày",
+      "finding": "Đoạn ngắn tràn sang trang riêng sau khi biên tập",
+      "action": "Rút gọn nội dung lặp, mục lục đơn dòng, giữ ảnh/bảng/khổ lề",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Tham khảo",
+      "finding": "Nguồn cần được truy cập lại cho lần kiểm định mới",
+      "action": "Kiểm tra nguồn chính, cập nhật ngày 22/10 và liên kết Python 3.14",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Môi trường",
+      "finding": "Lệnh python mặc định trỏ WindowsApps không khởi động",
+      "action": "Dùng bản Python đã cài, thêm PATH chỉ cho tiến trình con",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Công cụ kiểm định",
+      "finding": "pyodbc không đọc trực tiếp datetimeoffset kiểu -155",
+      "action": "Chuyển kiểu sang NVARCHAR trong truy vấn chỉ đọc, không sửa ứng dụng",
+      "status": "ĐÃ XỬ LÝ"
+    },
+    {
+      "category": "Tài liệu cũ",
+      "finding": "Một số MD mô tả API và số hình cũ",
+      "action": "Giữ nguyên, đánh dấu SAI và dùng ma trận mới làm căn cứ",
+      "status": "CÒN GIỚI HẠN"
+    },
+    {
+      "category": "Bằng chứng lịch sử",
+      "finding": "Database ngày 20/10 không còn",
+      "action": "CSV và nhật ký khớp, không thể tái xác nhận SQL lịch sử",
+      "status": "CÒN GIỚI HẠN"
+    },
+    {
+      "category": "Phạm vi thử nghiệm",
+      "finding": "Chưa tắt máy, mất điện, thử tải hoặc đánh giá bảo mật độc lập",
+      "action": "Báo cáo nêu rõ chưa thực hiện, không kết luận đạt",
+      "status": "CÒN GIỚI HẠN"
+    },
+    {
+      "category": "Bằng chứng giao diện",
+      "finding": "Hai lần mở UI bổ sung đóng trước khi lấy được ảnh xác nhận",
+      "action": "Lưu cả hai nhật ký, hoàn tất bổ sung bằng API/Tkinter và cấp đường dẫn tự động",
+      "status": "CÒN GIỚI HẠN"
+    }
+  ]
+}

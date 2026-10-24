@@ -1,0 +1,99 @@
+{
+  "time": "2026-10-22T22:41:23+07:00",
+  "python": "3.14.3",
+  "executable": "C:\\Users\\PC\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python_path": "C:\\Users\\PC\\AppData\\Local\\Microsoft\\WindowsApps\\python.EXE",
+  "pyodbc": "5.3.0",
+  "windows": "Windows-11-10.0.26300-SP0",
+  "tk": "8.6.15",
+  "odbc_drivers": [
+    "SQL Server",
+    "SQL Anywhere 17",
+    "ODBC Driver 17 for SQL Server",
+    "Microsoft Access Driver (*.mdb, *.accdb)",
+    "Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)",
+    "Microsoft Access Text Driver (*.txt, *.csv)",
+    "Microsoft Access dBASE Driver (*.dbf, *.ndx, *.mdx)"
+  ],
+  "ide_user_confirmed": "Visual Studio Code",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "--version"
+      ],
+      "started_at": "2026-10-22T22:41:22+07:00",
+      "finished_at": "2026-10-22T22:41:22+07:00",
+      "duration_wall_seconds": 0.032854,
+      "exit_code": 0,
+      "stdout": "python_version.stdout.txt",
+      "stderr": "python_version.stderr.txt",
+      "secret_redactions": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "show",
+        "pyodbc"
+      ],
+      "started_at": "2026-10-22T22:41:22+07:00",
+      "finished_at": "2026-10-22T22:41:23+07:00",
+      "duration_wall_seconds": 1.002789,
+      "exit_code": 0,
+      "stdout": "pyodbc_pip.stdout.txt",
+      "stderr": "pyodbc_pip.stderr.txt",
+      "secret_redactions": 0
+    },
+    {
+      "command": [
+        "cmd.exe",
+        "/d",
+        "/c",
+        "C:\\Users\\PC\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.CMD",
+        "--version"
+      ],
+      "started_at": "2026-10-22T22:41:23+07:00",
+      "finished_at": "2026-10-22T22:41:23+07:00",
+      "duration_wall_seconds": 0.344797,
+      "exit_code": 0,
+      "stdout": "vscode_version.stdout.txt",
+      "stderr": "vscode_version.stderr.txt",
+      "secret_redactions": 0
+    }
+  ],
+  "sql": {
+    "version": "16.0.1210.3",
+    "edition": "Express Edition (64-bit)",
+    "server_time": "2026-10-22T15:41:24.1218454Z",
+    "server": "THINKPADX1\\SQLSEVER",
+    "authentication": "Windows"
+  },
+  "test_databases_before": [],
+  "historical_demo_database_present": false,
+  "configured_database": "QuanLyQuanCoffee",
+  "schema_tables": [
+    "Ban",
+    "ChiTietDonHang",
+    "DonHang",
+    "KhachHang",
+    "NhanVien",
+    "SanPham",
+    "sysdiagrams",
+    "TaiKhoan"
+  ],
+  "filtered_index": [
+    [
+      "UX_Ban_DonDangXuLy",
+      true,
+      "([TrangThai]=N'Đang xử lý')"
+    ]
+  ],
+  "order_version_type": [
+    [
+      "PhienBan",
+      "timestamp"
+    ]
+  ]
+}

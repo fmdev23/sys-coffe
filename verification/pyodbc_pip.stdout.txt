@@ -1,0 +1,10 @@
+Name: pyodbc
+Version: 5.3.0
+Summary: DB API module for ODBC
+Home-page: https://github.com/mkleehammer/pyodbc
+Author: 
+Author-email: Michael Kleehammer <michael@kleehammer.com>
+License: MIT
+Location: C:\Users\PC\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages
+Requires: 
+Required-by: 

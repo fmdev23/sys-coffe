@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-m",
+    "pip",
+    "show",
+    "pyodbc"
+  ],
+  "started_at": "2026-10-22T22:41:22+07:00",
+  "finished_at": "2026-10-22T22:41:23+07:00",
+  "duration_wall_seconds": 1.002789,
+  "exit_code": 0,
+  "stdout": "pyodbc_pip.stdout.txt",
+  "stderr": "pyodbc_pip.stderr.txt",
+  "secret_redactions": 0
+}

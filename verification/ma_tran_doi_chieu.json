@@ -1,0 +1,375 @@
+{
+  "checked_at": "2026-10-22T23:12:04+07:00",
+  "rows": [
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Băm và xác thực mật khẩu",
+      "tep": "security.py:9,18",
+      "lop_ham": "hash_password, verify_password",
+      "test": "test_password_hash_and_login",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Thiết lập lặp lại không nhân đôi dữ liệu",
+      "tep": "database_setup.py:78",
+      "lop_ham": "setup",
+      "test": "test_setup_idempotent",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Kiểm tra giá, tên, điện thoại và điểm",
+      "tep": "models/service.py:39,53,162",
+      "lop_ham": "price, phone, save_entity",
+      "test": "test_validation",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Thêm, đọc, sửa, xóa danh mục",
+      "tep": "models/service.py:141,162,209",
+      "lop_ham": "list_entities, save_entity, delete_entity",
+      "test": "test_crud_all_entities",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Tài khoản, mật khẩu và phiên bị khóa",
+      "tep": "models/service.py:116,243,292,312",
+      "lop_ham": "save_account, delete_account, change_password, _authorize",
+      "test": "test_account_crud_password_and_disabled_session",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Bảo vệ quản lý đang sử dụng",
+      "tep": "models/service.py:243,292",
+      "lop_ham": "save_account, delete_account",
+      "test": "test_protect_current_manager",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Chặn thao tác quản trị của nhân viên",
+      "tep": "models/service.py:116",
+      "lop_ham": "_authorize",
+      "test": "test_staff_permissions_enforced_in_service",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Tạo, sửa, chuyển bàn và xóa đơn hợp lệ",
+      "tep": "models/service.py:396,506",
+      "lop_ham": "save_order, delete_order",
+      "test": "test_order_create_edit_move_and_delete",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Lỗi lưu đơn hoàn tác dữ liệu",
+      "tep": "models/service.py:396",
+      "lop_ham": "save_order",
+      "test": "test_order_failure_rolls_back",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Giữ giá và tên lúc bán, hạn chế món ngừng bán",
+      "tep": "models/service.py:396",
+      "lop_ham": "save_order",
+      "test": "test_snapshot_price_and_discontinued_product",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Thanh toán, tích điểm và giữ lịch sử",
+      "tep": "models/service.py:481,506",
+      "lop_ham": "finish_order, delete_order",
+      "test": "test_payment_points_and_preserve_history",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Hủy và xóa đúng trạng thái",
+      "tep": "models/service.py:476,481,506",
+      "lop_ham": "finish_order, delete_order, _sync_table",
+      "test": "test_cancel_and_delete",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Lỗi SQL khi cộng điểm hoàn tác cả đơn và bàn",
+      "tep": "models/service.py:481",
+      "lop_ham": "finish_order",
+      "test": "test_payment_database_failure_rolls_back_all_changes",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Phiên bản cũ không ghi đè hoặc thanh toán",
+      "tep": "models/service.py:396,481",
+      "lop_ham": "save_order, finish_order",
+      "test": "test_stale_order_cannot_overwrite_or_pay",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Hai thao tác giữ cùng bàn chỉ một thành công",
+      "tep": "models/service.py:86,396",
+      "lop_ham": "save_order, _lock",
+      "test": "test_concurrent_table_reservation",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Hai thao tác thanh toán không cộng điểm hai lần",
+      "tep": "models/service.py:86,481",
+      "lop_ham": "finish_order, _lock",
+      "test": "test_concurrent_payment_only_once",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Kỳ ngày, tháng và loại đơn hủy/chưa thanh toán",
+      "tep": "models/service.py:60,531,559",
+      "lop_ham": "statistics, revenue_series, report_period",
+      "test": "test_statistics_dates_month_and_excluded_statuses",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Control bo góc, chuột, bàn phím, trạng thái khóa",
+      "tep": "ui/theme.py:14",
+      "lop_ham": "rounded_controls",
+      "test": "test_rounded_controls_mouse_keyboard_and_disabled_state",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "1, 2, 3 và 4.2",
+      "tuyen_bo": "Tkinter đăng nhập, trang theo vai trò, biểu mẫu, gọi món",
+      "tep": "ui/main_window.py:16",
+      "lop_ham": "MainWindow",
+      "test": "test_tkinter_login_pages_forms_and_order_flow",
+      "bang_chung": "unittest_moi.stderr.txt và unittest_moi.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "2.3",
+      "tuyen_bo": "Bảy bảng nghiệp vụ, không tính sysdiagrams của SSMS",
+      "tep": "database_setup.py",
+      "lop_ham": "SCHEMA",
+      "test": "Không có bài riêng",
+      "bang_chung": "moi_truong.json, SCHEMA trong database_setup.py",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "2.3",
+      "tuyen_bo": "ROWVERSION là phiên bản nhị phân, không phải thời điểm",
+      "tep": "database_setup.py",
+      "lop_ham": "SCHEMA",
+      "test": "test_stale_order_cannot_overwrite_or_pay",
+      "bang_chung": "moi_truong.json: PhienBan kiểu timestamp, tài liệu Microsoft rowversion",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "timestamp là tên đồng nghĩa SQL, không phải datetime."
+    },
+    {
+      "muc": "2.3",
+      "tuyen_bo": "Chỉ mục duy nhất có điều kiện cho bàn đang có đơn",
+      "tep": "database_setup.py",
+      "lop_ham": "SCHEMA",
+      "test": "test_concurrent_table_reservation",
+      "bang_chung": "moi_truong.json: UX_Ban_DonDangXuLy unique + filter",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "3.3",
+      "tuyen_bo": "Khóa sp_getapplock và giao dịch",
+      "tep": "models/service.py:86,396,481",
+      "lop_ham": "_lock, save_order, finish_order",
+      "test": "test_concurrent_payment_only_once",
+      "bang_chung": "Mã nguồn, các test đồng thời và rollback",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Khóa ứng dụng chờ tối đa 10 giây. Đây không phải thử tải nhiều máy."
+    },
+    {
+      "muc": "2.6, 4.3",
+      "tuyen_bo": "Chặn tiền sai hoặc thiếu tại giao diện",
+      "tep": "ui/payment_dialog.py:56,62,72",
+      "lop_ham": "change_amount, update_change, confirm",
+      "test": "test_tkinter_login_pages_forms_and_order_flow",
+      "bang_chung": "bo_sung_tien_do.json, phép thử tiền 80.000 nhận 100.000",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Dịch vụ không nhận tiền khách đưa. Kiểm tra UI riêng không phải ràng buộc SQL."
+    },
+    {
+      "muc": "2.6",
+      "tuyen_bo": "expected_version tùy chọn ở dịch vụ, được GUI thanh toán truyền",
+      "tep": "models/service.py:481",
+      "lop_ham": "finish_order",
+      "test": "test_stale_order_cannot_overwrite_or_pay",
+      "bang_chung": "Mã nguồn + ui/payment_dialog.py:confirm",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "2.4, 4.3",
+      "tuyen_bo": "TOP 10 và tổng toàn kỳ có thể khác tổng dòng sản phẩm",
+      "tep": "models/service.py:531",
+      "lop_ham": "statistics",
+      "test": "Không có bài riêng",
+      "bang_chung": "bo_sung_tien_do.json, doanh_thu_kiem_dinh_moi.csv",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "13 món, 12 đơn, tổng 245.000, 10 dòng 212.000 đồng. Ngoài 19 phương thức."
+    },
+    {
+      "muc": "2.4, 4.3",
+      "tuyen_bo": "CSV UTF-8 có BOM và ghi đúng dữ liệu SQL",
+      "tep": "ui/statistics_tab.py:112",
+      "lop_ham": "export",
+      "test": "Không có bài riêng",
+      "bang_chung": "csv_lich_su.json và doanh_thu_kiem_dinh_moi.csv",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Kịch bản mới chỉ thay hàm chọn đường dẫn, không thay SQL, writer hoặc dữ liệu. Chưa chứng minh chọn tệp bằng chuột."
+    },
+    {
+      "muc": "2.4",
+      "tuyen_bo": "Tên thống kê từ danh mục hiện tại, tên hóa đơn từ lúc bán",
+      "tep": "models/service.py:396,531",
+      "lop_ham": "statistics, save_order",
+      "test": "test_snapshot_price_and_discontinued_product",
+      "bang_chung": "Mã truy vấn statistics và phép thử snapshot",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Test lịch sử giá không kiểm tra mọi tình huống đổi tên trên báo cáo thống kê."
+    },
+    {
+      "muc": "3.1",
+      "tuyen_bo": "VS Code 1.140.0 x64, Python 3.14.3, pyodbc 5.3.0, SQL 16.0.1210.3",
+      "tep": "verification/moi_truong.json",
+      "lop_ham": "Lệnh phiên bản và truy vấn chỉ đọc",
+      "test": "Không có bài riêng",
+      "bang_chung": "moi_truong.json, vscode_version.stdout.txt, pyodbc_pip.stdout.txt",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "4.2",
+      "tuyen_bo": "19 đạt, không lỗi hoặc bỏ qua, mã thoát 0",
+      "tep": "tests/test_coffee.py:46",
+      "lop_ham": "CoffeeTests",
+      "test": "Không có bài riêng",
+      "bang_chung": "unittest_moi.json, unittest_moi.stderr.txt",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": ""
+    },
+    {
+      "muc": "4.3",
+      "tuyen_bo": "CSV lịch sử 14–20/10, 8 đơn, 1.200.000 đồng",
+      "tep": "docs/doanh_thu_kiem_tra.csv",
+      "lop_ham": "Không áp dụng",
+      "test": "Không có bài riêng",
+      "bang_chung": "csv_lich_su.json và .report_work/evidence_new.json",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Chỉ xác nhận nhất quán của tập tin và nhật ký lưu, không xác nhận SQL lịch sử còn tồn tại."
+    },
+    {
+      "muc": "4.3",
+      "tuyen_bo": "Tái truy vấn database trình diễn ngày 20/10/2026",
+      "tep": "verification/moi_truong.json",
+      "lop_ham": "Không áp dụng",
+      "test": "Không có bài riêng",
+      "bang_chung": "historical_demo_database_present=false",
+      "ket_luan": "THIẾU CHỨNG CỨ",
+      "ghi_chu": "Database cũ không còn. Đã giới hạn khẳng định trong báo cáo."
+    },
+    {
+      "muc": "4.4",
+      "tuyen_bo": "Tắt máy, mất điện, tải lớn, nhiều máy hoặc kiểm định bảo mật độc lập",
+      "tep": "tests/test_coffee.py:46",
+      "lop_ham": "CoffeeTests",
+      "test": "Không có bài riêng",
+      "bang_chung": "Không có phép thử các tình huống này",
+      "ket_luan": "THIẾU CHỨNG CỨ",
+      "ghi_chu": "Không kết luận đạt, ghi giới hạn tại mục 4.4 và hướng phát triển."
+    },
+    {
+      "muc": "4.4",
+      "tuyen_bo": "Ảnh giao diện mới và chọn đường dẫn CSV bằng chuột trong lần mới",
+      "tep": "verification/bo_sung_lan_dau_chua_hoan_tat.json",
+      "lop_ham": "Không áp dụng",
+      "test": "Không có bài riêng",
+      "bang_chung": "Hai nhật ký chưa hoàn tất và thông báo Sky cửa sổ đã đóng",
+      "ket_luan": "THIẾU CHỨNG CỨ",
+      "ghi_chu": "Giữ ảnh cũ, không tạo hoặc tráo ảnh. Kết quả UI tự động trong 19 test vẫn có."
+    },
+    {
+      "muc": "Giới thiệu",
+      "tuyen_bo": "DFD giữ nguyên hai tác nhân và 12 luồng",
+      "tep": "sodo/dfd_muc_0.puml",
+      "lop_ham": "Không áp dụng",
+      "test": "Không có bài riêng",
+      "bang_chung": "docs/DFD_Muc0.png, sodo/dfd_muc_0.puml, bảng 2 và đối chiếu mã",
+      "ket_luan": "ĐÚNG",
+      "ghi_chu": "Ảnh gốc độ phân giải thấp, giải thích nhãn bằng Bảng 2, không sửa hình."
+    },
+    {
+      "muc": "Tài liệu cũ",
+      "tuyen_bo": "CoffeeService.login, guarded, transaction/contextmanager còn được một số MD mô tả",
+      "tep": "docs/BAO_VE.md",
+      "lop_ham": "Không còn các thành phần này",
+      "test": "Không có bài riêng",
+      "bang_chung": "Đối chiếu AST 21 tệp và docs/BAO_VE.md, docs/DanhMuc_SoDo.md",
+      "ket_luan": "SAI",
+      "ghi_chu": "Tài liệu cũ được bảo toàn theo phạm vi kiểm định. FINAL dùng login tự do và try/except/finally thật."
+    },
+    {
+      "muc": "Kết luận",
+      "tuyen_bo": "Kho nguyên liệu, in hóa đơn, nhập CSV, thanh toán ngân hàng đã có",
+      "tep": "models/service.py",
+      "lop_ham": "Không áp dụng",
+      "test": "Không có bài riêng",
+      "bang_chung": "Không có chức năng này trong mã",
+      "ket_luan": "KHÔNG ÁP DỤNG",
+      "ghi_chu": "Chỉ nêu hướng phát triển, không ghi là chức năng hoàn thành."
+    }
+  ]
+}
